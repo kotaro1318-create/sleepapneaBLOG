@@ -18,9 +18,15 @@ function escapeJs(str) {
 }
 
 function renderArticleLi(article, index) {
-  const sourcesHtml = article.sources
-    .map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.label}</a></li>`)
-    .join("");
+  const hasSources = Array.isArray(article.sources) && article.sources.length > 0;
+  const sourcesBlock = hasSources
+    ? `<div class="sources">
+              <div class="sources-label">出典</div>
+              <ol>${article.sources
+                .map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.label}</a></li>`)
+                .join("")}</ol>
+            </div>`
+    : "";
 
   return `      <li class="article-item" data-open="false">
         <button class="article-toggle" aria-expanded="false">
@@ -41,10 +47,7 @@ function renderArticleLi(article, index) {
             </div>
             <p>${article.body}</p>
             ${article.visual || ""}
-            <div class="sources">
-              <div class="sources-label">出典</div>
-              <ol>${sourcesHtml}</ol>
-            </div>
+            ${sourcesBlock}
           </div>
         </div>
       </li>`;
@@ -60,11 +63,15 @@ function renderJsonLd() {
       description: a.conclusion,
       datePublished: a.date,
       inLanguage: "ja",
-      citation: a.sources.map((s) => ({
-        "@type": "CreativeWork",
-        name: s.label,
-        url: s.url,
-      })),
+      ...(Array.isArray(a.sources) && a.sources.length > 0
+        ? {
+            citation: a.sources.map((s) => ({
+              "@type": "CreativeWork",
+              name: s.label,
+              url: s.url,
+            })),
+          }
+        : {}),
     },
   }));
 
