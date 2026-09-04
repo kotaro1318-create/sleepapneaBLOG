@@ -13,7 +13,10 @@ function renderArticles() {
     li.innerHTML = `
       <button class="article-toggle" aria-expanded="false">
         <span class="num">${String(i + 1).padStart(2, "0")}</span>
-        <span class="article-title">${article.title}</span>
+        <span class="article-title-group">
+          <span class="article-title">${article.title}</span>
+          <span class="article-date">${formatDate(article.date)}</span>
+        </span>
         <svg class="chev" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
         </svg>
@@ -21,6 +24,7 @@ function renderArticles() {
       <div class="article-panel">
         <div class="article-panel-inner">
           <p>${article.body}</p>
+          ${article.visual || ""}
           <div class="sources">
             <div class="sources-label">出典</div>
             <ol>${sourcesHtml}</ol>
