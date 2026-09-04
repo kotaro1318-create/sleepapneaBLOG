@@ -62,6 +62,23 @@ function renderArticles() {
   });
 }
 
+// 一覧は折りたたみ状態の記事5件分の高さで区切り、残りは内部スクロールで見せる。
+// 実際の行の高さ(フォント読み込み後の値)から計算するので、文言や画面幅が変わっても崩れない。
+const VISIBLE_ARTICLE_COUNT = 5;
+
+function capArticleListHeight() {
+  const list = document.getElementById("article-list");
+  const toggles = list.querySelectorAll(".article-toggle");
+  const count = Math.min(VISIBLE_ARTICLE_COUNT, toggles.length);
+  if (count === 0) return;
+
+  let total = 0;
+  for (let i = 0; i < count; i++) {
+    total += toggles[i].getBoundingClientRect().height + 1; // +1px は行の下線(border-bottom)分
+  }
+  list.style.maxHeight = total + "px";
+}
+
 function drawBreath() {
   const canvas = document.getElementById("breath");
   const ctx = canvas.getContext("2d");
@@ -135,4 +152,12 @@ function initBreathCanvas() {
 document.addEventListener("DOMContentLoaded", () => {
   renderArticles();
   initBreathCanvas();
+  capArticleListHeight();
+
+  // Web フォント(Zen Old Mincho / Zen Kaku Gothic New)の読み込みで行の高さが
+  // 変わることがあるため、読み込み完了後に一度計算し直す。
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(capArticleListHeight);
+  }
+  window.addEventListener("resize", capArticleListHeight);
 });

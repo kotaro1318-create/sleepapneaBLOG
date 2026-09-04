@@ -162,7 +162,19 @@ main {
   margin: 0;
   padding: 0;
   border-top: 1px solid var(--line);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--dawn-soft-strong) transparent;
 }
+
+.article-list::-webkit-scrollbar { width: 8px; }
+.article-list::-webkit-scrollbar-track { background: transparent; }
+.article-list::-webkit-scrollbar-thumb {
+  background: var(--dawn-soft-strong);
+  border-radius: 999px;
+}
+.article-list::-webkit-scrollbar-thumb:hover { background: var(--dawn); }
 
 .article-item {
   border-bottom: 1px solid var(--line);
