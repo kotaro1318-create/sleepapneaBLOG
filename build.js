@@ -98,6 +98,18 @@ function replaceBetween(html, startMarker, endMarker, content) {
   return `${before}\n${content}\n    ${after}`;
 }
 
+// ブロック要素ではなくテキストの一部を差し替えるための版(余計な改行を入れない)。
+function replaceInline(html, startMarker, endMarker, content) {
+  const start = html.indexOf(startMarker);
+  const end = html.indexOf(endMarker);
+  if (start === -1 || end === -1 || end < start) {
+    throw new Error(`Markers not found or out of order: ${startMarker} / ${endMarker}`);
+  }
+  const before = html.slice(0, start + startMarker.length);
+  const after = html.slice(end);
+  return `${before}${content}${after}`;
+}
+
 function build() {
   const indexPath = path.join(__dirname, "index.html");
   let html = fs.readFileSync(indexPath, "utf8");
@@ -116,6 +128,8 @@ function build() {
     "<!-- JSONLD:END -->",
     renderJsonLd()
   );
+
+  html = replaceInline(html, "<!-- COUNT:START -->", "<!-- COUNT:END -->", `${ARTICLES.length} ARTICLES`);
 
   fs.writeFileSync(indexPath, html, "utf8");
   console.log(`Built index.html with ${ARTICLES.length} articles.`);
