@@ -22,3 +22,8 @@ function formatDate(isoDateStr, format = SITE_CONFIG.dateFormat) {
       return `${y}年${m}月${d}日`;
   }
 }
+
+// build.js（Node）から読み込むためのエクスポート。ブラウザでは無視される。
+if (typeof module !== "undefined") {
+  module.exports = { SITE_CONFIG, formatDate };
+}

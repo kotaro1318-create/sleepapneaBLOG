@@ -1,38 +1,9 @@
-function renderArticles() {
-  const list = document.getElementById("article-list");
+// 記事一覧のHTMLは build.js が articles.js から静的に生成し、index.html に
+// 書き出し済み。ここではその上にアコーディオンの開閉と、一覧の高さ制御だけを足す
+// (JSが動かない環境でも本文自体は読める状態を保つため)。
 
-  ARTICLES.forEach((article, i) => {
-    const li = document.createElement("li");
-    li.className = "article-item";
-    li.dataset.open = "false";
-
-    const sourcesHtml = article.sources
-      .map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.label}</a></li>`)
-      .join("");
-
-    li.innerHTML = `
-      <button class="article-toggle" aria-expanded="false">
-        <span class="num">${String(i + 1).padStart(2, "0")}</span>
-        <span class="article-title-group">
-          <span class="article-title">${article.title}</span>
-          <span class="article-date">${formatDate(article.date)}</span>
-        </span>
-        <svg class="chev" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-        </svg>
-      </button>
-      <div class="article-panel">
-        <div class="article-panel-inner">
-          <p>${article.body}</p>
-          ${article.visual || ""}
-          <div class="sources">
-            <div class="sources-label">出典</div>
-            <ol>${sourcesHtml}</ol>
-          </div>
-        </div>
-      </div>
-    `;
-
+function enhanceArticles() {
+  document.querySelectorAll(".article-item").forEach((li) => {
     const btn = li.querySelector(".article-toggle");
     const panel = li.querySelector(".article-panel");
 
@@ -57,8 +28,6 @@ function renderArticles() {
         panel.style.maxHeight = panel.scrollHeight + "px";
       }
     });
-
-    list.appendChild(li);
   });
 }
 
@@ -150,7 +119,7 @@ function initBreathCanvas() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  renderArticles();
+  enhanceArticles();
   initBreathCanvas();
   capArticleListHeight();
 
