@@ -353,6 +353,59 @@ const ARTICLES = [
       { label: "Sleep Foundation「CPAP Compliance: What It Is and Why It's Important」", url: "https://www.sleepfoundation.org/cpap/cpap-compliance" },
       { label: "Sleep Foundation「CPAP Machines: What They Are, How They Work, and Tips for Use」", url: "https://www.sleepfoundation.org/cpap" }
     ]
+  },
+  {
+    title: "肥満治療薬が無呼吸の重症度まで下げるかもしれません",
+    date: "2026-09-06",
+    conclusion: "肥満を伴う中等度から重度の睡眠時無呼吸の人がチルゼパチドという減量薬を使うと、無呼吸の重症度が大きく下がることが臨床試験で示されました。",
+    body: "睡眠時無呼吸と肥満が深く関係していることは、これまでの記事でもお伝えしてきました。では体重そのものを減らす薬を使うと、無呼吸はどうなるのでしょうか。2024年に発表された「SURMOUNT-OSA」という臨床試験では、肥満を伴う中等度〜重度の無呼吸がある人にチルゼパチドという薬を1年間投与したところ、1時間あたりの無呼吸・低呼吸の回数(AHI)がプラセボ群に比べて大幅に減少し、体重も平均で2割近く落ちたという結果が出ました。すでにCPAPを使っている人が併用した場合でも、同じように大きな改善が見られたそうです。もちろんこの薬は万能ではなく、副作用や個人差もあるため自己判断での使用はできません。ただ、体重管理という切り口からも無呼吸にアプローチできる選択肢が増えてきたのは、心強いニュースと言えそうです。気になる人は、CPAPと合わせて肥満治療の専門医にも相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:チルゼパチド1年投与によるAHI改善率(SURMOUNT-OSA試験)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">CPAP未使用グループ</p>
+          <div class="bar-row">
+            <span class="bar-label">プラセボ群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:8.0%"></span></span>
+            <span class="bar-value">-5.0%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">チルゼパチド群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:87.6%"></span></span>
+            <span class="bar-value">-55.0%</span>
+          </div>
+          <p class="bar-group-label">CPAP併用グループ</p>
+          <div class="bar-row">
+            <span class="bar-label">プラセボ群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:10.2%"></span></span>
+            <span class="bar-value">-6.4%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">チルゼパチド群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">-62.8%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Malhotra A, et al. N Engl J Med. 2024;391:1193-1205(52週投与、AHIのベースラインからの変化率)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:1年後の体重変化(チルゼパチド群平均)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">-18.1%</span>
+            <span class="stat-label">CPAP未使用グループでの体重減少率(52週後、チルゼパチド群平均)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">-20.1%</span>
+            <span class="stat-label">CPAP併用グループでの体重減少率(52週後、チルゼパチド群平均)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Malhotra A et al. “Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity.” N Engl J Med. 2024;391:1193-1205.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2404881" },
+      { label: "American Diabetes Association「Use of Tirzepatide Shown to Improve Sleep Apnea and Cardiovascular Outcomes」", url: "https://diabetes.org/newsroom/press-releases/use-tirzepatide-shown-improve-sleep-apnea-and-cardiovascular-outcomes" }
+    ]
   }
 ];
 
