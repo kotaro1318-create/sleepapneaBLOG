@@ -406,6 +406,52 @@ const ARTICLES = [
       { label: "Malhotra A et al. “Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity.” N Engl J Med. 2024;391:1193-1205.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2404881" },
       { label: "American Diabetes Association「Use of Tirzepatide Shown to Improve Sleep Apnea and Cardiovascular Outcomes」", url: "https://diabetes.org/newsroom/press-releases/use-tirzepatide-shown-improve-sleep-apnea-and-cardiovascular-outcomes" }
     ]
+  },
+  {
+    title: "「眠れない」のに「呼吸も止まる」、実はよくある組み合わせなんです",
+    date: "2026-09-07",
+    conclusion: "不眠症とOSAは併発しやすく、閉塞性睡眠時無呼吸の患者の4〜6割に不眠症状がみられます。",
+    body: "「呼吸は止まっているのに、そもそも寝つけない」——そんな厄介な組み合わせがあります。医学的には「COMISA」と呼ばれ、閉塞性睡眠時無呼吸(OSA)の患者さんの実に4〜6割に不眠症状が併存していると報告されています。厄介なのは、この2つがお互いを悪化させやすいことです。呼吸が止まって目が覚めるたびに不安が募って寝つきが悪くなり、逆に眠れないストレスで交感神経が高ぶり、無呼吸がさらに悪化する…という悪循環に陥りやすいのです。さらにCPAPを装着しても、そもそも寝つけなければ十分な使用時間を確保できません。近年の研究では、不眠症の認知行動療法(CBT-I)とCPAPを組み合わせることで、単独の治療より良い結果が得られると分かってきました。「眠れない」と「呼吸が止まる」、両方の症状に心当たりがあるなら、どちらか一方だけでなく両面から相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:不眠症の寛解率(MATRICS試験、CBT-IとPAPの併用効果)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">PAP単独</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:63.5%"></span></span>
+            <span class="bar-value">40%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">CBT-I先行→PAP<br><span class="bar-sub">順次併用</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">63%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">CBT-IとPAP<br><span class="bar-sub">同時併用</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:90.5%"></span></span>
+            <span class="bar-value">57%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Ong JC, et al. Sleep. 2020;43(9):zsaa041(MATRICS試験、治療後の不眠症寛解率)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:OSA患者における不眠症状の併存率</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">4〜6割</span>
+            <span class="stat-label">閉塞性睡眠時無呼吸(OSA)の患者のうち、不眠症状も併せ持つとされる割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">121人</span>
+            <span class="stat-label">CBT-IとPAPの併用効果を検証したMATRICS試験の参加者数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Sleep Apnea vs. Insomnia」", url: "https://www.sleepfoundation.org/insomnia/sleep-apnea-vs-insomnia" },
+      { label: "American Academy of Sleep Medicine「Talking Sleep: Comorbid Insomnia and Sleep Apnea (COMISA)」", url: "https://aasm.org/talking-sleep-comorbid-insomnia-sleep-apnea-comisa/" }
+    ]
   }
 ];
 
