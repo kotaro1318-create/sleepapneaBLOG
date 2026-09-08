@@ -452,6 +452,35 @@ const ARTICLES = [
       { label: "Sleep Foundation「Sleep Apnea vs. Insomnia」", url: "https://www.sleepfoundation.org/insomnia/sleep-apnea-vs-insomnia" },
       { label: "American Academy of Sleep Medicine「Talking Sleep: Comorbid Insomnia and Sleep Apnea (COMISA)」", url: "https://aasm.org/talking-sleep-comorbid-insomnia-sleep-apnea-comisa/" }
     ]
+  },
+  {
+    title: "CPAPが合わなくても、実はマウスピースという選択肢があるんです",
+    date: "2026-09-08",
+    conclusion: "CPAPが合わない・続けにくいと感じる軽度〜中等度の無呼吸の人には、口腔内装置(マウスピース型)という治療の選択肢もあります。",
+    body: "これまで紹介してきたCPAPは無呼吸治療の代表格ですが、実は他にも「口腔内装置(オーラルアプライアンス)」という選択肢があるんです。見た目はスポーツ用マウスガードのような装置で、下顎をわずかに前方へ固定することで、舌の付け根が喉に落ち込むのを防ぎ、気道を広げる仕組みです。米国睡眠医学会と歯科睡眠医学会の合同ガイドラインでは、軽度〜中等度の無呼吸の人や、CPAPのマスクがどうしても合わない・圧迫感が苦手という人への選択肢として位置づけられています。効果の強さで比べるとCPAPには一歩譲るものの、装着の負担が少ない分続けやすく、結果として得られる改善効果はCPAPと同じくらいになることも珍しくありません。ただし全員に効くわけではなく、思ったほど改善しない人もいるため、歯科医と睡眠専門医の連携した調整が欠かせません。CPAPで挫折した経験がある人ほど、一度相談してみる価値がある治療法かもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:CPAPと口腔内装置(マウスピース型)の比較</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th></th><th>CPAP</th><th>口腔内装置</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>仕組み</td><td>空気の圧力で気道を開く</td><td>下顎を前方に固定し気道を広げる</td></tr>
+              <tr><td>主な対象</td><td>軽度〜重度</td><td>軽度〜中等度、CPAP不耐の人</td></tr>
+              <tr><td>効果の強さ</td><td>高い</td><td>CPAPよりやや弱め</td></tr>
+              <tr><td>装着の負担</td><td>マスク・ホースがある</td><td>マウスガードに近く軽い</td></tr>
+              <tr><td>続けやすさ</td><td>慣れが必要な人も</td><td>比較的続けやすい傾向</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Oral Appliance Therapy for Sleep Apnea: An Overview」", url: "https://www.sleepfoundation.org/sleep-apnea/oral-appliance-for-sleep-apnea" },
+      { label: "American Academy of Sleep Medicine「AASM and AADSM issue new joint clinical practice guideline for oral appliance therapy」", url: "https://aasm.org/aasm-and-aadsm-issue-new-joint-clinical-practice-guideline-for-oral-appliance-therapy/" }
+    ]
   }
 ];
 
