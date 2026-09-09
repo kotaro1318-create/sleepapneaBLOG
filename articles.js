@@ -481,6 +481,47 @@ const ARTICLES = [
       { label: "Sleep Foundation「Oral Appliance Therapy for Sleep Apnea: An Overview」", url: "https://www.sleepfoundation.org/sleep-apnea/oral-appliance-for-sleep-apnea" },
       { label: "American Academy of Sleep Medicine「AASM and AADSM issue new joint clinical practice guideline for oral appliance therapy」", url: "https://aasm.org/aasm-and-aadsm-issue-new-joint-clinical-practice-guideline-for-oral-appliance-therapy/" }
     ]
+  },
+  {
+    title: "CPAPもマウスピースも合わなかった人に、舌を動かす植込み装置という道もあるんです",
+    date: "2026-09-09",
+    conclusion: "CPAPやマウスピースが合わない中等度〜重度の無呼吸には、呼吸に合わせて舌の神経を刺激し気道を広げる植込み型装置(舌下神経刺激療法)という治療の選択肢もあります。",
+    body: "これまでCPAPとマウスピース型の装置を紹介してきましたが、実はもう一つ「舌下神経刺激療法」という治療法があるんです。胸のあたりに小さな装置を手術で植え込み、呼吸のリズムに合わせて舌を動かす神経に軽い電気刺激を送ることで、舌の付け根が喉の奥へ落ち込むのを防ぎ、気道を確保する仕組みです。米国の大規模臨床試験(STAR試験)では、中等度〜重度の無呼吸がある人にこの装置を12か月使ってもらったところ、1時間あたりの無呼吸・低呼吸の回数が平均29.3回から9.0回へと、およそ7割減少したと報告されています。2014年に米国FDAの承認を受けたこの治療は、マスクの圧迫感でCPAPを続けられなかった人や、口腔内装置でも改善しなかった人への選択肢とされています。ただし手術を伴うため誰にでも向くわけではなく、適応があるかは事前の検査で見極める必要があります。気になる人は、まず睡眠専門医に相談してみるとよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:舌下神経刺激療法によるAHIの変化(STAR試験、12か月後)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">治療前</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">29.3回/時</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">12か月後</span>
+            <span class="bar-track"><span class="bar-fill" style="width:30.7%"></span></span>
+            <span class="bar-value">9.0回/時</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Strollo PJ, et al. N Engl J Med. 2014;370:139-149(中央値、STAR試験12か月時点)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:舌下神経刺激療法の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">約7割</span>
+            <span class="stat-label">STAR試験12か月時点でのAHI減少率(中央値)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2014年</span>
+            <span class="stat-label">米国FDAが装置を承認した年</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Strollo PJ et al. “Upper-Airway Stimulation for Obstructive Sleep Apnea.” N Engl J Med. 2014;370:139-149.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1308659" },
+      { label: "American Academy of Sleep Medicine「Overview of FDA-approved hypoglossal nerve stimulation devices for obstructive sleep apnea」", url: "https://aasm.org/overview-of-fda-approved-hypoglossal-nerve-stimulation-devices-for-obstructive-sleep-apnea/" }
+    ]
   }
 ];
 
