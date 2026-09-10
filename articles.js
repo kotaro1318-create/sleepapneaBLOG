@@ -522,6 +522,47 @@ const ARTICLES = [
       { label: "Strollo PJ et al. “Upper-Airway Stimulation for Obstructive Sleep Apnea.” N Engl J Med. 2014;370:139-149.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1308659" },
       { label: "American Academy of Sleep Medicine「Overview of FDA-approved hypoglossal nerve stimulation devices for obstructive sleep apnea」", url: "https://aasm.org/overview-of-fda-approved-hypoglossal-nerve-stimulation-devices-for-obstructive-sleep-apnea/" }
     ]
+  },
+  {
+    title: "むずむず脚症候群の治療薬、実は主役交代していたんです",
+    date: "2026-09-10",
+    conclusion: "むずむず脚症候群の治療指針は2025年に大きく改定され、長年の定番だったドパミン作動薬に代わり鉄剤とガバペンチン系の薬が新たな第一選択になりました。",
+    body: "むずむず脚症候群(RLS)は、夜になると脚に「むずむず」「じっとしていられない」という不快な感覚が出て、動かすと少し楽になる病気です。夕方から夜にかけて症状が強まりやすく、寝つきや眠りの質にも影響しやすいのが厄介なところです。実はこの治療の「定番」が、2025年のAASM(米国睡眠医学会)新ガイドラインで大きく様変わりしました。長年の第一選択薬だったドパミン作動薬は、続けるうちに症状が早い時間帯から出たり範囲が広がったりする「増悪」が起きやすいと分かってきたためです。代わって新たに第一選択に位置づけられたのが、鉄剤による補充治療と、ガバペンチンなどのお薬です。実はRLSの背景には鉄不足が関わっていることが多く、貧血がなくても鉄を補うだけで症状が和らぐ人もいるそうです。もし今ドパミン作動薬を使っていて症状が以前より強くなったと感じるなら、自己判断でやめず、まずは主治医に相談してみるとよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:RLS治療の第一選択(2012年ガイドライン → 2025年AASM新ガイドライン)</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th></th><th>2012年までの位置づけ</th><th>2025年AASM新ガイドライン</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>ドパミン作動薬</td><td>第一選択</td><td>推奨されず(増悪リスクのため)</td></tr>
+              <tr><td>鉄剤(経口・静脈)</td><td>補助的な位置づけ</td><td>第一選択</td></tr>
+              <tr><td>ガバペンチン系</td><td>選択肢の一つ</td><td>第一選択</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:新ガイドラインが示す鉄の目標値</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">100 ng/mL超</span>
+            <span class="stat-label">治療で目指す血清フェリチン値の目安</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">20%超</span>
+            <span class="stat-label">治療で目指すトランスフェリン飽和度の目安</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:AASM「Summary of new clinical practice guideline for RLS and PLMD」(2025年)</p>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「Summary of new clinical practice guideline for RLS and PLMD」", url: "https://aasm.org/summary-of-new-clinical-practice-guideline-for-rls-and-plmd/" },
+      { label: "Mayo Clinic Press「Restless legs syndrome」", url: "https://mcpress.mayoclinic.org/living-well/restless-legs-syndrome/" }
+    ]
   }
 ];
 
