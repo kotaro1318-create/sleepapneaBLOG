@@ -563,6 +563,47 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「Summary of new clinical practice guideline for RLS and PLMD」", url: "https://aasm.org/summary-of-new-clinical-practice-guideline-for-rls-and-plmd/" },
       { label: "Mayo Clinic Press「Restless legs syndrome」", url: "https://mcpress.mayoclinic.org/living-well/restless-legs-syndrome/" }
     ]
+  },
+  {
+    title: "ナルコレプシーの薬に、原因そのものに効くタイプが登場したって知っていますか",
+    date: "2026-09-11",
+    conclusion: "2026年8月、FDAは脳内のオレキシン不足という原因そのものに直接働きかける経口薬「オルゼイフル」を、ナルコレプシー1型の治療薬として初めて承認しました。",
+    body: "ナルコレプシーは、脳を覚醒させ続けるのに欠かせない「オレキシン」という物質を作る神経細胞が失われることで起こる病気です。日中に耐えがたい眠気に襲われたり、笑ったり驚いたりした拍子に体の力がふっと抜ける「情動脱力発作(カタプレキシー)」が起きたりします。米国では2000人に1人程度とされ、決して珍しい病気ではありません。これまでの薬は眠気やカタプレキシーをそれぞれ別々に抑える対症療法が中心でしたが、2026年8月にFDAが承認した経口薬「オルゼイフル(一般名オベポレクストン)」は、不足しているオレキシンの働きを直接補うタイプとして初めて認められた薬なんです。臨床試験では、日中に起きていられる時間を測る検査の値が平均で大きく伸び、カタプレキシーの発作回数も中央値で8割以上減ったと報告されています。無呼吸によるいびきや眠気とは別の病気ですが、「原因そのものに効く薬」の登場は睡眠医療全体にとっても心強いニュースです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:MWT(眠気を測る検査)での平均睡眠潜時の変化(FirstLight/RadiantLight試験、高用量群)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">投与前</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:20%"></span></span>
+            <span class="bar-value">約4分</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">12週間後</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">約20分</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:FDA・AASM発表(FirstLight/RadiantLight試験、高用量群の平均値)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:承認の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">80%超</span>
+            <span class="stat-label">カタプレキシー(情動脱力発作)の週間発作回数の減少率(中央値)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">1/2000人</span>
+            <span class="stat-label">米国におけるナルコレプシー1型の推定有病率</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "FDA「FDA Approves First Drug to Treat the Full Range of Narcolepsy Type 1 Symptoms」", url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms" },
+      { label: "American Academy of Sleep Medicine「FDA approves Orzeyful for narcolepsy type 1 in adults」", url: "https://aasm.org/fda-approves-orzeyful-for-narcolepsy-type-1-in-adults/" }
+    ]
   }
 ];
 
