@@ -604,6 +604,54 @@ const ARTICLES = [
       { label: "FDA「FDA Approves First Drug to Treat the Full Range of Narcolepsy Type 1 Symptoms」", url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms" },
       { label: "American Academy of Sleep Medicine「FDA approves Orzeyful for narcolepsy type 1 in adults」", url: "https://aasm.org/fda-approves-orzeyful-for-narcolepsy-type-1-in-adults/" }
     ]
+  },
+  {
+    title: "「錠剤を1錠飲むだけ」で無呼吸を抑える薬が登場するかもしれません",
+    date: "2026-09-12",
+    conclusion: "体重を減らす薬とは別に、気道の筋肉に直接働きかけて無呼吸を抑える飲み薬が、臨床試験で高い効果を示しました。",
+    body: "これまで無呼吸の治療といえばCPAPやマウスピース型の装置、手術に近い植込み型の装置が中心でした。そこに新しく加わろうとしているのが、就寝前に錠剤を1錠飲むだけの治療薬です。「AD109」と呼ばれるこの薬は、2つの成分の組み合わせで、眠っている間も喉まわりの筋肉の緊張を保ち、気道が塞がりにくい状態を作ります。以前紹介した肥満治療薬のように体重を落とすのではなく、筋肉そのものに直接働きかけるのが特徴です。大規模な臨床試験では、この薬を使った人の1時間あたりの無呼吸・低呼吸の回数が、プラセボ群に比べて大きく減少し、きちんと服用できた人では半分以上も減ったと報告されています。副作用として口の渇きや不眠、吐き気が見られたものの、深刻なものはなかったそうです。マスクの圧迫感が苦手だった人にとって、選択肢が増える嬉しいニュースかもしれません。まだ承認前の段階なので、実際に使えるまでは今の治療を続けることが大切です。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:新薬AD109によるAHI(無呼吸・低呼吸指数)の変化(SynAIRgy試験)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">ITT解析(全参加者、モデル推定値)</p>
+          <div class="bar-row">
+            <span class="bar-label">プラセボ群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:31.7%"></span></span>
+            <span class="bar-value">-17.6%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">AD109群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:79.3%"></span></span>
+            <span class="bar-value">-44.1%</span>
+          </div>
+          <p class="bar-group-label">on-treatment解析(服薬をきちんと継続できた人)</p>
+          <div class="bar-row">
+            <span class="bar-label">AD109群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">-55.6%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Strollo PJ, et al. Am J Respir Crit Care Med. 2026;212(7):1569(SynAIRgy試験、AHIのベースラインからの変化率)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:AD109服用後の改善データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">51.2%</span>
+            <span class="stat-label">無呼吸の重症度区分が1段階以上改善した参加者の割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">22.3%</span>
+            <span class="stat-label">治療後にAHIが5未満まで下がった参加者の割合</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Strollo PJ et al. “Aroxybutynin and Atomoxetine (AD109) for Obstructive Sleep Apnea: A Randomized Phase 3 Trial (SynAIRgy).” Am J Respir Crit Care Med. 2026;212(7):1569.", url: "https://academic.oup.com/ajrccm/article/212/7/1569/8680221" },
+      { label: "American Academy of Sleep Medicine「Apnimed announces positive results in clinical trial of sleep apnea medication」", url: "https://aasm.org/apnimed-announces-positive-results-in-clinical-trial-of-sleep-apnea-medication/" }
+    ]
   }
 ];
 
