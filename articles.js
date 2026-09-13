@@ -652,6 +652,60 @@ const ARTICLES = [
       { label: "Strollo PJ et al. “Aroxybutynin and Atomoxetine (AD109) for Obstructive Sleep Apnea: A Randomized Phase 3 Trial (SynAIRgy).” Am J Respir Crit Care Med. 2026;212(7):1569.", url: "https://academic.oup.com/ajrccm/article/212/7/1569/8680221" },
       { label: "American Academy of Sleep Medicine「Apnimed announces positive results in clinical trial of sleep apnea medication」", url: "https://aasm.org/apnimed-announces-positive-results-in-clinical-trial-of-sleep-apnea-medication/" }
     ]
+  },
+  {
+    title: "無呼吸を放っておくと、将来の「もの忘れ」にもつながるかもしれません",
+    date: "2026-09-13",
+    conclusion: "睡眠時無呼吸のある人は、ない人に比べて将来認知症を発症するリスクがおよそ3割高いことが、大規模メタ解析で示されています。",
+    body: "「最近ちょっと物忘れが増えたな」と感じたことはありませんか?実はその背景に、睡眠時無呼吸が関わっている可能性があるんです。2025年に発表された大規模メタ解析では、無呼吸のある人はない人に比べて、将来あらゆる種類の認知症を発症するリスクが約3割高く、アルツハイマー病に限るとリスクは約45%も高いという結果が出ました。呼吸が止まるたびに脳への酸素供給が一時的に減り、それが積み重なって脳にダメージが蓄積していくためではないかと考えられています。実際、別の調査でも、無呼吸の疑いがある人はそうでない人より軽度の認知障害や認知症と診断される割合が高いと確認されています。もの忘れは加齢のせいと片付けられがちですが、治療可能な無呼吸が隠れていることもあるんです。CPAP治療で無呼吸を改善することが、将来の脳の健康を守ることにもつながるかもしれません。心当たりのある人は専門医に相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:睡眠時無呼吸と認知症・アルツハイマー病の発症リスク(メタ解析)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">全認知症</p>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸なし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:69.0%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸あり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:91.7%"></span></span>
+            <span class="bar-value">1.33倍</span>
+          </div>
+          <p class="bar-group-label">アルツハイマー病</p>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸なし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:69.0%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸あり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.45倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Ungvari Z, et al. GeroScience. 2025(メタ解析、ハザード比)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:無呼吸の疑いがある人・ない人での認知機能の状態(米国の集団調査)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">12.7% vs 8.0%</span>
+            <span class="stat-label">軽度の認知障害(CIND)がみられた割合(無呼吸疑いあり vs なし)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">3.2% vs 2.0%</span>
+            <span class="stat-label">認知症と判定された割合(無呼吸疑いあり vs なし)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Shieu MM, et al. J Clin Sleep Med. 2022;18(4):1177-1185(2016年Health and Retirement Study)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Ungvari Z et al. “Sleep disorders increase the risk of dementia, Alzheimer's disease, and cognitive decline: a meta-analysis.” GeroScience. 2025.", url: "https://pubmed.ncbi.nlm.nih.gov/40214959/" },
+      { label: "Shieu MM et al. “The association between obstructive sleep apnea risk and cognitive disorders: a population-based study.” J Clin Sleep Med. 2022;18(4):1177-1185.", url: "https://pubmed.ncbi.nlm.nih.gov/34913866/" }
+    ]
   }
 ];
 
