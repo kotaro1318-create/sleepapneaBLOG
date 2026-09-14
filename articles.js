@@ -706,6 +706,52 @@ const ARTICLES = [
       { label: "Ungvari Z et al. “Sleep disorders increase the risk of dementia, Alzheimer's disease, and cognitive decline: a meta-analysis.” GeroScience. 2025.", url: "https://pubmed.ncbi.nlm.nih.gov/40214959/" },
       { label: "Shieu MM et al. “The association between obstructive sleep apnea risk and cognitive disorders: a population-based study.” J Clin Sleep Med. 2022;18(4):1177-1185.", url: "https://pubmed.ncbi.nlm.nih.gov/34913866/" }
     ]
+  },
+  {
+    title: "夜勤明けの「眠れない」、実はちゃんとした治療指針があるんです",
+    date: "2026-09-14",
+    conclusion: "夜勤や早朝勤務で体内時計と睡眠時間がずれる「交代勤務障害」は交代勤務者の4人に1人以上にみられ、光や薬による対処法が指針として示されています。",
+    body: "夜勤や早朝勤務がある人の中には、勤務が終わって疲れているのになぜか眠れない、逆に仕事中に強い眠気に襲われるという人がいます。これは「交代勤務障害」と呼ばれる立派な睡眠障害で、体内時計が示す「眠る時間」と実際に眠らなければならない時間がずれてしまうことで起こるんです。2021年に発表されたメタ解析では、夜勤を含む交代勤務者のおよそ3割がこの障害の基準を満たすと報告されています。厄介なのは、体内時計そのものはなかなかシフトに合わせて調整されにくいこと。そこで2025年にAASMが公表した新しいガイドラインでは、体内時計を無理に合わせようとするよりも、夜勤中の光の浴び方を工夫したり、必要に応じてメラトニン受容体作動薬などの薬を使ったりして、日中の不眠や眠気そのものを和らげることに重点が置かれています。「夜勤だから仕方ない」と諦めず、症状が強いなら睡眠専門医に相談してみるのも一つの手かもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:交代勤務障害の有病率(勤務形態別)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">日勤中心の労働者</span>
+            <span class="bar-track"><span class="bar-fill" style="width:31.5%"></span></span>
+            <span class="bar-value">10.1%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">交代勤務者全体</span>
+            <span class="bar-track"><span class="bar-fill" style="width:82.6%"></span></span>
+            <span class="bar-value">26.5%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">夜勤を含む労働者</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">32.1%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Pallesen S, et al. Sleep Med Rev. 2021;56:101409(29件の研究によるメタ解析)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:交代勤務障害をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2025年</span>
+            <span class="stat-label">AASMが交代勤務障害の新しい治療ガイドラインを公表した年</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約3割</span>
+            <span class="stat-label">交代勤務者のうち交代勤務障害の基準を満たすとされる割合</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「Management of Shift Work Disorder: An AASM Clinical Practice Guideline」", url: "https://aasm.org/wp-content/uploads/2025/08/Extrinsic-CRSWD-CPG_SWD_May2025.pdf" },
+      { label: "Sleep Foundation「Shift Work Disorder: Signs, Diagnosis, and How to Manage It」", url: "https://www.sleepfoundation.org/shift-work-disorder" }
+    ]
   }
 ];
 
