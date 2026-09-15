@@ -752,6 +752,47 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「Management of Shift Work Disorder: An AASM Clinical Practice Guideline」", url: "https://aasm.org/wp-content/uploads/2025/08/Extrinsic-CRSWD-CPG_SWD_May2025.pdf" },
       { label: "Sleep Foundation「Shift Work Disorder: Signs, Diagnosis, and How to Manage It」", url: "https://www.sleepfoundation.org/shift-work-disorder" }
     ]
+  },
+  {
+    title: "女性の無呼吸は見えにくい、更年期を境に急上昇するって知っていますか",
+    date: "2026-09-15",
+    conclusion: "女性の睡眠時無呼吸は男性と異なる症状で見逃されやすく、閉経後はそのリスクが閉経前のおよそ3.5倍に高まります。",
+    body: "睡眠時無呼吸というと「大きないびきをかく中年男性」のイメージが強いかもしれませんが、実は女性の無呼吸は驚くほど見逃されやすいんです。というのも、女性に多い症状は男性の典型例とはちょっと違うから。大きないびきや呼吸停止の目撃ではなく、寝つきの悪さ、朝の頭痛、強い疲労感、気分の落ち込みといった、一見「更年期のせい」「ストレスのせい」と思われがちな症状で現れることが多いんです。実は女性ホルモンには気道を守る働きがあると考えられていて、閉経を境にそのバリアが薄れ、無呼吸のリスクは閉経前に比べておよそ3.5倍にも跳ね上がると報告されています。さらにMayo Clinicの研究では、更年期世代の女性の多くが経験するほてりや寝汗も、無呼吸リスクの高さと関係している可能性が示されました。「更年期だから仕方ない」と自己判断せず、気になる症状があれば一度相談してみると、案外あっさり原因が見つかるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:閉経前後での睡眠時無呼吸リスク(相対リスク)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">閉経前<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:28.6%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">閉経後</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">3.5倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Sleep Foundation「Sleep Apnea Symptoms in Women」</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:女性の無呼吸をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">3.5倍</span>
+            <span class="stat-label">閉経後に睡眠時無呼吸になりやすくなる、閉経前と比べた倍率</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約8割</span>
+            <span class="stat-label">更年期世代の女性がほてりや寝汗を経験する割合(無呼吸リスクとの関連が報告されている)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Sleep Apnea Symptoms in Women」", url: "https://www.sleepfoundation.org/sleep-apnea/sleep-apnea-symptoms-in-women" },
+      { label: "Mayo Clinic News Network「Research finds hot flashes, night sweats connected to obstructive sleep apnea risk in middle-aged women」", url: "https://newsnetwork.mayoclinic.org/discussion/research-finds-hot-flashes-night-sweats-connected-to-obstructive-sleep-apnea-risk-in-middle-aged-women/" }
+    ]
   }
 ];
 
