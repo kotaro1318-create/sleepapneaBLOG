@@ -793,6 +793,50 @@ const ARTICLES = [
       { label: "Sleep Foundation「Sleep Apnea Symptoms in Women」", url: "https://www.sleepfoundation.org/sleep-apnea/sleep-apnea-symptoms-in-women" },
       { label: "Mayo Clinic News Network「Research finds hot flashes, night sweats connected to obstructive sleep apnea risk in middle-aged women」", url: "https://newsnetwork.mayoclinic.org/discussion/research-finds-hot-flashes-night-sweats-connected-to-obstructive-sleep-apnea-risk-in-middle-aged-women/" }
     ]
+  },
+  {
+    title: "動悸を繰り返す不整脈、実は無呼吸が引き金になっているかもしれません",
+    date: "2026-09-16",
+    conclusion: "心房細動のある人が睡眠時無呼吸を治療せず放置すると不整脈が再発しやすく、CPAPを1年以上続けることで再発リスクを大きく下げられます。",
+    body: "動悸がおさまらない、心房細動と診断されカテーテルアブレーションを受けたのに、何年か経ってまた再発してしまった——そんな人の中に、実は睡眠時無呼吸が隠れているケースが少なくないんです。呼吸が止まるたびに心臓まわりの圧力や自律神経のバランスが乱れ、それが心房を刺激して不整脈のスイッチを入れてしまうと考えられています。日本の研究チームがまとめた2025年の追跡調査では、重度の無呼吸がある心房細動患者のうち、アブレーション後にCPAPを1年以上続けられた人は無呼吸の指標(AHI)が平均37.7回から3.9回まで改善し、1年を過ぎてからの再発率も7.6%と、続けられなかった人の21.6%に比べはっきり低く抑えられていました。動悸を繰り返す人ほど、いびきや日中の眠気にも心当たりがないか振り返ると、手がかりが見つかるかもしれません。循環器と睡眠、両方の専門医に相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:CPAPを1年以上続けた場合のAHI(無呼吸低呼吸指数)の変化</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">アブレーション前</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">37.7回/時</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">CPAP1年以上継続後</span>
+            <span class="bar-track"><span class="bar-fill" style="width:10.3%"></span></span>
+            <span class="bar-value">3.9回/時</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Tanaka N, et al. J Am Heart Assoc. 2025;14:e038742(重度OSAを伴う心房細動患者、平均値)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:アブレーション1年後以降の心房細動再発率</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">CPAP長期継続群<br><span class="bar-sub">1年以上使用</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:35.2%"></span></span>
+            <span class="bar-value">7.6%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">非継続群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">21.6%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Tanaka N, et al. J Am Heart Assoc. 2025;14:e038742(調整ハザード比0.30、95%信頼区間0.14-0.57)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Tanaka N et al. “Impact of Long-Term CPAP Adherence on Recurrence After Atrial Fibrillation Ablation in Patients With Severe Sleep Apnea.” J Am Heart Assoc. 2025;14:e038742.", url: "https://www.ahajournals.org/doi/10.1161/JAHA.124.038742" },
+      { label: "American Heart Association「Sleep Disorders and Atrial Fibrillation」", url: "https://www.heart.org/en/health-topics/sleep-disorders/sleep-disorders-and-afib" }
+    ]
   }
 ];
 
