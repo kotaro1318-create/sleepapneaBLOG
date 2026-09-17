@@ -837,6 +837,62 @@ const ARTICLES = [
       { label: "Tanaka N et al. “Impact of Long-Term CPAP Adherence on Recurrence After Atrial Fibrillation Ablation in Patients With Severe Sleep Apnea.” J Am Heart Assoc. 2025;14:e038742.", url: "https://www.ahajournals.org/doi/10.1161/JAHA.124.038742" },
       { label: "American Heart Association「Sleep Disorders and Atrial Fibrillation」", url: "https://www.heart.org/en/health-topics/sleep-disorders/sleep-disorders-and-afib" }
     ]
+  },
+  {
+    title: "妊娠中のいびき、実は妊娠高血圧のサインかもしれません",
+    date: "2026-09-17",
+    conclusion: "妊娠中に悪化するいびきや無呼吸は妊娠高血圧症候群のリスクを高めますが、CPAP治療でそのリスクを下げられる可能性があります。",
+    body: "妊娠中に「いびきがひどくなった」と感じたことはありませんか?実は妊娠中は無呼吸が起こりやすい時期なんです。大きくなったお腹で横隔膜が押し上げられ、女性ホルモンの影響で気道まわりがむくみ、喉の空気の通り道が狭くなりやすいためと考えられています。米国の大規模な追跡調査では、無呼吸のある妊婦さんはそうでない人に比べて、妊娠高血圧症候群のリスクがおよそ2.2倍、妊娠糖尿病のリスクも約1.5倍高いことが分かりました。呼吸が止まるたびに血管が収縮し、血圧が上がりやすくなることが一因とみられています。一見怖い数字ですが、朗報もあります。高リスク妊娠を対象にした臨床試験では、CPAPを使った妊婦さんのグループは、使わなかったグループより妊娠高血圧症候群を発症した割合がはっきり低かったのです。「妊娠中だから」とあきらめず、いびきや息苦しさが気になったら、産婦人科や睡眠外来に相談してみると安心につながるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:妊娠中の無呼吸と妊娠合併症のリスク(補正オッズ比)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">妊娠高血圧症候群</p>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸なし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:45.0%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸あり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">2.22倍</span>
+          </div>
+          <p class="bar-group-label">妊娠糖尿病</p>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸なし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:45.0%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸あり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:68.0%"></span></span>
+            <span class="bar-value">1.51倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Louis JM, et al. Sleep Med. 2017;38:50-57(米国の全国規模コホート、補正オッズ比)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:高リスク妊娠におけるCPAP治療と妊娠高血圧症候群の発症率</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">CPAP治療群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:58.7%"></span></span>
+            <span class="bar-value">13.1%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">通常ケア群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">22.3%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Tantrakul V, et al. Respir Res. 2023;24:171(多施設ランダム化比較試験)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Louis JM et al. “Obstructive sleep apnea in pregnancy is associated with adverse maternal outcomes: a national cohort.” Sleep Med. 2017;38:50-57.", url: "https://pubmed.ncbi.nlm.nih.gov/29031756/" },
+      { label: "Tantrakul V et al. “Treatment of obstructive sleep apnea in high risk pregnancy: a multicenter randomized controlled trial.” Respir Res. 2023;24:171.", url: "https://respiratory-research.biomedcentral.com/articles/10.1186/s12931-023-02445-y" }
+    ]
   }
 ];
 
