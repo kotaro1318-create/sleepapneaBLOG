@@ -939,6 +939,46 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「New guideline provides clinical recommendations for surgical referral of obstructive sleep apnea patients」", url: "https://aasm.org/new-guideline-provides-clinical-recommendations-for-surgical-referral-of-obstructive-sleep-apnea-patients/" },
       { label: "Al Oweidat K et al. “Bariatric surgery and obstructive sleep apnea: a systematic review and meta-analysis.” Sleep Breath. 2023;27(6):2283-2294.", url: "https://pubmed.ncbi.nlm.nih.gov/37145243/" }
     ]
+  },
+  {
+    title: "実は「寝る向き」を変えるだけで無呼吸が和らぐ人もいるって知っていますか",
+    date: "2026-09-19",
+    conclusion: "睡眠時無呼吸のある人のうち2〜3割は、仰向けをやめて横向きに眠るだけで呼吸の乱れが大きく軽くなる「体位依存性」というタイプです。",
+    body: "CPAPやマウスピース、手術に近い装置までいろいろな治療法を紹介してきましたが、実は寝る姿勢を変えるだけで症状が和らぐ人もいるんです。これは「体位依存性無呼吸(POSA)」と呼ばれるタイプで、仰向けで眠るときのAHI(無呼吸低呼吸指数)が、横向きなど他の姿勢のときの少なくとも2倍になっている状態を指します。仰向けだと重力で舌の付け根が喉の奥へ落ち込みやすく、気道が塞がりやすくなるためと考えられています。対策として使われるのが「体位療法」で、腰に着けるベルト型の装置や、仰向けになった瞬間に振動で知らせてくれるデバイスなどがあります。米国睡眠医学会も、軽度の無呼吸に対する効果的で体への負担が少ない治療法として位置づけていて、CPAPと組み合わせて使われることもあります。自分がどのタイプかは検査で分かるので、「仰向けで寝るといびきがひどい」と感じる人は、専門医に相談してみると新しい選択肢が見つかるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:体位依存性無呼吸(POSA)の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">約5割</span>
+            <span class="stat-label">横向きや上体を起こす姿勢で無呼吸が改善するとされるOSA患者の割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">20〜30%</span>
+            <span class="stat-label">仰向けの時だけ症状が出る「体位依存性無呼吸(POSA)」に該当するとされる割合</span>
+          </div>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">表:POSAの定義と体位療法の位置づけ</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>項目</th><th>内容</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>POSAの定義</td><td>仰臥位のAHIが非仰臥位の少なくとも2倍</td></tr>
+              <tr><td>主な対策</td><td>ベルト型・振動型の体位療法デバイス</td></tr>
+              <tr><td>AASMでの位置づけ</td><td>軽度OSAへの効果的で非侵襲的な治療、CPAPとの併用も可</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Does Sleeping Sitting Up Help Sleep Apnea?」", url: "https://www.sleepfoundation.org/sleep-apnea/does-sleeping-sitting-upright-help-sleep-apnea" },
+      { label: "Sleep Education (AASM)「Positional Therapy」", url: "https://sleepeducation.org/patients/positional-therapy/" }
+    ]
   }
 ];
 
