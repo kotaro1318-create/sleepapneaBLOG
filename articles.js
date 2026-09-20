@@ -979,6 +979,32 @@ const ARTICLES = [
       { label: "Sleep Foundation「Does Sleeping Sitting Up Help Sleep Apnea?」", url: "https://www.sleepfoundation.org/sleep-apnea/does-sleeping-sitting-upright-help-sleep-apnea" },
       { label: "Sleep Education (AASM)「Positional Therapy」", url: "https://sleepeducation.org/patients/positional-therapy/" }
     ]
+  },
+  {
+    title: "2型糖尿病の陰に、実は無呼吸が隠れていることが多いって知っていますか",
+    date: "2026-09-20",
+    conclusion: "2型糖尿病のある人のうち、睡眠検査で確認された無呼吸の割合は平均37%、質問票による「疑いが高い」との判定はさらに多い42%にのぼると報告されています。",
+    body: "「血糖コントロールがなかなか安定しない」——そんな2型糖尿病の人の背景に、実は睡眠時無呼吸が隠れていることが少なくないんです。2025年までの23件の研究をまとめた最新のメタ解析では、2型糖尿病がある人のうち、睡眠検査で無呼吸が確認された割合は平均37%、質問票で「疑いが高い」と判定された割合はさらに多い42%にのぼると報告されました。呼吸が止まるたびに交感神経が高ぶり血糖値を上げるホルモンが出やすくなるうえ、浅い眠りが続くとインスリンの効きも悪くなると考えられています。つまり無呼吸と糖尿病は、お互いを悪化させ合う厄介な関係にあるというわけです。血糖値の管理に苦労している人ほど、いびきや日中の強い眠気にも心当たりがないか振り返ってみると、思わぬ手がかりが見つかるかもしれません。CPAP治療で無呼吸を改善すると血糖コントロールが上向く例も報告されているので、気になる人は主治医や睡眠外来に相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:2型糖尿病患者における睡眠時無呼吸の割合(メタ解析)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">37%</span>
+            <span class="stat-label">睡眠検査(PSG・簡易検査)で無呼吸が確認された割合(95%信頼区間 27〜49%)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">42%</span>
+            <span class="stat-label">質問票で「無呼吸の疑いが高い」と判定された割合(95%信頼区間 31〜53%)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Sun P, et al. Can J Diabetes. 2026(23件の研究によるシステマティックレビュー・メタ回帰分析)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Sun P et al. “Global prevalence and risk factors of obstructive sleep apnoea in people with diabetes: a systematic review and meta-regression.” Can J Diabetes. 2026.", url: "https://pubmed.ncbi.nlm.nih.gov/42607927/" },
+      { label: "Sleep Foundation「Diabetes and Sleep: Sleep Disturbances & Coping」", url: "https://www.sleepfoundation.org/physical-health/lack-of-sleep-and-diabetes" }
+    ]
   }
 ];
 
