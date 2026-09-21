@@ -1005,6 +1005,47 @@ const ARTICLES = [
       { label: "Sun P et al. “Global prevalence and risk factors of obstructive sleep apnoea in people with diabetes: a systematic review and meta-regression.” Can J Diabetes. 2026.", url: "https://pubmed.ncbi.nlm.nih.gov/42607927/" },
       { label: "Sleep Foundation「Diabetes and Sleep: Sleep Disturbances & Coping」", url: "https://www.sleepfoundation.org/physical-health/lack-of-sleep-and-diabetes" }
     ]
+  },
+  {
+    title: "その腕時計、実は無呼吸まで教えてくれるようになったって知っていますか",
+    date: "2026-09-21",
+    conclusion: "市販のスマートウォッチが中等度から重度の無呼吸を検知する機能は2024年に米国FDAの認可を受け、専門検査につなげる気づきのきっかけとして使えます。",
+    body: "最近人気のスマートウォッチに、実は「無呼吸かもしれません」と教えてくれる機能があるって知っていましたか?2024年、大手メーカーのスマートウォッチに搭載された睡眠時無呼吸検知機能が、米国FDAから正式な認可を受けたんです。腕時計のセンサーで眠っている間の呼吸の乱れを記録し、中等度から重度の無呼吸の可能性を教えてくれる仕組みです。無呼吸のある620人を対象にした臨床試験では、無呼吸がある人を正しく見つけられた割合(感度)が約83%、無呼吸がない人を正しく見分けられた割合(特異度)が約88%だったと報告されています。あくまで「気づきのきっかけ」であって、確定診断ではありません。メーカー自身も、すでに診断された人や、医師の診断・治療の代わりに使うことは想定していないと説明しています。「通知が来て終わり」にせず、専門の睡眠検査につなげることが大切です。気になる通知が来たら、まずは睡眠外来に相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:スマートウォッチの無呼吸検知機能の精度(FDA認可時の臨床試験、620人)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">82.7%</span>
+            <span class="stat-label">感度(無呼吸がある人を正しく検知できた割合)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">87.7%</span>
+            <span class="stat-label">特異度(無呼吸がない人を正しく除外できた割合)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Samsung Health Monitor 睡眠時無呼吸機能の臨床試験(FDA De Novo認可時のデータ、対象は中等度〜重度OSA)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">表:スマートウォッチの検知機能と医療機関の検査の違い</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th></th><th>スマートウォッチ機能</th><th>医療機関の検査(PSG・HSAT)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>位置づけ</td><td>スクリーニング(気づき)</td><td>確定診断</td></tr>
+              <tr><td>対象者</td><td>未診断の22歳以上の成人</td><td>症状が疑われる全年齢</td></tr>
+              <tr><td>結果の扱い</td><td>受診を促す通知</td><td>AHI値による重症度判定</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「Samsung Galaxy Watch sleep apnea feature receives FDA authorization」", url: "https://aasm.org/samsung-galaxy-watch-sleep-apnea-feature-receives-fda-authorization/" },
+      { label: "Sleep Foundation「Samsung Watch Sleep Apnea Feature First Ever Approved by FDA」", url: "https://www.sleepfoundation.org/sleep-news/samsung-watch-sleep-apnea-feature-first-ever-approved-by-fda" }
+    ]
   }
 ];
 
