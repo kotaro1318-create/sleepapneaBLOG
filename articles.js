@@ -1046,6 +1046,47 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「Samsung Galaxy Watch sleep apnea feature receives FDA authorization」", url: "https://aasm.org/samsung-galaxy-watch-sleep-apnea-feature-receives-fda-authorization/" },
       { label: "Sleep Foundation「Samsung Watch Sleep Apnea Feature First Ever Approved by FDA」", url: "https://www.sleepfoundation.org/sleep-news/samsung-watch-sleep-apnea-feature-first-ever-approved-by-fda" }
     ]
+  },
+  {
+    title: "「夜更かし」だと思われがちなその症状、実は体内時計の病気かもしれません",
+    date: "2026-09-22",
+    conclusion: "夜になっても眠れず朝も起きられない「睡眠相後退障害」は10代の7〜16%にみられ、正しいタイミングでのメラトニン投与によって改善が期待できます。",
+    body: "「夜更かしぐせがひどくて」と片付けられがちですが、そこに隠れているのが「睡眠相後退障害(DSWPD)」という、れっきとした睡眠障害です。体内時計そのものが遅れているため、早く布団に入ってもなかなか寝つけず、朝はどうしても起きられません。思春期は体内時計が後ろへずれやすく、10代の7〜16%程度がこの障害にあてはまるとも報告されています。「怠けている」「夜更かしが直らない」と叱られがちですが、本人の意志の問題ではなく、体内時計のズレそのものが原因なんです。米国睡眠医学会のガイドラインでは光の浴び方の工夫に加え、就寝予定時刻の数時間前という決まったタイミングでメラトニンを少量飲むことが効果的な治療とされています。臨床試験でも、この方法を使った人はプラセボに比べて症状の改善を実感した割合がはっきり高いという結果が出ています。「朝起きられないのは自分のせい」と抱え込まず、一度専門医に相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:メラトニン+行動療法による臨床的改善(二重盲検ランダム化比較試験)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">プラセボ群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:45.5%"></span></span>
+            <span class="bar-value">24.0%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">メラトニン+行動療法群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">52.8%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Sletten TL, et al. PLoS Med. 2018;15(6):e1002587(臨床的に改善ありと判定された割合)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:睡眠相後退障害(DSWPD)の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">7〜16%</span>
+            <span class="stat-label">10代のうちDSWPDに該当するとされる割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">0.5mg</span>
+            <span class="stat-label">臨床試験で使われたメラトニンの用量(就寝希望時刻の1時間前に投与)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Delayed Sleep Phase Disorder」", url: "https://www.sleepfoundation.org/delayed-sleep-wake-phase-syndrome" },
+      { label: "Sletten TL et al. “Efficacy of melatonin with behavioural sleep-wake scheduling for delayed sleep-wake phase disorder: A double-blind, randomised clinical trial.” PLoS Med. 2018;15(6):e1002587.", url: "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1002587" }
+    ]
   }
 ];
 
