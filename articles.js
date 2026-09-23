@@ -1087,6 +1087,47 @@ const ARTICLES = [
       { label: "Sleep Foundation「Delayed Sleep Phase Disorder」", url: "https://www.sleepfoundation.org/delayed-sleep-wake-phase-syndrome" },
       { label: "Sletten TL et al. “Efficacy of melatonin with behavioural sleep-wake scheduling for delayed sleep-wake phase disorder: A double-blind, randomised clinical trial.” PLoS Med. 2018;15(6):e1002587.", url: "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1002587" }
     ]
+  },
+  {
+    title: "子どものいびき、「そのうち治る」と決めつけていませんか",
+    date: "2026-09-23",
+    conclusion: "子どもの閉塞性睡眠時無呼吸は世界で1〜5%の子どもにみられ、アデノイド・扁桃摘出術によって検査所見や症状の大きな改善が期待できます。",
+    body: "「うちの子、よくいびきをかくけど、まだ小さいから仕方ないか」——そう思って様子を見ている親御さんは多いかもしれません。でも実は子どもにも睡眠時無呼吸症候群(OSA)があり、世界の子どもの1〜5%程度にみられると報告されています。多くは扁桃腺やアデノイドが大きいことが原因で、眠っている間に気道が狭くなり呼吸が浅くなったり止まったりするんです。大人だと日中の眠気が目立ちますが、子どもの場合は落ち着きのなさや集中力の低下、成長の遅れといった形で現れやすく、ADHDと見分けがつきにくいこともあるそうです。米国の大規模な臨床試験では、軽度〜中等度のOSAがある子どもにアデノイド・扁桃摘出術を行ったグループは、経過観察のみのグループに比べて検査所見が正常化した割合がはっきり上回り、行動面の改善もみられました。「いびきくらいで」と流さず、気になる様子があれば小児科や耳鼻咽喉科に相談してみるのも一つの手かもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:ポリソムノグラフィー所見の正常化率(CHAT試験、7か月後)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">経過観察群<br><span class="bar-sub">手術なし</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:58.2%"></span></span>
+            <span class="bar-value">46%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">早期手術群<br><span class="bar-sub">アデノイド・扁桃摘出術</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">79%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Marcus CL, et al. N Engl J Med. 2013;368:2366-2376(5〜9.9歳、軽度〜中等度OSAの小児が対象)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:小児の睡眠時無呼吸をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">1〜5%</span>
+            <span class="stat-label">世界の子どもにおける閉塞性睡眠時無呼吸症候群の推定有病率</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">464人</span>
+            <span class="stat-label">CHAT試験に参加した5〜9.9歳の子どもの人数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Pediatrics「Diagnosis and Management of Childhood Obstructive Sleep Apnea Syndrome」", url: "https://publications.aap.org/pediatrics/article/130/3/576/30284/Diagnosis-and-Management-of-Childhood-Obstructive" },
+      { label: "Marcus CL et al. “A Randomized Trial of Adenotonsillectomy for Childhood Sleep Apnea.” N Engl J Med. 2013;368:2366-2376.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1215881" }
+    ]
   }
 ];
 
