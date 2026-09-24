@@ -1128,6 +1128,52 @@ const ARTICLES = [
       { label: "American Academy of Pediatrics「Diagnosis and Management of Childhood Obstructive Sleep Apnea Syndrome」", url: "https://publications.aap.org/pediatrics/article/130/3/576/30284/Diagnosis-and-Management-of-Childhood-Obstructive" },
       { label: "Marcus CL et al. “A Randomized Trial of Adenotonsillectomy for Childhood Sleep Apnea.” N Engl J Med. 2013;368:2366-2376.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1215881" }
     ]
+  },
+  {
+    title: "いびきの治療、実は寝ている間じゃなく「日中」に行うタイプがあるって知っていますか",
+    date: "2026-09-24",
+    conclusion: "軽度のいびきや睡眠時無呼吸に対して、日中に舌の筋肉を電気刺激で鍛える「eXciteOSA」という治療法が米国で承認されており、臨床試験ではいびき時間が平均41%減少しました。",
+    body: "いびきやごく軽い無呼吸にCPAPを使うのは大げさな気がする、という人もいるかもしれません。実は軽症向けに、寝る前ではなく「起きている間」に行う治療もあるんです。「eXciteOSA」という装置は、顎を前に出すマウスピースとは仕組みが違い、口に含んだ電極から弱い電気刺激を舌に流して筋肉を鍛えます。1日20分の装着を6週間続け、その後は週1回のメンテナンスに切り替えるだけ。米国では2021年にFDAが「いびきと軽度の無呼吸(AHI15未満)向けの初の日中治療」として承認しました。125人が参加した試験では115人が完遂し、9割の人で客観的ないびき時間が減少、平均で41%短くなったそうです。同居家族の申告でも39%減ったと報告されており、「毎晩何かを着けて寝るのは苦手」という人には気になる選択肢かもしれません。ただし中等度以上の無呼吸には向かないので、まず検査で重症度を確認し、医師に相談してみるのがよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:eXciteOSA臨床試験の結果(6週間後)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">パートナーの申告<br><span class="bar-sub">同居家族が感じたいびきの減少</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:43.3%"></span></span>
+            <span class="bar-value">39%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">客観的ないびき時間<br><span class="bar-sub">測定データ上の平均減少率</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:45.6%"></span></span>
+            <span class="bar-value">41%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">改善がみられた人<br><span class="bar-sub">何らかのいびき減少があった割合</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">90%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Baptista PM, et al. J Clin Med. 2021;10(9):1883(原発性いびき・軽度OSA患者125人が参加、115人が完遂した多施設共同試験)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:eXciteOSAの治療プロトコル</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">1日20分</span>
+            <span class="stat-label">起きている状態で装着する時間(導入期6週間、以降は週1回)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">AHI 15未満</span>
+            <span class="stat-label">FDAが承認した対象範囲(いびき・軽度の無呼吸)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「FDA authorizes eXciteOSA device for snoring and mild sleep apnea」", url: "https://aasm.org/fda-authorizes-exciteosa-device-snoring-sleep-apnea/" },
+      { label: "Baptista PM, et al. “Daytime Neuromuscular Electrical Therapy of Tongue Muscles in Improving Snoring in Individuals with Primary Snoring and Mild Obstructive Sleep Apnea.” J Clin Med. 2021;10(9):1883.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8123870/" }
+    ]
   }
 ];
 
