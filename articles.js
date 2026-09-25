@@ -1174,6 +1174,47 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「FDA authorizes eXciteOSA device for snoring and mild sleep apnea」", url: "https://aasm.org/fda-authorizes-exciteosa-device-snoring-sleep-apnea/" },
       { label: "Baptista PM, et al. “Daytime Neuromuscular Electrical Therapy of Tongue Muscles in Improving Snoring in Individuals with Primary Snoring and Mild Obstructive Sleep Apnea.” J Clin Med. 2021;10(9):1883.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8123870/" }
     ]
+  },
+  {
+    title: "夜中の胸焼け、実は無呼吸のサインかもしれません",
+    date: "2026-09-25",
+    conclusion: "睡眠時無呼吸のある人はない人に比べてGERD(胃食道逆流症)を合併しやすく、両者は互いを悪化させ合う関係にあることが分かっています。",
+    body: "夜中に胸焼けで目が覚める、酸っぱいものが喉に上がってくる感じがする——そんな経験、実は無呼吸が関わっているかもしれません。米国の大規模な入院患者データを使った調査では、GERD(胃食道逆流症)のある人のうち12.21%が無呼吸も併せ持ち、これは一般人口でのOSAの割合のおよそ3倍にあたるそうです。逆に無呼吸のある人では、ない人に比べてGERDがおよそ2倍多く見られたとも報告されています。仕組みとしては、呼吸が止まった拍子に胸の中の圧力が急に下がり、胃の内容物が食道へ引き戻されやすくなると考えられています。さらに逆流による喉の刺激で目が覚めやすくなり、無呼吸もかえって悪化しやすいという悪循環です。実際、CPAP治療を続けると夜間の逆流症状が和らいだという報告もあります。胸焼けと同時にいびきや日中の眠気にも心当たりがあるなら、消化器内科だけでなく睡眠外来にも相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:GERD(胃食道逆流症)患者における睡眠時無呼吸(OSA)の併存傾向</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">一般人口<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:33.3%"></span></span>
+            <span class="bar-value">1.0倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">GERD患者</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">約3.0倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Mahfouz R, et al. Cureus. 2022;14(3):e22810(米国全国入院患者データベース、GERD患者におけるOSA併存率と一般人口の比較)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:GERDとOSAをめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">12.21%</span>
+            <span class="stat-label">GERD患者のうち睡眠時無呼吸(OSA)も併せ持っていた割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約2倍</span>
+            <span class="stat-label">OSAのある人で、ない人と比べてGERDがみられた頻度</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Mahfouz R et al. “The Relationship Between Obstructive Sleep Apnea (OSA) and Gastroesophageal Reflux Disease (GERD) in Inpatient Settings: A Nationwide Study.” Cureus. 2022;14(3):e22810.", url: "https://pubmed.ncbi.nlm.nih.gov/35399477/" },
+      { label: "Sleep Foundation「How to Sleep Better with Acid Reflux」", url: "https://www.sleepfoundation.org/physical-health/gerd-and-sleep" }
+    ]
   }
 ];
 
