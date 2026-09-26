@@ -1215,6 +1215,54 @@ const ARTICLES = [
       { label: "Mahfouz R et al. “The Relationship Between Obstructive Sleep Apnea (OSA) and Gastroesophageal Reflux Disease (GERD) in Inpatient Settings: A Nationwide Study.” Cureus. 2022;14(3):e22810.", url: "https://pubmed.ncbi.nlm.nih.gov/35399477/" },
       { label: "Sleep Foundation「How to Sleep Better with Acid Reflux」", url: "https://www.sleepfoundation.org/physical-health/gerd-and-sleep" }
     ]
+  },
+  {
+    title: "無呼吸なのに、いびきをかかない人もいるって知っていますか",
+    date: "2026-09-26",
+    conclusion: "同じ「無呼吸」でも、脳が呼吸の指令そのものを止めてしまう「中枢性」というタイプがあり、心不全の人では治療法の選び方が生死を分けることもあります。",
+    body: "これまで紹介してきた無呼吸は、喉の奥が物理的にふさがる「閉塞性(OSA)」というタイプでした。でも実は、脳が「呼吸をしなさい」という指令そのものを一時的に出し忘れてしまう「中枢性睡眠時無呼吸(CSA)」というタイプもあるんです。気道はふさがっていないので、いびきをあまりかかないまま呼吸が止まることも多く、周りも本人も気づきにくいのが特徴です。CSAは心不全の人に多く、心不全患者のおよそ3〜5割にみられるとも報告されています。厄介なのは、CPAPに似た「ASV」という機器で心臓の働きが弱った心不全患者の呼吸を無理に整えようとした大規模な臨床試験で、むしろ死亡リスクが上がってしまったという意外な結果が出たこと。良かれと思った治療が裏目に出ることもあるという、医療の難しさを教えてくれる話です。だからこそ自己判断で機器を選ばず、専門医の検査を通して自分の無呼吸のタイプを正しく見極めることが何より大切なんです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:主な無呼吸のタイプ比較</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th></th><th>閉塞性(OSA)</th><th>中枢性(CSA)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>原因</td><td>喉の奥が物理的に塞がる</td><td>脳からの呼吸の指令が一時的に止まる</td></tr>
+              <tr><td>いびき</td><td>大きいことが多い</td><td>目立たないことも多い</td></tr>
+              <tr><td>多い背景</td><td>肥満・顎の形など</td><td>心不全・脳卒中など</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:SERVE-HF試験 ASV治療群の死亡リスク(対照群を基準としたハザード比)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">対照群<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:74.6%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">ASV治療群<br><span class="bar-sub">全死亡</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:95.5%"></span></span>
+            <span class="bar-value">1.28倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">ASV治療群<br><span class="bar-sub">心血管死亡</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.34倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Cowie MR, et al. N Engl J Med. 2015;373:1095-1105(SERVE-HF試験、心不全患者を対象としたハザード比)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Cowie MR et al. “Adaptive Servo-Ventilation for Central Sleep Apnea in Systolic Heart Failure.” N Engl J Med. 2015;373:1095-1105.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1506459" },
+      { label: "Mayo Clinic「Central sleep apnea - Symptoms and causes」", url: "https://www.mayoclinic.org/diseases-conditions/central-sleep-apnea/symptoms-causes/syc-20352109" }
+    ]
   }
 ];
 
