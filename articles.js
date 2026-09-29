@@ -1310,6 +1310,59 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「Men using CPAP see improvement in sexual function, satisfaction」", url: "https://aasm.org/men-using-cpap-see-improvement-in-sexual-function-satisfaction/" },
       { label: "Pang KH, Tong KS, Muneer A, et al. “The association between obstructive sleep apnoea and erectile dysfunction: a systematic review and meta-analysis.” Int J Impot Res. 2026.", url: "https://www.nature.com/articles/s41443-026-01315-7" }
     ]
+  },
+  {
+    title: "睡眠時無呼吸、実は「聞こえ」にも影響しているって知っていますか",
+    date: "2026-09-29",
+    conclusion: "睡眠時無呼吸のある人はない人に比べて難聴になりやすく、8年間の追跡調査では新たに難聴を発症するリスクが約1.3倍高いという結果も出ています。",
+    body: "「最近テレビの音量を上げがち」「電話の声が聞き取りにくい」——それ、加齢のせいだけじゃないかもしれません。睡眠時無呼吸のある人はない人に比べて難聴になりやすいことが、20件の研究をまとめたメタ解析で示されており、特に中音域の聞こえにくさが目立つ傾向がありました。さらに米国の高齢者を8年間追跡した調査でも、無呼吸のリスクが高い人はそうでない人に比べ、新たに難聴を発症するリスクが約1.3倍高いという結果が出ています。呼吸が止まるたびに血中の酸素が下がり、それが繰り返されることで内耳の聴覚を支える細胞にダメージが及ぶのではと考えられています。加えて、いびきそのものの大きな音が耳に負担をかけている可能性も指摘されています。「聞こえ」の変化は年のせいと片付けられがちですが、背景にいびきや無呼吸が隠れていることもあるんです。耳鼻科の検査と合わせて、睡眠外来にも相談してみると新しい発見があるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:睡眠時無呼吸(OSA)と難聴の関連(20件のメタ解析、オッズ比)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">中音域の聞こえにくさ</p>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸なし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:65.8%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸あり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.52倍</span>
+          </div>
+          <p class="bar-group-label">高音域の聞こえにくさ</p>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸なし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:65.8%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸あり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:78.3%"></span></span>
+            <span class="bar-value">1.19倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Kasemsuk N, et al. Otolaryngol Head Neck Surg. 2022(20件・34,442人のメタ解析、オッズ比)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:難聴とOSAをめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">1.34倍</span>
+            <span class="stat-label">無呼吸リスクが高い高齢者が8年間で新たに難聴を発症した調整ハザード比</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">34,442人</span>
+            <span class="stat-label">OSAと難聴の関連を調べた20件の研究を統合したメタ解析の対象者数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Jiang K, et al. “Obstructive sleep apnea and functional hearing loss over 8 years: results from the National Health and Aging Trends Study.” Am J Epidemiol. 2026;195(6):1563.", url: "https://pubmed.ncbi.nlm.nih.gov/41526194/" },
+      { label: "Sleep Foundation「New Studies Link Sleep Problems and Hearing Loss」", url: "https://www.sleepfoundation.org/sleep-news/new-studies-link-sleep-problems-and-hearing-loss" }
+    ]
   }
 ];
 
