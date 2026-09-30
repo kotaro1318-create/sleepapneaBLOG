@@ -1363,6 +1363,52 @@ const ARTICLES = [
       { label: "Jiang K, et al. “Obstructive sleep apnea and functional hearing loss over 8 years: results from the National Health and Aging Trends Study.” Am J Epidemiol. 2026;195(6):1563.", url: "https://pubmed.ncbi.nlm.nih.gov/41526194/" },
       { label: "Sleep Foundation「New Studies Link Sleep Problems and Hearing Loss」", url: "https://www.sleepfoundation.org/sleep-news/new-studies-link-sleep-problems-and-hearing-loss" }
     ]
+  },
+  {
+    title: "自分の無呼吸リスク、実は8つの質問でざっくり分かるんです",
+    date: "2026-09-30",
+    conclusion: "STOP-Bangという8項目の簡単な質問票を使うと、専門検査を受けなくても自分の無呼吸リスクをある程度見積もることができます。",
+    body: "「自分はどれくらい無呼吸のリスクがあるんだろう」そんな疑問に答えてくれるのが、STOP-Bang(ストップ・バン)という問診票です。いびき(S)、日中の疲労感(T)、呼吸停止を指摘された経験(O)、高血圧(P)、体格(B)、年齢(A)、首まわりの太さ(N)、性別(G)の8項目にYes/Noで答えるだけの、シンプルな仕組みなんです。もともと手術前の患者さんのリスクを見積もるために作られたものですが、その後の検証研究で、当てはまる項目が3つ以上だと中等度以上の無呼吸を9割以上の精度で拾い上げられると確認されています。当てはまる項目が多いほど、実際に無呼吸がある確率もじわじわ上がっていくんです。あくまで簡易的な目安で診断そのものではありませんが、「病院に行くべきか迷っている」人には背中を押してくれる材料になるはず。気になる項目が多かった人は、一度睡眠外来やCPAPを扱うクリニックに相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:STOP-Bang問診票の8項目(自己チェック用)</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>項目</th><th>チェック内容</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>S(いびき)</td><td>大きないびきをかく</td></tr>
+              <tr><td>T(疲労感)</td><td>日中に強い疲れ・眠気がある</td></tr>
+              <tr><td>O(無呼吸の目撃)</td><td>睡眠中に呼吸が止まると指摘された</td></tr>
+              <tr><td>P(高血圧)</td><td>高血圧の治療を受けている</td></tr>
+              <tr><td>B(体格)</td><td>BMIが35を超える</td></tr>
+              <tr><td>A(年齢)</td><td>50歳を超える</td></tr>
+              <tr><td>N(首まわり)</td><td>首まわりが太い(目安:男性43cm・女性41cm超)</td></tr>
+              <tr><td>G(性別)</td><td>男性である</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:スコアが上がるほど無呼吸の確率も上がる</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">18%→60%</span>
+            <span class="stat-label">スコアが0〜2から7〜8に上がると、中等度以上の無呼吸がある確率もこれだけ上昇</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">93%</span>
+            <span class="stat-label">スコア3以上で中等度以上の無呼吸(AHI 15超)を見つけ出す感度</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Chung F, et al. Chest. 2016;149(3):631-638</p>
+      </div>
+    `,
+    sources: [
+      { label: "Chung F et al. “STOP-Bang Questionnaire: A Practical Approach to Screen for Obstructive Sleep Apnea.” Chest. 2016;149(3):631-638.", url: "https://pubmed.ncbi.nlm.nih.gov/26378880/" },
+      { label: "Sleep Foundation「STOP-Bang Score」", url: "https://www.sleepfoundation.org/sleep-apnea/stop-bang-score" }
+    ]
   }
 ];
 
