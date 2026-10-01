@@ -1409,6 +1409,48 @@ const ARTICLES = [
       { label: "Chung F et al. “STOP-Bang Questionnaire: A Practical Approach to Screen for Obstructive Sleep Apnea.” Chest. 2016;149(3):631-638.", url: "https://pubmed.ncbi.nlm.nih.gov/26378880/" },
       { label: "Sleep Foundation「STOP-Bang Score」", url: "https://www.sleepfoundation.org/sleep-apnea/stop-bang-score" }
     ]
+  },
+  {
+    title: "いくら寝ても眠気が取れない、それって「特発性過眠症」という病気かもしれません",
+    date: "2026-10-01",
+    conclusion: "いくら長く眠っても眠気が取れない「特発性過眠症」という病気があり、2021年に米国で世界初の治療薬が承認されました。",
+    body: "いくら長く眠っても、日中の強烈な眠気がどうしても取れない——そんな症状に心当たりはありませんか?これまでの記事で紹介してきた日中の眠気の多くは、無呼吸によって眠りが細切れになることが原因でした。でも実は、呼吸にも睡眠時間にも問題がないのに原因不明の眠気が続く「特発性過眠症」という、全く別の病気もあるんです。1日に11〜14時間も眠ってしまうことがあり、たっぷり昼寝をしても全くスッキリしない、起きた直後にひどくぼーっとして混乱してしまう「睡眠酩酊」が起きることも少なくありません。原因は今のところはっきり分かっておらず、10〜30代の若い世代、特に女性に多いとされています。長年治療薬がない病気でしたが、2021年に米国でこの病気に向けた世界初の飲み薬が承認され、治療の選択肢がようやく広がり始めました。「ただの寝不足」や「怠け」と誤解されやすい病気なので、心当たりがあれば睡眠専門医に相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:無呼吸による眠気と特発性過眠症の違い</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th></th><th>無呼吸(OSA)による眠気</th><th>特発性過眠症</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>原因</td><td>呼吸停止による眠りの分断</td><td>原因不明</td></tr>
+              <tr><td>睡眠時間</td><td>長くても熟睡感がない</td><td>1日11〜14時間と長い</td></tr>
+              <tr><td>昼寝の効果</td><td>比較的スッキリすることも</td><td>長時間寝てもスッキリしない</td></tr>
+              <tr><td>治療の基本</td><td>CPAPなどで気道を確保</td><td>2021年承認の飲み薬など</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:特発性過眠症をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">11〜14時間</span>
+            <span class="stat-label">特発性過眠症の人が1日に眠る時間の目安</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2021年</span>
+            <span class="stat-label">米国FDAが特発性過眠症向けの治療薬を世界で初めて承認した年</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Sleep Foundation「Idiopathic Hypersomnia」、AASM「FDA approves new indication for Xywav for idiopathic hypersomnia」</p>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Idiopathic Hypersomnia」", url: "https://www.sleepfoundation.org/hypersomnia/idiopathic-hypersomnia" },
+      { label: "American Academy of Sleep Medicine「FDA approves new indication for Xywav for idiopathic hypersomnia」", url: "https://aasm.org/fda-approves-new-indication-for-xywav-for-idiopathic-hypersomnia/" }
+    ]
   }
 ];
 
