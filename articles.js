@@ -1451,6 +1451,47 @@ const ARTICLES = [
       { label: "Sleep Foundation「Idiopathic Hypersomnia」", url: "https://www.sleepfoundation.org/hypersomnia/idiopathic-hypersomnia" },
       { label: "American Academy of Sleep Medicine「FDA approves new indication for Xywav for idiopathic hypersomnia」", url: "https://aasm.org/fda-approves-new-indication-for-xywav-for-idiopathic-hypersomnia/" }
     ]
+  },
+  {
+    title: "全盲の人に多い「非24時間」の体内時計のズレ、実は治療薬があるんです",
+    date: "2026-10-02",
+    conclusion: "全盲の人の半数以上にみられる「非24時間睡眠覚醒障害」は、タシメルテオンという薬を毎日決まった時刻に飲み続けることで体内時計を24時間周期に同調させられます。",
+    body: "私たちの体内時計は、本来24時間よりわずかに長い周期で動いています。毎朝光を浴びることで、このズレが24時間にリセットされているんですが、目から光の刺激が届かない全盲の人ではこのリセットがうまく働きません。その結果、眠くなる時間も起きる時間も毎日少しずつ後ろへずれていってしまうんです。これが「非24時間睡眠覚醒障害」で、全盲の人の半数以上にみられるとされています。体内時計と実際の生活時間がたまたま合う時期は調子よく過ごせても、数週間後にはずれが大きくなり、強い眠気や不眠が周期的に押し寄せ、仕事や学業にも影響しがちです。長らく有効な治療は限られていましたが、2014年に米国でタシメルテオンという薬が承認され、臨床試験でも体内時計が24時間に同調する割合がプラセボよりはっきり高いと確認されています。「夜型だから仕方ない」では片付けられない症状かもしれないので、思い当たる人は睡眠外来に相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:タシメルテオンによる体内時計の同調率(SET試験、投与1か月時点)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">プラセボ群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:15%"></span></span>
+            <span class="bar-value">3%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">タシメルテオン群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">20%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Lockley SW, et al. Lancet. 2015;386:1754-1764(SET試験、投与1か月時点での体内時計の同調率)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:非24時間睡眠覚醒障害をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">50%超</span>
+            <span class="stat-label">全盲の人のうち非24時間睡眠覚醒障害がみられるとされる割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2014年</span>
+            <span class="stat-label">米国FDAがタシメルテオンを本症の治療薬として承認した年</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Education (AASM)「Non-24-Hour Sleep Wake Rhythm」", url: "https://sleepeducation.org/sleep-disorders/non-24-hour-sleep-wake-rhythm/" },
+      { label: "Lockley SW et al. “Tasimelteon for non-24-hour sleep-wake disorder in totally blind people (SET and RESET): two multicentre, randomised, double-masked, placebo-controlled phase 3 trials.” Lancet. 2015;386:1754-1764.", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60031-9/abstract" }
+    ]
   }
 ];
 
