@@ -1492,6 +1492,59 @@ const ARTICLES = [
       { label: "Sleep Education (AASM)「Non-24-Hour Sleep Wake Rhythm」", url: "https://sleepeducation.org/sleep-disorders/non-24-hour-sleep-wake-rhythm/" },
       { label: "Lockley SW et al. “Tasimelteon for non-24-hour sleep-wake disorder in totally blind people (SET and RESET): two multicentre, randomised, double-masked, placebo-controlled phase 3 trials.” Lancet. 2015;386:1754-1764.", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60031-9/abstract" }
     ]
+  },
+  {
+    title: "心不全に伴う無呼吸を治すはずの機械が、実は逆効果だったことがあるんです",
+    date: "2026-10-03",
+    conclusion: "心不全に伴う「中枢性」無呼吸にASVという呼吸補助機器を使うと、かえって死亡リスクが上がることが大規模臨床試験で示されました。",
+    body: "睡眠中に呼吸が止まる「無呼吸」には、喉が塞がる閉塞性(OSA)のほかに、脳から呼吸筋への指令が途切れる「中枢性睡眠時無呼吸」というタイプもあるんです。心臓のポンプ機能が落ちた心不全の人に多く、呼吸が徐々に強まってまた弱まる「チェーンストークス呼吸」という独特のパターンを示します。CPAPだけでは抑えきれないことがあり、呼吸の強さを機械が自動調整する「ASV(適応補助換気)」という装置が開発されました。ところが2015年の大規模臨床試験で、収縮機能が大きく低下した心不全患者にASVを使ったグループのほうが、使わなかったグループより心血管死や全死亡のリスクが高いという、予想外の結果が出てしまったんです。これを受け、現在は左室駆出率が低い心不全患者への新規のASV使用は控えるよう勧められています。普段のOSAへのCPAP治療とは別の話なので、心当たりがある人は自己判断で機器を選ばず専門医の指示に従いましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:ASV治療群と対照群の死亡リスク(SERVE-HF試験、ハザード比)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">全死亡</p>
+          <div class="bar-row">
+            <span class="bar-label">対照群<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:74.6%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">ASV群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:95.5%"></span></span>
+            <span class="bar-value">1.28倍</span>
+          </div>
+          <p class="bar-group-label">心血管死</p>
+          <div class="bar-row">
+            <span class="bar-label">対照群<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:74.6%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">ASV群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.34倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Cowie MR, et al. N Engl J Med. 2015;373:1095-1105(ハザード比、中央値31か月の追跡)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:SERVE-HF試験の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">1,325人</span>
+            <span class="stat-label">試験に参加した慢性心不全患者の人数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">45%以下</span>
+            <span class="stat-label">参加条件となった左室駆出率の基準</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Cowie MR et al. “Adaptive Servo-Ventilation for Central Sleep Apnea in Systolic Heart Failure.” N Engl J Med. 2015;373:1095-1105.", url: "https://pubmed.ncbi.nlm.nih.gov/26323938/" },
+      { label: "Mayo Clinic「Central sleep apnea - Symptoms and causes」", url: "https://www.mayoclinic.org/diseases-conditions/central-sleep-apnea/symptoms-causes/syc-20352109" }
+    ]
   }
 ];
 
