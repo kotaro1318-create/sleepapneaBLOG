@@ -1545,6 +1545,52 @@ const ARTICLES = [
       { label: "Cowie MR et al. “Adaptive Servo-Ventilation for Central Sleep Apnea in Systolic Heart Failure.” N Engl J Med. 2015;373:1095-1105.", url: "https://pubmed.ncbi.nlm.nih.gov/26323938/" },
       { label: "Mayo Clinic「Central sleep apnea - Symptoms and causes」", url: "https://www.mayoclinic.org/diseases-conditions/central-sleep-apnea/symptoms-causes/syc-20352109" }
     ]
+  },
+  {
+    title: "睡眠時無呼吸、実は緑内障のリスクとも関係しているって知っていますか",
+    date: "2026-10-04",
+    conclusion: "睡眠時無呼吸のある人はない人より緑内障になりやすく、CPAPを使う重症の人ほどそのリスクは高い傾向がみられます。",
+    body: "「CPAPを頑張って続けているのに、緑内障になりやすいなんて」と驚く人もいるかもしれません。2026年に発表された、米国の医療記録1,250万人以上を使った大規模な観察研究で、無呼吸のある人はない人に比べて緑内障になるリスクが明らかに高く、しかもCPAPを使っている人ではそのリスクがさらに高いという結果が出ました。ただし誤解しないでほしいのは、「CPAPのせいで緑内障になる」という話ではない点です。研究チームによれば、CPAPを使う人はもともと無呼吸が重く体への負担も大きかった可能性が高く、それが緑内障リスクを押し上げたと考えられています。実際、絶対的なリスクの差はそこまで大きくなく、10年間の発症率も数パーセントの差に留まっています。無呼吸が視神経への血流に影響することは以前から指摘されてきました。CPAPをやめる理由にはならないので、治療は続けつつ、定期的な眼科検診も忘れずに受けておくと安心です。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:睡眠時無呼吸と緑内障発症リスク(調整ハザード比)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">対照群<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:47.6%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸<br><span class="bar-sub">CPAP未使用</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:60.5%"></span></span>
+            <span class="bar-value">1.27倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">無呼吸<br><span class="bar-sub">CPAP使用</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">2.10倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Nishida T, et al. Ophthalmology Glaucoma. 2026(電子カルテデータに基づく大規模コホート研究、調整ハザード比)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:研究の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">1,251万人超</span>
+            <span class="stat-label">睡眠時無呼吸の評価を受けた成人のうち、解析対象となった人数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">3.86%</span>
+            <span class="stat-label">CPAPを使用する無呼吸患者における10年後の緑内障発症率(対照群は1.58%)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Nishida T et al. “Positive Airway Pressure and Long-Term Glaucoma Risk in Obstructive Sleep Apnea: A Cohort Study.” Ophthalmology Glaucoma. 2026.", url: "https://pubmed.ncbi.nlm.nih.gov/42235822/" },
+      { label: "Sleep Education (AASM)「Sleep apnea may increase risk of blindness」", url: "https://sleepeducation.org/sleep-apnea-may-increase-risk-blindness/" }
+    ]
   }
 ];
 
