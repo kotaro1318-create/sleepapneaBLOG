@@ -1591,6 +1591,46 @@ const ARTICLES = [
       { label: "Nishida T et al. “Positive Airway Pressure and Long-Term Glaucoma Risk in Obstructive Sleep Apnea: A Cohort Study.” Ophthalmology Glaucoma. 2026.", url: "https://pubmed.ncbi.nlm.nih.gov/42235822/" },
       { label: "Sleep Education (AASM)「Sleep apnea may increase risk of blindness」", url: "https://sleepeducation.org/sleep-apnea-may-increase-risk-blindness/" }
     ]
+  },
+  {
+    title: "そのCPAP洗浄グッズ、オゾンや紫外線を使うタイプには実は注意が必要なんです",
+    date: "2026-10-05",
+    conclusion: "オゾンガスや紫外線を使ったCPAP洗浄機器は米国FDAの承認を受けておらず、安全性が確認されていないため、石けんと水での基本の洗浄が推奨されています。",
+    body: "毎日使うCPAPのマスクやチューブ、できるだけきれいに保ちたいですよね。そこで人気なのが、オゾンガスや紫外線(UV)を使って除菌をうたう据え置き型の洗浄機器です。でも実はこれらの機器、米国FDAの承認を受けたものではないんです。FDAは2020年、安全性や効果が確認されていないとして注意を呼びかけました。2017〜2019年には、オゾンガス式の製品を使った患者から咳や呼吸困難、鼻の刺激、頭痛、喘息発作などの訴えが11件報告されたそうです。オゾンガスは濃度が高いと呼吸器に負担をかけ、UV光も使い方を誤れば火傷や目のダメージにつながりかねません。FDAが勧めているのは拍子抜けするほどシンプルな方法で、CPAPメーカーの説明書どおりマスクやチューブを石けんと水で定期的に洗うことなんです。便利グッズに頼りたくなる気持ちは分かりますが、特別な洗浄機器を買う前に、まず基本のお手入れを見直してみるのがよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:CPAPの洗浄方法比較</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>方法</th><th>FDAの位置づけ</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>石けんと水(メーカー推奨)</td><td>推奨される基本の洗浄方法</td></tr>
+              <tr><td>オゾンガス式洗浄機</td><td>未承認、呼吸器症状の報告あり</td></tr>
+              <tr><td>紫外線(UV)式洗浄機</td><td>未承認、安全性・効果とも未確認</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:FDAが注意を呼びかけた背景データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">11件</span>
+            <span class="stat-label">2017〜2019年にオゾンガス式製品の使用後に報告された呼吸器症状などの件数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2020年</span>
+            <span class="stat-label">FDAがオゾン・UV式のCPAP洗浄機器について安全性情報を発表した年</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "FDA「Do You Need a Device That Claims to Clean a CPAP Machine?」", url: "https://www.fda.gov/consumers/consumer-updates/do-you-need-device-claims-clean-cpap-machine" },
+      { label: "American Academy of Sleep Medicine「FDA safety: CPAP cleaning devices (ozone, ultraviolet light)」", url: "https://aasm.org/fda-safety-cpap-cleaning-devices-ozone-ultraviolet-light/" }
+    ]
   }
 ];
 
