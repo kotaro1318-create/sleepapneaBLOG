@@ -1631,6 +1631,47 @@ const ARTICLES = [
       { label: "FDA「Do You Need a Device That Claims to Clean a CPAP Machine?」", url: "https://www.fda.gov/consumers/consumer-updates/do-you-need-device-claims-clean-cpap-machine" },
       { label: "American Academy of Sleep Medicine「FDA safety: CPAP cleaning devices (ozone, ultraviolet light)」", url: "https://aasm.org/fda-safety-cpap-cleaning-devices-ozone-ultraviolet-light/" }
     ]
+  },
+  {
+    title: "CPAPが合わない人に、実は「鼻に貼るだけ」のシートという選択肢もあるんです",
+    date: "2026-10-06",
+    conclusion: "鼻に貼るだけの使い捨て弁デバイス「nasal EPAP」は軽度〜中等度の無呼吸に有効で、臨床試験では無呼吸低呼吸指数が平均53%改善したと報告されています。",
+    body: "CPAPのマスクがどうしても苦手、という人は意外と多いものです。そんな人向けに「nasal EPAP」という、鼻に貼るだけの使い捨てデバイスがあるって知っていますか。製品名は「Provent」で、米国では2009年にFDAの承認を受けています。仕組みは単純で、小さな一方向弁を鼻の穴に貼りつけ、息を吸うときはほぼ抵抗なく空気を通しますが、吐くときだけ弁が閉じて抵抗が生まれるんです。この吐く息の圧力が気道を内側から支え、塞がるのを防ぐと考えられています。18件の研究を統合した解析では、無呼吸低呼吸指数(AHI)が平均27.3回から12.8回まで、53%ほど改善したそうです。日中の眠気を測る尺度も改善したと報告されています。ただし効果が出るのは半数程度ともされています。マスクなしで試せる手軽さは魅力なので、CPAPがつらいと感じている人は、一度医師に相談してみる価値があるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:nasal EPAP使用によるAHI(無呼吸低呼吸指数)の変化</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">使用前</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">27.3回/時</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">使用後</span>
+            <span class="bar-track"><span class="bar-fill" style="width:46.8%"></span></span>
+            <span class="bar-value">12.8回/時</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Riaz M, et al. Sleep Disord. 2015(18件の研究、計920人のデータを統合したメタ解析のうちAHIを報告した345人の平均値)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:研究の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">53.2%</span>
+            <span class="stat-label">メタ解析におけるAHIの平均相対改善率</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2009年</span>
+            <span class="stat-label">米国でProvent(nasal EPAP)がFDAの承認を受けた年</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Riaz M, et al. “Nasal Expiratory Positive Airway Pressure Devices (Provent) for OSA: A Systematic Review and Meta-Analysis.” Sleep Disord. 2015.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4699057/" },
+      { label: "Berry RB, Kryger MH, Massie CA. “A Novel Nasal Expiratory Positive Airway Pressure (EPAP) Device for the Treatment of Obstructive Sleep Apnea: A Randomized Controlled Trial.” SLEEP. 2011;34(4):479-485.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3065258/" }
+    ]
   }
 ];
 
