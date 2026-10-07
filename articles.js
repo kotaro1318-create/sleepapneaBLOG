@@ -1672,6 +1672,70 @@ const ARTICLES = [
       { label: "Riaz M, et al. “Nasal Expiratory Positive Airway Pressure Devices (Provent) for OSA: A Systematic Review and Meta-Analysis.” Sleep Disord. 2015.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4699057/" },
       { label: "Berry RB, Kryger MH, Massie CA. “A Novel Nasal Expiratory Positive Airway Pressure (EPAP) Device for the Treatment of Obstructive Sleep Apnea: A Randomized Controlled Trial.” SLEEP. 2011;34(4):479-485.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3065258/" }
     ]
+  },
+  {
+    title: "COPDと無呼吸が重なる『二重苦』、実は治療でちゃんと取り戻せるんです",
+    date: "2026-10-07",
+    conclusion: "COPDと睡眠時無呼吸を併発する「オーバーラップ症候群」は未治療だと死亡リスクが上がりますが、CPAP治療を受けるとCOPD単独とほぼ同じ水準まで戻ることが分かっています。",
+    body: "COPD(慢性閉塞性肺疾患)は、タバコの煙などで肺そのものが傷み、息苦しさや咳が続く病気です。実はCOPDの患者さんの中には、睡眠時無呼吸も併せ持つ人が少なくありません。この組み合わせは「オーバーラップ症候群」と呼ばれています。スペインで651人を9.4年間追跡した研究では、無呼吸を併発しながら未治療だった人は、COPD単独の人に比べて死亡リスクが1.79倍、入院が必要になるほどの急性増悪のリスクも1.70倍高いと報告されました。日中は肺そのものが酸素を取り込みにくく、夜は無呼吸でさらに酸素が下がる「二重の負担」が重なるためと考えられています。ただし朗報もあり、同じ研究でCPAP治療を受けていたオーバーラップ症候群の人は、死亡リスクも増悪リスクもCOPD単独の人とほぼ同じ水準まで下がっていました。COPDの治療中に「いびきがひどい」「日中も眠い」と感じるなら、睡眠外来にも相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:オーバーラップ症候群のリスク(COPD単独を基準とした相対リスク、9.4年追跡)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">死亡リスク</p>
+          <div class="bar-row">
+            <span class="bar-label">COPD単独<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:55.9%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">オーバーラップ<br><span class="bar-sub">CPAP未治療</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.79倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">オーバーラップ<br><span class="bar-sub">CPAP治療群</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:55.9%"></span></span>
+            <span class="bar-value">基準と同程度</span>
+          </div>
+          <p class="bar-group-label">急性増悪による入院リスク</p>
+          <div class="bar-row">
+            <span class="bar-label">COPD単独<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:58.8%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">オーバーラップ<br><span class="bar-sub">CPAP未治療</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.70倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">オーバーラップ<br><span class="bar-sub">CPAP治療群</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:58.8%"></span></span>
+            <span class="bar-value">基準と同程度</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Marin JM, et al. Am J Respir Crit Care Med. 2010;182(3):325-331(651人、追跡期間中央値9.4年、調整相対リスク)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:オーバーラップ症候群の併発率(系統的レビュー、38研究・約27,064人)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">7.6〜55.7%</span>
+            <span class="stat-label">睡眠時無呼吸の患者のうち、COPDも併せ持つ割合(研究間の幅)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2.9〜65.9%</span>
+            <span class="stat-label">COPDの患者のうち、睡眠時無呼吸も併せ持つ割合(研究間の幅)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Czerwaty K, et al. Biomedicines. 2023;11(1):16</p>
+      </div>
+    `,
+    sources: [
+      { label: "Marin JM, Soriano JB, Carrizo SJ, Boldova A, Celli BR. “Outcomes in Patients with Chronic Obstructive Pulmonary Disease and Obstructive Sleep Apnea: The Overlap Syndrome.” Am J Respir Crit Care Med. 2010;182(3):325-331.", url: "https://pubmed.ncbi.nlm.nih.gov/20378728/" },
+      { label: "Czerwaty K, Dżaman K, Sobczyk KM, Sikorska KI. “The Overlap Syndrome of Obstructive Sleep Apnea and Chronic Obstructive Pulmonary Disease: A Systematic Review.” Biomedicines. 2023;11(1):16.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9856172/" }
+    ]
   }
 ];
 
