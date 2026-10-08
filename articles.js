@@ -1736,6 +1736,47 @@ const ARTICLES = [
       { label: "Marin JM, Soriano JB, Carrizo SJ, Boldova A, Celli BR. “Outcomes in Patients with Chronic Obstructive Pulmonary Disease and Obstructive Sleep Apnea: The Overlap Syndrome.” Am J Respir Crit Care Med. 2010;182(3):325-331.", url: "https://pubmed.ncbi.nlm.nih.gov/20378728/" },
       { label: "Czerwaty K, Dżaman K, Sobczyk KM, Sikorska KI. “The Overlap Syndrome of Obstructive Sleep Apnea and Chronic Obstructive Pulmonary Disease: A Systematic Review.” Biomedicines. 2023;11(1):16.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9856172/" }
     ]
+  },
+  {
+    title: "重い肥満のある人の息苦しさ、実は『肥満低換気症候群』が隠れているかもしれません",
+    date: "2026-10-08",
+    conclusion: "肥満低換気症候群は日中も呼吸が浅く二酸化炭素がたまる病気で、治療を始めないと死亡リスクが無治療の肥満の人の4倍にもなります。",
+    body: "肥満低換気症候群(OHS)は、高度な肥満のある人の一部にみられる病気で、起きているあいだも呼吸が浅くなり、血液中に二酸化炭素がたまってしまうんです。無呼吸(OSA)と似ていますが、肥満とOSAはお互いにリスクを高め合う関係にあり、日中も二酸化炭素がたまるのがOHSの特徴です。症状は強い眠気やだるさ、頭痛など地味なものが多く、「ただの疲れ」で片付けられやすいのが厄介なところ。米国の調査では、入院患者のうちOHSと分かった人で退院時に治療が始められていたのはわずか13%、18か月後の死亡率はOHSのない肥満の人の9%に対して23%、ハザード比で4倍にものぼっていました。裏を返せば、早く見つけて治療を始めれば予後を大きく変えられるということです。CPAPや、それでも不十分な場合は非侵襲的陽圧換気(NIV)という選択肢もあるので、強い眠気が続く高度肥満の人は、睡眠外来に相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:退院後18か月の死亡率(肥満患者の追跡調査)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">肥満のみ<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:39.1%"></span></span>
+            <span class="bar-value">9%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">肥満低換気症候群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">23%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Nowbar S, et al. Am J Med. 2004;116(1):1-7(退院後18か月の死亡率、ハザード比4.0、95%信頼区間1.5-10.4)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:肥満低換気症候群をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">13%</span>
+            <span class="stat-label">入院したOHS患者のうち、退院時に治療(CPAPやNIVなど)が開始されていた割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">4.0倍</span>
+            <span class="stat-label">OHSのある人の死亡ハザード比(肥満のみの人を基準とした場合)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Pickwickian Syndrome (Obesity Hypoventilation Syndrome)」", url: "https://www.sleepfoundation.org/sleep-apnea/pickwickian-syndrome" },
+      { label: "Nowbar S, Burkart KM, Gonzales R, et al. “Obesity-Associated Hypoventilation in Hospitalized Patients: Prevalence, Effects, and Outcome.” Am J Med. 2004;116(1):1-7.", url: "https://pubmed.ncbi.nlm.nih.gov/14706658/" }
+    ]
   }
 ];
 
