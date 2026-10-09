@@ -1777,6 +1777,47 @@ const ARTICLES = [
       { label: "Sleep Foundation「Pickwickian Syndrome (Obesity Hypoventilation Syndrome)」", url: "https://www.sleepfoundation.org/sleep-apnea/pickwickian-syndrome" },
       { label: "Nowbar S, Burkart KM, Gonzales R, et al. “Obesity-Associated Hypoventilation in Hospitalized Patients: Prevalence, Effects, and Outcome.” Am J Med. 2004;116(1):1-7.", url: "https://pubmed.ncbi.nlm.nih.gov/14706658/" }
     ]
+  },
+  {
+    title: "痛み止めのオピオイドを長く使っていると、実は呼吸のパターンまで変わってしまうかもしれません",
+    date: "2026-10-09",
+    conclusion: "医療用オピオイドを長く使うと脳の呼吸指令が乱れやすくなり、高用量では約9割に不規則な呼吸パターンがみられたと報告されています。",
+    body: "がんの痛みや慢性的な腰痛などで、オピオイド系の痛み止めを長期間使っている人は少なくありません。実はこのオピオイド、睡眠中の呼吸パターンまで変えてしまうことがあるんです。ふつうのOSA(閉塞性睡眠時無呼吸)は喉の奥が塞がって起こりますが、オピオイドが引き起こすのは脳からの呼吸指令そのものが乱れる「中枢性」のタイプで、呼吸の深さがバラバラになる「運動失調性呼吸」と呼ばれるパターンになりがちです。米国の研究では、長期オピオイド使用者の70%にこの不規則な呼吸がみられた一方、同じ年齢・体格の非使用者では5%にとどまりました。しかもモルヒネ換算で1日200mg以上の高用量になると、その割合は92%まで跳ね上がったそうです。厄介なのは、このタイプにはふつうのCPAPがあまり効かないことがある点です。オピオイドを使っていて日中の眠気やいびきが気になる人は、自己判断で薬をやめず、まず主治医や睡眠専門医に相談してみてください。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:NREM睡眠中の不規則な呼吸(運動失調性呼吸)がみられた割合</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">非使用群<br><span class="bar-sub">対照</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:7.1%"></span></span>
+            <span class="bar-value">5.0%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">慢性オピオイド<br><span class="bar-sub">使用群</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">70%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Walker JM, et al. J Clin Sleep Med. 2007;3(5):455-461(各60人の後ろ向きコホート、年齢・性別・BMIをマッチさせた比較、p<0.001)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:高用量オピオイドと呼吸パターンをめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">92%</span>
+            <span class="stat-label">モルヒネ換算で1日200mg以上の群で不規則な呼吸がみられた割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">15.4倍</span>
+            <span class="stat-label">同じ高用量群でのオッズ比(p=0.017)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Walker JM, Farney RJ, Rhondeau SM, et al. “Chronic Opioid Use Is a Risk Factor for the Development of Central Sleep Apnea and Ataxic Breathing.” J Clin Sleep Med. 2007;3(5):455-461.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1978331/" },
+      { label: "Mayo Clinic「Central sleep apnea - Symptoms and causes」", url: "https://www.mayoclinic.org/diseases-conditions/central-sleep-apnea/symptoms-causes/syc-20352109" }
+    ]
   }
 ];
 
