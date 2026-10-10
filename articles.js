@@ -1818,6 +1818,52 @@ const ARTICLES = [
       { label: "Walker JM, Farney RJ, Rhondeau SM, et al. “Chronic Opioid Use Is a Risk Factor for the Development of Central Sleep Apnea and Ataxic Breathing.” J Clin Sleep Med. 2007;3(5):455-461.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC1978331/" },
       { label: "Mayo Clinic「Central sleep apnea - Symptoms and causes」", url: "https://www.mayoclinic.org/diseases-conditions/central-sleep-apnea/symptoms-causes/syc-20352109" }
     ]
+  },
+  {
+    title: "睡眠時無呼吸を放っておくと、実は腎臓の働きまで落としてしまうかもしれません",
+    date: "2026-10-10",
+    conclusion: "睡眠時無呼吸のある人は腎機能が悪化しやすく、重症なほど慢性腎臓病のリスクが上がることがメタ解析で示されています。",
+    body: "腎臓の病気というと、塩分の摂り過ぎや糖尿病、高血圧のイメージが強いかもしれません。でも実は、睡眠時無呼吸(OSA)も腎臓にじわじわ負担をかけている可能性があるんです。18件の研究をまとめたメタ解析では、OSAのある人はない人に比べて、たんぱく尿や腎機能の低下といった「腎アウトカムの悪化」が起こるオッズが1.77倍高く、無呼吸が重いほどそのリスクは上がり、中等度から重度の群では2.39倍にもなっていました。呼吸が止まるたびに血中の酸素が下がり、交感神経が過剰に働いて血管が収縮する状態が毎晩繰り返されることで、腎臓の細い血管にもダメージが及ぶと考えられています。逆に腎機能が落ちている人ほど無呼吸を併発しやすいという、双方向の関係も指摘されているんです。健康診断で「尿たんぱく」や「eGFR」を指摘されたことがある人は、いびきや日中の眠気も一緒に主治医に伝えてみると、思いがけない発見につながるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:OSAの重症度別 腎アウトカム悪化のオッズ比(18件のメタ解析)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">OSAなし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:41.8%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">軽度OSA</span>
+            <span class="bar-track"><span class="bar-fill" style="width:60.7%"></span></span>
+            <span class="bar-value">1.45倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">中等度〜重度<br><span class="bar-sub">OSA</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">2.39倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Hwu DW, et al. BMC Nephrol. 2017;18:313(18件・観察研究のメタ解析、オッズ比)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:腎アウトカムの内訳(同メタ解析のサブグループ)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">1.84倍</span>
+            <span class="stat-label">OSAのある人でたんぱく尿・アルブミン尿がみられるオッズ比</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">1.60倍</span>
+            <span class="stat-label">OSAのある人でeGFR低下(腎機能の低下)がみられるオッズ比</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Hwu DW, Lin KD, Lin KC, Lee YJ, Chang YH. “The Association of Obstructive Sleep Apnea and Renal Outcomes—A Systematic Review and Meta-Analysis.” BMC Nephrol. 2017;18:313.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5644098/" },
+      { label: "Abuyassin B, Sharma K, Ayas NT, Laher I. “Obstructive Sleep Apnea and Kidney Disease: A Potential Bidirectional Relationship?” J Clin Sleep Med. 2015;11(8):915-924.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4513269" }
+    ]
   }
 ];
 
