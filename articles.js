@@ -1864,6 +1864,49 @@ const ARTICLES = [
       { label: "Hwu DW, Lin KD, Lin KC, Lee YJ, Chang YH. “The Association of Obstructive Sleep Apnea and Renal Outcomes—A Systematic Review and Meta-Analysis.” BMC Nephrol. 2017;18:313.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5644098/" },
       { label: "Abuyassin B, Sharma K, Ayas NT, Laher I. “Obstructive Sleep Apnea and Kidney Disease: A Potential Bidirectional Relationship?” J Clin Sleep Med. 2015;11(8):915-924.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4513269" }
     ]
+  },
+  {
+    title: "その「時差ボケ」、実はちゃんとした診断基準がある立派な睡眠障害なんです",
+    date: "2026-10-11",
+    conclusion: "時差ボケは単なる疲れではなく、2つ以上の時間帯をまたぐ移動後に不眠や眠気が続く睡眠障害で、光とメラトニンの使い方次第で軽くできます。",
+    body: "飛行機で時間帯をいくつもまたいだあと、現地で眠れない、逆に日中ずっと眠くてだるい…そんな経験はありませんか?実はこれ「時差ボケ」で済ませがちですが、医学的には「時差ボケ障害」という、ちゃんと診断基準のある睡眠障害なんです。米国睡眠医学会の基準では、2つ以上の時間帯をまたぐ移動のあとに不眠や日中の強い眠気が出て、総睡眠時間が減っている状態を指します。体内時計が元の場所の時刻のままなのに、周りの明るさや生活リズムだけが先に変わってしまうことで起こるんです。対策として最も推奨度が高いのが、光を浴びるタイミングを工夫しつつ、適切な時間にメラトニンを使う方法。東向きの旅行なら出発の数日前から就寝を少しずつ前倒しし、朝に明るい光を浴びておくと症状が和らぐとされています。「時差だから仕方ない」と片付けず、頻繁に出張や旅行をする人は、自分に合った対策を知っておくと身体への負担がだいぶ減るはずです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:時差ボケ障害(Jet Lag Disorder)の診断の目安と対策</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>項目</th><th>内容</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>診断の目安</td><td>2つ以上の時間帯をまたぐ移動後の不眠または強い日中の眠気、総睡眠時間の減少</td></tr>
+              <tr><td>短距離の移動(3時間帯以内)</td><td>多くは「旅行疲労」で、時差ボケとは別に数日で解消</td></tr>
+              <tr><td>最も推奨度が高い対策</td><td>タイミングを合わせた光とメラトニンの利用</td></tr>
+              <tr><td>東向きの旅行での工夫</td><td>出発前から就寝時刻を毎日1時間ずつ前倒し、朝に明るい光を浴びる</td></tr>
+              <tr><td>短期滞在(2日以内)の工夫</td><td>現地時間に合わせず、普段の睡眠時間を維持する</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:時差ボケ障害をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2つ以上</span>
+            <span class="stat-label">時差ボケ障害の診断基準となる、移動でまたぐ時間帯数の目安</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">1時間ずつ</span>
+            <span class="stat-label">東向きの旅行前に推奨される、毎日前倒しする就寝時刻の目安(AASM)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:AASM「Extrinsic Circadian Rhythm Sleep-Wake Disorders Practice Parameters」、CDC Yellow Book「Jet Lag Disorder」</p>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「Practice parameters for the clinical evaluation and treatment of circadian rhythm sleep disorders(Extrinsic CRSWDs Guideline at a Glance)」", url: "https://aasm.org/wp-content/uploads/2018/01/Extrinsic-CRSWDs-Guideline-at-a-Glance.pdf" },
+      { label: "CDC Yellow Book「Jet Lag Disorder」", url: "https://cdc.gov/yellow-book/hcp/travel-air-sea/jet-lag-disorder.html" }
+    ]
   }
 ];
 
