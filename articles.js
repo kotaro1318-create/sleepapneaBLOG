@@ -1907,6 +1907,33 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「Practice parameters for the clinical evaluation and treatment of circadian rhythm sleep disorders(Extrinsic CRSWDs Guideline at a Glance)」", url: "https://aasm.org/wp-content/uploads/2018/01/Extrinsic-CRSWDs-Guideline-at-a-Glance.pdf" },
       { label: "CDC Yellow Book「Jet Lag Disorder」", url: "https://cdc.gov/yellow-book/hcp/travel-air-sea/jet-lag-disorder.html" }
     ]
+  },
+  {
+    title: "その脂肪肝、実は無呼吸が関係しているかもしれません",
+    date: "2026-10-12",
+    conclusion: "肥満のある人の脂肪肝(NAFLD)は睡眠時無呼吸と関連が深く、無呼吸が重いほど肝臓への負担も大きくなりやすいことが分かっています。",
+    body: "健康診断で「脂肪肝」と言われたことはありませんか?実はこの脂肪肝(NAFLD)、肥満のある人では睡眠時無呼吸(OSA)と深い関わりがあることが分かってきています。肥満患者を対象に28件の研究をまとめた系統的レビューでは、OSAの重症度などの指標と脂肪肝との間に、多くの研究で有意な関連がみられました。夜間に血中の酸素が繰り返し下がることが、肝臓にもじわじわ負担をかけていると考えられているんです。ただ面白いのは、CPAP治療で無呼吸そのものを抑えても、肝臓の脂肪や線維化がすぐに改善するとは限らないという点。CPAPのランダム化比較試験5件をまとめたメタ分析では、肝臓の脂肪・線維化・肝酵素に有意な改善は確認されませんでした。とはいえCPAPには血圧や眠気などへの効果もあるので、脂肪肝と無呼吸の両方が気になる人は、一度医療機関に相談してみる価値はありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:睡眠時無呼吸と脂肪肝(NAFLD)をめぐる2つの研究</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>研究</th><th>デザイン</th><th>主な結果</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Hany M, et al.<br>Int J Obes, 2023</td><td>系統的レビュー<br>(肥満患者対象、28件の研究)</td><td>OSAの重症度などの指標と脂肪肝(NAFLD)との間に、多くの研究で有意な関連</td></tr>
+              <tr><td>Labarca G, et al.<br>J Clin Sleep Med, 2018</td><td>メタ分析<br>(CPAPのランダム化比較試験5件)</td><td>CPAP治療後も肝臓の脂肪・線維化・肝酵素に有意な改善はみられず</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="viz-note">出典:Hany M, et al. Int J Obes. 2023. / Labarca G, et al. J Clin Sleep Med. 2018;14(1):133-139.</p>
+      </div>
+    `,
+    sources: [
+      { label: "Hany M, et al. “Effects of obstructive sleep apnea on non-alcoholic fatty liver disease in patients with obesity: a systematic review.” International Journal of Obesity. 2023.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10663145/" },
+      { label: "Labarca G, Cruz R, Jorquera J. “Continuous Positive Airway Pressure in Patients With Obstructive Sleep Apnea and Non-Alcoholic Steatohepatitis.” J Clin Sleep Med. 2018;14(1):133-139.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5734882" }
+    ]
   }
 ];
 
