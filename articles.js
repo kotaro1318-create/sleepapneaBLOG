@@ -1934,6 +1934,49 @@ const ARTICLES = [
       { label: "Hany M, et al. “Effects of obstructive sleep apnea on non-alcoholic fatty liver disease in patients with obesity: a systematic review.” International Journal of Obesity. 2023.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10663145/" },
       { label: "Labarca G, Cruz R, Jorquera J. “Continuous Positive Airway Pressure in Patients With Obstructive Sleep Apnea and Non-Alcoholic Steatohepatitis.” J Clin Sleep Med. 2018;14(1):133-139.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5734882" }
     ]
+  },
+  {
+    title: "夜中のトイレ通い、実は無呼吸が関係しているかもしれません",
+    date: "2026-10-13",
+    conclusion: "夜中に何度もトイレで目が覚める「夜間頻尿」は、睡眠時無呼吸のサインであることがあり、CPAP治療によって改善することがあります。",
+    body: "夜中に何度もトイレに起きて、「歳のせいかな」で済ませていませんか?実はその夜間頻尿、睡眠時無呼吸が関わっているケースが少なくないんです。呼吸が止まるたびに体が軽いストレス状態になり、本来なら夜間に抑えられているはずの尿の量が増えてしまうことが背景にあると考えられています。オランダで無呼吸のある人256人を調べた調査では、治療前に69%が夜間頻尿を経験していましたが、CPAPを使い始めた人のうち65%が夜中のトイレの回数が減ったと報告しました。さらに5件の研究・307人分のデータをまとめた解析でも、CPAP治療によって夜間の排尿回数と尿量がはっきり減り、日中の眠気も一緒に改善したと示されています。もちろん夜間頻尿には糖尿病や前立腺の病気など他の原因もあるので、トイレの回数だけでなく、いびきや日中の眠気にも心当たりがないか振り返ってみてください。気になる人は泌尿器科だけでなく睡眠外来にも相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:CPAP治療と夜間頻尿(オランダの無呼吸患者256人の調査)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">69%</span>
+            <span class="stat-label">CPAP治療を始める前に夜間頻尿を経験していた無呼吸患者の割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">65%</span>
+            <span class="stat-label">CPAPを使い始めた後、夜間の排尿回数が減ったと報告した患者の割合</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:欧州泌尿器科学会(EAU)年次学術集会での発表データ(Sleep Foundation記事内で引用)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">表:CPAP治療が夜間頻尿に与える効果(系統的レビュー・メタ解析)</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>項目</th><th>結果</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>対象</td><td>5件の研究・計307人</td></tr>
+              <tr><td>夜間の排尿回数</td><td>CPAP治療後に有意に減少(標準化平均差 -2.28、p&lt;0.00001)</td></tr>
+              <tr><td>夜間の尿量</td><td>CPAP治療後に有意に減少(標準化平均差 -183.12、p&lt;0.00001)</td></tr>
+              <tr><td>併せて改善した項目</td><td>日中の眠気(エプワース眠気尺度)・AHI(無呼吸低呼吸指数)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="viz-note">出典:Wang W, et al. Int Neurourol J. 2015;19(3):178-184</p>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Nocturia or Frequent Urination at Night」", url: "https://www.sleepfoundation.org/physical-health/nocturia-or-frequent-unrination-night" },
+      { label: "Wang W, Huang XY, Zong HT, Zhang Y. “The Efficacy of Continuous Positive Airway Pressure Therapy on Nocturia in Patients With Obstructive Sleep Apnea: A Systematic Review and Meta-Analysis.” Int Neurourol J. 2015;19(3):178-184.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4582090" }
+    ]
   }
 ];
 
