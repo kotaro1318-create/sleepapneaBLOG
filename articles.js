@@ -1977,6 +1977,48 @@ const ARTICLES = [
       { label: "Sleep Foundation「Nocturia or Frequent Urination at Night」", url: "https://www.sleepfoundation.org/physical-health/nocturia-or-frequent-unrination-night" },
       { label: "Wang W, Huang XY, Zong HT, Zhang Y. “The Efficacy of Continuous Positive Airway Pressure Therapy on Nocturia in Patients With Obstructive Sleep Apnea: A Systematic Review and Meta-Analysis.” Int Neurourol J. 2015;19(3):178-184.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4582090" }
     ]
+  },
+  {
+    title: "CPAP治療で、気分の落ち込みまで軽くなることがあるって知っていますか",
+    date: "2026-10-14",
+    conclusion: "睡眠時無呼吸のある人はうつ症状を抱えやすく、CPAP治療によって気分の落ち込みが和らぐことが複数の臨床試験で示されています。",
+    body: "「なんだか気分が晴れない」「やる気が出ない」——その裏に、実は睡眠時無呼吸が隠れていることがあります。無呼吸のある人はうつ症状を抱えやすいとされていて、呼吸が止まるたびに脳が覚醒を繰り返し、深い睡眠が奪われることが気分にも影響すると考えられているんです。2020年発表の、CPAPのRCT9件・計1052人分をまとめた解析では、CPAP治療でうつ症状のスコアが有意に改善し、1晩4時間以上使えた人ほど効果が大きい傾向もみられました。さらに2014年にPLOS Medicine誌に載った19件の試験のメタ解析でも、CPAP群はうつ症状がより改善し、もともとうつの診断があった人ではその効果がとくに大きかったと報告されています。CPAPはうつ病そのものの治療薬ではありませんが、「眠りを整えること」が気分の土台を支えているようです。いびきや日中の眠気も気になる人は、一度睡眠外来に相談してみてもいいかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:CPAP治療とうつ症状(RCT9件・計1052人のメタ解析)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">0.31</span>
+            <span class="stat-label">CPAP治療によるうつ症状改善の標準化平均差(95%信頼区間 0.18-0.43)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">0.38</span>
+            <span class="stat-label">1晩4時間を超えてCPAPを使用した群での標準化平均差</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Yang Q, et al. J Int Med Res. 2020.(CPAPのランダム化比較試験9件・計1052人のメタ解析)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:うつ診断の有無で変わるCPAPの効果(19件の試験のメタ解析)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">うつ診断なし<br><span class="bar-sub">15試験</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:9.8%"></span></span>
+            <span class="bar-value">標準化平均差 0.197</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">うつ診断あり<br><span class="bar-sub">2試験</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">標準化平均差 2.004</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Povitz M, et al. PLOS Med. 2014;11(11):e1001762</p>
+      </div>
+    `,
+    sources: [
+      { label: "Yang Q, Wang Y, Feng J, Peng Z. “Continuous positive airway pressure can improve depression in patients with obstructive sleep apnoea syndrome: a meta-analysis based on randomized controlled trials.” Journal of International Medical Research. 2020;48(3).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370809" },
+      { label: "Povitz M, Bolo CE, Heitman SJ, Tsai WH, Wang J, James MT. “Effect of treatment of obstructive sleep apnea on depressive symptoms: systematic review and meta-analysis.” PLOS Medicine. 2014;11(11):e1001762.", url: "https://www.plosmedicine.org/article/info%3Adoi%2F10.1371%2Fjournal.pmed.1001762" }
+    ]
   }
 ];
 
