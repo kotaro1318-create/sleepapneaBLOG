@@ -2019,6 +2019,52 @@ const ARTICLES = [
       { label: "Yang Q, Wang Y, Feng J, Peng Z. “Continuous positive airway pressure can improve depression in patients with obstructive sleep apnoea syndrome: a meta-analysis based on randomized controlled trials.” Journal of International Medical Research. 2020;48(3).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370809" },
       { label: "Povitz M, Bolo CE, Heitman SJ, Tsai WH, Wang J, James MT. “Effect of treatment of obstructive sleep apnea on depressive symptoms: systematic review and meta-analysis.” PLOS Medicine. 2014;11(11):e1001762.", url: "https://www.plosmedicine.org/article/info%3Adoi%2F10.1371%2Fjournal.pmed.1001762" }
     ]
+  },
+  {
+    title: "睡眠時無呼吸が重い人ほど、がんで亡くなるリスクも上がるかもしれません",
+    date: "2026-10-15",
+    conclusion: "重症の睡眠時無呼吸がある人は、がんで死亡するリスクが無呼吸のない人の4.8倍に達するという報告があります。",
+    body: "睡眠時無呼吸が重い人ほど、がんで亡くなるリスクも高いという報告があるんです。米ウィスコンシン大学が住民1522人を22年間追跡した研究では、無呼吸のない人に比べ軽度で1.1倍、中等度で2.0倍、重度では4.8倍もがんによる死亡リスクが高かったとされました。CPAP使用者を除いても同じ傾向でした。スペインの7つの睡眠クリニックで約5000人を調べた別の研究でも、無呼吸が重い人ほどがんになりやすい傾向が確認されています。背景にあるとみられるのが、呼吸が止まるたびに酸素濃度が下がる「間欠的低酸素」。動物実験ではこの状態が腫瘍の増殖を促すことが示されているんです。ただ研究者自身も「がんの原因と証明するにはまだ時間が掛かる」と慎重で、肥満など共通のリスク因子が関係している可能性もあります。がんの原因と決めつけるのは早計ですが、いびきや無呼吸が気になる人は、CPAP治療を考えるきっかけにしてみてもいいかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:無呼吸の重症度別・がん死亡の相対リスク(ウィスコンシン睡眠コホート、22年追跡)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">軽度</span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:22.9%"></span></span>
+            <span class="bar-value">1.1倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">中等度</span>
+            <span class="bar-track"><span class="bar-fill" style="width:41.7%"></span></span>
+            <span class="bar-value">2.0倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">重度</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">4.8倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Nieto FJ, et al. Am J Respir Crit Care Med. 2012;186(2):190-194(無呼吸のない人を基準とした、年齢・BMI・性別・喫煙歴調整後のがん死亡の相対リスク)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:2つの研究の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">1,522人</span>
+            <span class="stat-label">ウィスコンシン睡眠コホート研究の追跡対象人数(22年間)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約5,000人</span>
+            <span class="stat-label">スペイン7施設の睡眠クリニックでの解析対象人数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Nieto FJ, Peppard PE, Young T, Finn L, Hla KM, Farré R. “Sleep-disordered Breathing and Cancer Mortality: Results from the Wisconsin Sleep Cohort Study.” American Journal of Respiratory and Critical Care Medicine. 2012;186(2):190-194.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3406081" },
+      { label: "Campos-Rodriguez F, Martinez-Garcia MA, Martinez M, et al. “Association between obstructive sleep apnea and cancer incidence in a large multicenter Spanish cohort.” American Journal of Respiratory and Critical Care Medicine. 2013;187(1):99-105.", url: "https://doi.org/10.1164/rccm.201209-1671OC" }
+    ]
   }
 ];
 
