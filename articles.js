@@ -2065,6 +2065,47 @@ const ARTICLES = [
       { label: "Nieto FJ, Peppard PE, Young T, Finn L, Hla KM, Farré R. “Sleep-disordered Breathing and Cancer Mortality: Results from the Wisconsin Sleep Cohort Study.” American Journal of Respiratory and Critical Care Medicine. 2012;186(2):190-194.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3406081" },
       { label: "Campos-Rodriguez F, Martinez-Garcia MA, Martinez M, et al. “Association between obstructive sleep apnea and cancer incidence in a large multicenter Spanish cohort.” American Journal of Respiratory and Critical Care Medicine. 2013;187(1):99-105.", url: "https://doi.org/10.1164/rccm.201209-1671OC" }
     ]
+  },
+  {
+    title: "やたらと早起きなその体、実は「睡眠相前進障害」という病気かもしれません",
+    date: "2026-10-16",
+    conclusion: "夕方早くから眠くなり深夜から早朝に目が覚めてしまう「睡眠相前進障害」は見過ごされがちですが、光の浴び方の工夫で和らげられることがあります。",
+    body: "「夜8時にはもう眠くて、朝3時には勝手に目が覚めてしまう」——それ、単なる早起き体質ではなく「睡眠相前進障害(ASPD)」という立派な睡眠障害かもしれません。体内時計そのものが前にずれ、夕方早くから強い眠気が訪れ、深夜から早朝にかけて自然に覚醒してしまうのが特徴です。高齢になるほど前進しやすく、Sleep Foundationによれば家族歴や自閉スペクトラム症、朝の光の浴びすぎも関わるとされています。2019年の米国の睡眠クリニック受診者を調べた研究では、この傾向がある人は300人に1人程度、遺伝性の家族性の型はおよそ475人に1人と報告されました。「早起きが得意なだけ」と思いがちですが、夜の付き合いや仕事に支障が出るなら見過ごさない方がよさそうです。治療には夕方7〜9時ごろの光療法が試みられていますが、効果の確からしさはまだ限られています。気になる人は睡眠専門医に相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:睡眠タイミングのイメージ比較</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th></th><th>一般的な人</th><th>睡眠相前進障害(ASPD)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>眠くなる時間</td><td>23時ごろ</td><td>18〜21時ごろ</td></tr>
+              <tr><td>目が覚める時間</td><td>7時ごろ</td><td>2〜5時ごろ</td></tr>
+              <tr><td>本人の感覚</td><td>とくに問題なし</td><td>「早起きが得意」と誤解しやすい</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:睡眠相前進障害(ASPD)をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">300人に1人</span>
+            <span class="stat-label">米国の睡眠クリニック受診者のうち、睡眠相前進(ASP)の傾向がみられた割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">475人に1人</span>
+            <span class="stat-label">同調査で遺伝性の家族性の型(FASP)がみられた割合</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Curtis BJ, et al. Sleep. 2019;42(10):zsz148(米国の睡眠クリニックで9.8年間に新規受診した2,422人の調査)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Advanced Sleep Phase」", url: "https://www.sleepfoundation.org/circadian-rhythm/advanced-sleep-phase" },
+      { label: "UCSF「1 in 300 Thrives on Very-Early-to-Bed, Very-Early-to-Rise Routine」", url: "https://www.ucsf.edu/news/2019/08/415091/1-300-thrives-very-early-bed-very-early-rise-routine" }
+    ]
   }
 ];
 
