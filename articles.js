@@ -2106,6 +2106,47 @@ const ARTICLES = [
       { label: "Sleep Foundation「Advanced Sleep Phase」", url: "https://www.sleepfoundation.org/circadian-rhythm/advanced-sleep-phase" },
       { label: "UCSF「1 in 300 Thrives on Very-Early-to-Bed, Very-Early-to-Rise Routine」", url: "https://www.ucsf.edu/news/2019/08/415091/1-300-thrives-very-early-bed-very-early-rise-routine" }
     ]
+  },
+  {
+    title: "不眠症の薬に頼る前に、実は『CBT-I』という心理療法が第一選択だって知っていますか",
+    date: "2026-10-17",
+    conclusion: "慢性的な不眠症は睡眠薬より先に、生活習慣と考え方を見直す心理療法『CBT-I』を第一選択とすべきだと専門家の指針で示されています。",
+    body: "眠れない夜が続くと、つい睡眠薬に頼りたくなりますよね。でも実は、慢性的な不眠症の治療で最初に試すべきとされているのは薬ではなく、『CBT-I(不眠症に対する認知行動療法)』という心理療法なんです。就寝・起床時間を整える『睡眠制限法』、ベッドを眠る場所だけに結びつける『刺激制御法』、眠れないことへの思い込みを見直す『認知再構成法』などを、6〜8回ほどのセッションで組み合わせます。2015年の分析では、CBT-Iを受けた人は入眠までの時間が平均19分、夜中に目が覚めている時間が平均26分も短くなったと報告されています。2026年に米国睡眠医学会が出した新しい指針でも、薬を併用するよりCBT-I単独を基本とする考え方が示されました。睡眠時無呼吸(OSA)の治療と並行して不眠にも悩んでいる人は、CPAPの相談と合わせて睡眠外来でCBT-Iについても聞いてみると良さそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:不眠症治療の位置づけ(2016年ACP指針 → 2026年AASM新指針)</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th></th><th>これまでの基本的な考え方</th><th>2026年AASM新指針</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>CBT-I単独</td><td>第一選択</td><td>基本として継続(最も効果的な第一選択)</td></tr>
+              <tr><td>睡眠薬単独</td><td>CBT-Iが使えない場合の代替</td><td>CBT-Iとの併用が単独使用より推奨</td></tr>
+              <tr><td>CBT-I+睡眠薬の併用</td><td>明確な位置づけなし</td><td>総睡眠時間など一部指標で上乗せ効果の可能性</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:CBT-I治療後の睡眠指標の改善(20研究・1,162人の統合解析)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">平均19.0分短縮</span>
+            <span class="stat-label">入眠までの時間(睡眠潜時)の改善</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">平均26.0分短縮</span>
+            <span class="stat-label">夜中に目が覚めている時間(中途覚醒)の改善</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Trauer JM, et al. Ann Intern Med. 2015;163(3):191-204(治療前後の変化量)</p>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「AASM guideline on combination treatment for chronic insomnia」", url: "https://aasm.org/combination-treatment-chronic-insomnia-guideline/" },
+      { label: "Trauer JM, Qian MY, Doyle JS, Rajaratnam SMW, Cunnington D. “Cognitive Behavioral Therapy for Chronic Insomnia: A Systematic Review and Meta-analysis.” Ann Intern Med. 2015;163(3):191-204.", url: "https://pubmed.ncbi.nlm.nih.gov/26054060/" }
+    ]
   }
 ];
 
