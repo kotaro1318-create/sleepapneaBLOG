@@ -2147,6 +2147,53 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「AASM guideline on combination treatment for chronic insomnia」", url: "https://aasm.org/combination-treatment-chronic-insomnia-guideline/" },
       { label: "Trauer JM, Qian MY, Doyle JS, Rajaratnam SMW, Cunnington D. “Cognitive Behavioral Therapy for Chronic Insomnia: A Systematic Review and Meta-analysis.” Ann Intern Med. 2015;163(3):191-204.", url: "https://pubmed.ncbi.nlm.nih.gov/26054060/" }
     ]
+  },
+  {
+    title: "無呼吸、実は「レム睡眠」の時間帯に集中して起こる人がいるって知っていますか",
+    date: "2026-10-18",
+    conclusion: "呼吸停止が眠りの後半に多いレム睡眠中に集中するタイプの無呼吸は、心臓病のある人では心血管イベントのリスクをより高めることが分かっています。",
+    body: "無呼吸と聞くと一晩中同じように呼吸が止まると思われがちですが、実は「レム睡眠」という夢を見やすい段階に症状が集中しやすい人がいるんです。レム睡眠中は喉まわりの筋肉の緊張がさらに緩むため、気道がより塞がりやすくなるのだそうです。米国の大規模な追跡調査(Sleep Heart Health Study)では、重症の「レム睡眠関連無呼吸」がある人のうち、もともと心臓病を持っていた人は、持っていない人に比べて心筋梗塞や脳卒中などの心血管イベントのリスクが明らかに高いことが示されました。レム睡眠は眠りの後半、特に明け方近くに多く出てくるため、検査時間が短いタイプの簡易検査では十分に記録されず、見逃されやすいという指摘もあるんです。「検査で軽症だったのに、まだ眠気が続く」という人は、検査時に記録されたレム睡眠の量まで含めて、もう一度専門医やCPAPの相談窓口で確認してみると安心につながるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:重症レム睡眠関連無呼吸と心血管イベントの補正後ハザード比(Sleep Heart Health Study、追跡約9年)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">レムOSAなし<br><span class="bar-sub">基準(非レムAHI5未満)</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:39.1%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">重症レムOSA<br><span class="bar-sub">心疾患の既往なし</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:52.7%"></span></span>
+            <span class="bar-value">1.35倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">重症レムOSA<br><span class="bar-sub">心疾患の既往あり</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">2.56倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Aurora RN, et al. Am J Respir Crit Care Med. 2018;197(5)(非レムAHI5未満を対象とした補正後ハザード比。1.35倍は95%信頼区間が1をわずかに下回り、統計学的に有意ではない)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:レム睡眠関連無呼吸(REM-OSA)の特徴</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">10〜36%</span>
+            <span class="stat-label">無呼吸患者のうち、症状がレム睡眠中に集中するタイプとされる割合(報告により差がある)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約2.6倍</span>
+            <span class="stat-label">心疾患の既往がある人での、重症レムOSAによる心血管イベントの補正後ハザード比</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Karuga FF, et al. J Clin Med. 2023;12(18):5907(REM-OSAの頻度に関する文献レビュー)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Aurora RN, Crainiceanu C, Gottlieb DJ, Kim JS, Punjabi NM. “Obstructive Sleep Apnea during REM Sleep and Cardiovascular Disease.” Am J Respir Crit Care Med. 2018;197(5).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6005240/" },
+      { label: "Karuga FF, et al. “REM-OSA as a Tool to Understand Both the Architecture of Sleep and Pathogenesis of Sleep Apnea—Literature Review.” J Clin Med. 2023;12(18):5907.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10531579/" }
+    ]
   }
 ];
 
