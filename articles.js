@@ -2194,6 +2194,47 @@ const ARTICLES = [
       { label: "Aurora RN, Crainiceanu C, Gottlieb DJ, Kim JS, Punjabi NM. “Obstructive Sleep Apnea during REM Sleep and Cardiovascular Disease.” Am J Respir Crit Care Med. 2018;197(5).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6005240/" },
       { label: "Karuga FF, et al. “REM-OSA as a Tool to Understand Both the Architecture of Sleep and Pathogenesis of Sleep Apnea—Literature Review.” J Clin Med. 2023;12(18):5907.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10531579/" }
     ]
+  },
+  {
+    title: "不眠症の薬、実は「眠くする」より「起こし続ける力を止める」タイプが主流になってきてるんです",
+    date: "2026-10-19",
+    conclusion: "不眠症の新しい治療薬は、脳を覚醒させ続ける「オレキシン」という物質の働きをブロックすることで眠りを促す仕組みになっています。",
+    body: "不眠症の薬といえば、長年ベンゾジアゼピン系の睡眠薬が中心でしたが、効果が切れた後の眠気やふらつき、依存が心配されることもありました。そこで広がってきたのが「デュアルオレキシン受容体拮抗薬」という新しいタイプの薬です。少し前の記事で紹介したナルコレプシーの新薬は、不足したオレキシンを「補う」仕組みでしたが、こちらは逆に、脳を起こし続けるオレキシンの働きを一時的に「抑える」ことで、自然な眠気を引き出すんです。2022年に承認されたダリドレキサントの臨床試験では、50mg投与群で夜中に目が覚めている時間(中途覚醒時間)が、プラセボ群と比べて1か月後の時点で平均22.8分も短くなったと報告されています。眠りにつくまでの時間も、3か月後には平均11.7分短縮したそうです。副作用として日中の眠気が出ることもあるため、市販薬のように気軽に使うのではなく、睡眠専門医と相談しながら自分に合う薬を見つけていくのが安心です。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:ダリドレキサントによる中途覚醒時間(WASO)の変化(1か月後、プラセボ群との差)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">25mg群</span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:53.5%"></span></span>
+            <span class="bar-value">-12.2分</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">50mg群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">-22.8分</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Mignot E, et al. Lancet Neurol. 2022;21(2):125-139(Study 1、プラセボ群との差、1か月時点)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:デュアルオレキシン受容体拮抗薬の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2022年</span>
+            <span class="stat-label">ダリドレキサントが米国FDAで不眠症治療薬として承認された年</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">-11.7分</span>
+            <span class="stat-label">50mg群での眠りにつくまでの時間(LPS)短縮(3か月後、プラセボ群との差)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Mignot E, Mayleben D, Fietze I, et al. “Safety and efficacy of daridorexant in patients with insomnia disorder.” Lancet Neurol. 2022;21(2):125-139.", url: "https://doi.org/10.1016/S1474-4422(21)00436-1" },
+      { label: "American Academy of Sleep Medicine「FDA approves Dayvigo (lemborexant) drug/medication for insomnia」", url: "https://aasm.org/fda-approves-dayvigo-lemborexant-drug-medication-insomnia/" }
+    ]
   }
 ];
 
