@@ -2235,6 +2235,47 @@ const ARTICLES = [
       { label: "Mignot E, Mayleben D, Fietze I, et al. “Safety and efficacy of daridorexant in patients with insomnia disorder.” Lancet Neurol. 2022;21(2):125-139.", url: "https://doi.org/10.1016/S1474-4422(21)00436-1" },
       { label: "American Academy of Sleep Medicine「FDA approves Dayvigo (lemborexant) drug/medication for insomnia」", url: "https://aasm.org/fda-approves-dayvigo-lemborexant-drug-medication-insomnia/" }
     ]
+  },
+  {
+    title: "無呼吸の重症度を測るとき、実は「回数」より「酸素の下がり方」を見る新しい指標があるって知っていますか",
+    date: "2026-10-20",
+    conclusion: "無呼吸の重症度を測る新しい指標「低酸素バーデン」は、従来のAHI(回数)よりも手術後の心血管リスクを正確に予測できることがわかってきました。",
+    body: "これまで無呼吸の重症度は、主に「1時間あたり何回呼吸が止まったか」を示すAHI(無呼吸低呼吸指数)で判断されてきました。ただ、回数が同じでも、酸素がどこまで深く、どれくらい長く下がっているかは人によって全然違うんです。そこで注目されているのが「低酸素バーデン」という指標で、呼吸イベントごとの酸素低下の深さと時間をまとめて数値化します。2026年に発表された研究では、無呼吸のある人がその後に大きな手術を受けた場合、低酸素バーデンが低いグループでは手術後30日以内に脳卒中や心筋梗塞などが起きた割合が1.6%だったのに対し、高いグループでは5.8%まで上がったと報告されています。回数だけでは見えてこなかったリスクが、酸素の下がり方を見ることで浮き上がってきたわけです。もし大きな手術を控えているなら、CPAPなどでできる対策を続けておくと、ちょっと安心かもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:低酸素バーデンの高さと手術後30日以内の心血管イベント発生率</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">低酸素バーデン<br><span class="bar-sub">低いグループ</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:27.6%"></span></span>
+            <span class="bar-value">1.6%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">低酸素バーデン<br><span class="bar-sub">高いグループ</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">5.8%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Bailly S, et al. JAMA Netw Open. 2026;9(2):e260006(30日複合アウトカム:脳卒中・心房細動・心不全・心筋梗塞・静脈血栓塞栓症・全死亡)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:研究の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2,286人</span>
+            <span class="stat-label">解析対象となった無呼吸のある患者数(大きな手術を受けた人)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">3.5%</span>
+            <span class="stat-label">全体で手術後30日以内に心血管イベント等が起きた患者の割合</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Bailly S, Sabil A, Blanchard M, et al. “Sleep Apnea-Specific Hypoxic Burden and Postoperative Outcomes of Major Noncardiothoracic Surgery.” JAMA Netw Open. 2026;9(2):e260006.", url: "https://doi.org/10.1001/jamanetworkopen.2026.0006" },
+      { label: "Azarbarzin A, Sands SA, Stone KL, et al. “The hypoxic burden of sleep apnoea predicts cardiovascular disease-related mortality.” Eur Heart J. 2019;40(14):1149-1157.", url: "https://doi.org/10.1093/eurheartj/ehy624" }
+    ]
   }
 ];
 
