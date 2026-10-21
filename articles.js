@@ -2276,6 +2276,34 @@ const ARTICLES = [
       { label: "Bailly S, Sabil A, Blanchard M, et al. “Sleep Apnea-Specific Hypoxic Burden and Postoperative Outcomes of Major Noncardiothoracic Surgery.” JAMA Netw Open. 2026;9(2):e260006.", url: "https://doi.org/10.1001/jamanetworkopen.2026.0006" },
       { label: "Azarbarzin A, Sands SA, Stone KL, et al. “The hypoxic burden of sleep apnoea predicts cardiovascular disease-related mortality.” Eur Heart J. 2019;40(14):1149-1157.", url: "https://doi.org/10.1093/eurheartj/ehy624" }
     ]
+  },
+  {
+    title: "昼も夜もおかまいなしの眠気、実は「不規則睡眠覚醒リズム障害」という病気かもしれません",
+    date: "2026-10-21",
+    conclusion: "不規則睡眠覚醒リズム障害は夜中に何度も目が覚め日中も細切れの居眠りを繰り返す病気で、高齢の認知症の人に多くみられます。",
+    body: "ふつうの体内時計は、夜にまとまってぐっすり眠り、日中は目が覚めているというメインの波が1つあります。ところが「不規則睡眠覚醒リズム障害」では、このまとまりがバラバラになり、1〜4時間ほどの短い睡眠が24時間のうちに3回以上、順番も時間帯も不規則に現れてしまうんです。夜はこま切れにしか眠れず、日中はあちこちで居眠りしてしまう、という状態が3か月以上続くと、この病気が疑われます。特に高齢者、なかでも認知症のある人に多く、いわゆる「昼夜逆転」として現れることがあるほか、脳の損傷や子どもの発達障害でもみられるそうです。治療としては、朝にしっかり明るい光を浴びる、日中の活動や食事の時間を規則的にする、といった生活リズムの立て直しが基本になり、補助的にメラトニンが使われることもあります。ご家族の生活リズムが乱れてきたと感じたら、年齢のせいと決めつけず、睡眠外来に相談してみるのも一つの手かもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:不規則睡眠覚醒リズム障害の診断の目安(ICSD-3)</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>項目</th><th>目安</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>24時間あたりの睡眠回数</td><td class="num">3回以上</td></tr>
+              <tr><td>1回あたりの睡眠の長さ</td><td class="num">1〜4時間程度</td></tr>
+              <tr><td>症状が続く期間</td><td class="num">3か月以上</td></tr>
+              <tr><td>特に多くみられる人</td><td class="num">高齢の認知症患者など</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Education (AASM)「Irregular Sleep-Wake Rhythm」", url: "https://sleepeducation.org/sleep-disorders/irregular-sleep-wake-rhythm/" },
+      { label: "Sleep Foundation「Irregular Sleep-Wake Rhythm Disorder」", url: "https://www.sleepfoundation.org/sleep-disorders/irregular-sleep-wake-rhythm-disorder" }
+    ]
   }
 ];
 
