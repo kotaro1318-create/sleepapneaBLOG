@@ -2304,6 +2304,52 @@ const ARTICLES = [
       { label: "Sleep Education (AASM)「Irregular Sleep-Wake Rhythm」", url: "https://sleepeducation.org/sleep-disorders/irregular-sleep-wake-rhythm/" },
       { label: "Sleep Foundation「Irregular Sleep-Wake Rhythm Disorder」", url: "https://www.sleepfoundation.org/sleep-disorders/irregular-sleep-wake-rhythm-disorder" }
     ]
+  },
+  {
+    title: "寝る前の一杯、実はいびきや無呼吸を悪化させているかもしれません",
+    date: "2026-10-22",
+    conclusion: "就寝前のお酒は喉の筋肉を緩めて気道を塞ぎやすくし、無呼吸の回数を増やして血中の酸素濃度まで下げることが複数の研究で示されています。",
+    body: "「飲んだらよく眠れる」と思いがちですが、実はお酒は眠りの質や気道にとってあまり優しくないかもしれません。アルコールには喉まわりの筋肉を緩めるリラックス作用があり、気道が塞がりやすくなることで、いびきや無呼吸が悪化しやすくなるんです。14件の臨床試験をまとめた2018年の解析では、お酒を飲んだ後は1時間あたりの無呼吸・低呼吸の回数が平均で2.33回増え、すでに無呼吸と診断されている人ではその増加幅が7.10回とさらに大きくなっていました。血中の酸素飽和度も有意に下がっていたそうです。「寝酒」で寝つきを良くしているつもりが、実は眠りの深いところで呼吸を乱しているとしたら、ちょっと怖い話ですよね。CPAPを使っている人も、飲酒した夜ほど油断せずマスクを着け続けることが勧められています。心当たりのある人は、就寝前の数時間はお酒を控えてみるだけでも、違いを感じられるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:飲酒後に無呼吸・低呼吸(AHI)が何回増えるか</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">全体<br><span class="bar-sub">14試験・422人</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:32.8%"></span></span>
+            <span class="bar-value">+2.33回/時</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">いびきのある人</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:59.2%"></span></span>
+            <span class="bar-value">+4.20回/時</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">すでに無呼吸と<br>診断された人</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">+7.10回/時</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Kolla BP, et al. Sleep Med Rev. 2018;42:59-67(ランダム化比較試験14件のメタ解析、飲酒前後のAHI変化量)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:飲酒後の血中酸素飽和度の変化</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">-0.60%</span>
+            <span class="stat-label">飲酒後の平均SpO2(血中酸素飽和度)の変化(95%信頼区間 -0.72〜-0.49)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">422人</span>
+            <span class="stat-label">解析対象となったランダム化比較試験14件の参加者数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Kolla BP, Foroughi M, Saeidifard F, Chakravorty S, Wang Z, Mansukhani MP. “The Impact of Alcohol on Breathing Parameters During Sleep: A Systematic Review and Meta-analysis.” Sleep Medicine Reviews. 2018;42:59-67.", url: "https://pubmed.ncbi.nlm.nih.gov/30017492/" },
+      { label: "Sleep Foundation「Alcohol and Sleep Apnea」", url: "https://www.sleepfoundation.org/sleep-apnea/alcohol-and-sleep-apnea" }
+    ]
   }
 ];
 
