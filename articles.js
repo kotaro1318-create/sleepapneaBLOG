@@ -2350,6 +2350,32 @@ const ARTICLES = [
       { label: "Kolla BP, Foroughi M, Saeidifard F, Chakravorty S, Wang Z, Mansukhani MP. “The Impact of Alcohol on Breathing Parameters During Sleep: A Systematic Review and Meta-analysis.” Sleep Medicine Reviews. 2018;42:59-67.", url: "https://pubmed.ncbi.nlm.nih.gov/30017492/" },
       { label: "Sleep Foundation「Alcohol and Sleep Apnea」", url: "https://www.sleepfoundation.org/sleep-apnea/alcohol-and-sleep-apnea" }
     ]
+  },
+  {
+    title: "歯ぎしりがひどい人、実は無呼吸も隠れているかもしれません",
+    date: "2026-10-23",
+    conclusion: "睡眠時無呼吸の患者の約半数に歯ぎしり(睡眠時ブラキシズム)がみられ、軽度〜中等度の無呼吸でとくに多い傾向があることが分かっています。",
+    body: "「朝起きたら顎が痛い」「奥歯が削れてきた気がする」、そんな経験はありませんか。実は歯ぎしり(睡眠時ブラキシズム)と睡眠時無呼吸(OSA)は、同じ人に同時に現れやすいことが分かっています。ポリソムノグラフィー(睡眠検査)を使って110人の成人を調べた研究では、OSAがある人の割合は約86%、歯ぎしりがある人の割合は約50%にものぼりました。興味深いのは、歯ぎしりの頻度が重度のOSAよりも、軽度〜中等度のOSAで多く見られたという点です。研究者たちは、呼吸が浅くなった際の「ちょっとした目覚め(微小覚醒)」が、顎の筋肉を動かすきっかけになっているのではないかと考えています。まだ因果関係がはっきり解明されたわけではありませんが、歯ぎしりに悩んでいる人は、顎だけでなく喉の状態もチェックしてもらう価値がありそうです。CPAPやマウスピース型の治療で無呼吸を改善すると、歯ぎしりも和らぐケースがあると言われています。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:OSA患者110人を調べた研究の結果(ポリソムノグラフィー)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">86.4%</span>
+            <span class="stat-label">睡眠時無呼吸(OSA)が確認された人の割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">50%</span>
+            <span class="stat-label">睡眠時ブラキシズム(歯ぎしり)が確認された人の割合</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Martynowicz H, et al. J Clin Med. 2019;8(10):1653(ポリソムノグラフィーによる110人の成人の検査結果)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Martynowicz H et al. “The Relationship between Sleep Bruxism and Obstructive Sleep Apnea Based on Polysomnographic Findings.” J Clin Med. 2019;8(10):1653.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6832407/" },
+      { label: "Sleep Foundation「The Link Between Sleep Apnea and Teeth Grinding」", url: "https://www.sleepfoundation.org/sleep-apnea/link-between-sleep-apnea-and-teeth-grinding" }
+    ]
   }
 ];
 
