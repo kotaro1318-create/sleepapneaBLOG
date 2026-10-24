@@ -2376,6 +2376,32 @@ const ARTICLES = [
       { label: "Martynowicz H et al. “The Relationship between Sleep Bruxism and Obstructive Sleep Apnea Based on Polysomnographic Findings.” J Clin Med. 2019;8(10):1653.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6832407/" },
       { label: "Sleep Foundation「The Link Between Sleep Apnea and Teeth Grinding」", url: "https://www.sleepfoundation.org/sleep-apnea/link-between-sleep-apnea-and-teeth-grinding" }
     ]
+  },
+  {
+    title: "顎の骨を数ミリ前に動かすだけで、無呼吸が治ることもあるって知っていますか",
+    date: "2026-10-24",
+    conclusion: "CPAPがどうしても使えない重度の無呼吸に対し、顎の骨を手術で前方に動かす治療では約86%で症状が改善し、4割近くが治癒に近い状態まで改善することが報告されています。",
+    body: "これまでCPAPやマウスピース、植込み装置、肥満の手術などいろいろな治療法を紹介してきましたが、実はもう一つ「顎(あご)そのものを手術で動かす」という方法があるんです。「上下顎前方移動術」と呼ばれるこの手術は、上あごと下あごの骨を数ミリ〜1センチほど前方に移動させて固定し、気道を物理的に広げてしまうという大がかりなアプローチです。Sleep Foundationがまとめた45件の研究のレビューでは、この手術を受けた人の約86%で症状の改善がみられ、4割近くは無呼吸の数値が正常に近い水準まで下がる「治癒」とされる結果だったと報告されています。マスクがどうしても合わない、他の治療を試しても十分な効果が出ない、といった重度の無呼吸の人への選択肢とされていますが、見た目の変化を伴う骨の手術なので誰にでも向くわけではありません。気になる人は、まず睡眠専門医とあごの外科医、両方に相談してみるのがよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:顎矯正手術(上下顎前方移動術)の治療成果</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">86%</span>
+            <span class="stat-label">手術後に治療「成功」と判定された人の割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">39%</span>
+            <span class="stat-label">手術後に無呼吸の数値が正常域近くまで下がり「治癒」とされた人の割合</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Sleep Foundation「Surgery for Sleep Apnea」(45件の研究のレビューに基づく集計)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Surgery for Sleep Apnea」", url: "https://www.sleepfoundation.org/sleep-apnea/surgery-for-sleep-apnea" },
+      { label: "Mayo Clinic「Sleep Surgery Clinic」", url: "https://www.mayoclinic.org/departments-centers/sleep-surgery-clinic/overview/ovc-20469499" }
+    ]
   }
 ];
 
