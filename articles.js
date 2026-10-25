@@ -2402,6 +2402,40 @@ const ARTICLES = [
       { label: "Sleep Foundation「Surgery for Sleep Apnea」", url: "https://www.sleepfoundation.org/sleep-apnea/surgery-for-sleep-apnea" },
       { label: "Mayo Clinic「Sleep Surgery Clinic」", url: "https://www.mayoclinic.org/departments-centers/sleep-surgery-clinic/overview/ovc-20469499" }
     ]
+  },
+  {
+    title: "ドライアイがなかなか治らない人、実は無呼吸が隠れているかもしれません",
+    date: "2026-10-25",
+    conclusion: "睡眠時無呼吸のある人はドライアイになりやすく、米国の大規模調査ではそのリスクがおよそ1.8倍高いことが分かっています。",
+    body: "朝起きると目がゴロゴロする、人工涙液が手放せない——そんなドライアイ、実は睡眠時無呼吸(OSA)と関係しているかもしれません。米国の医療研究プログラム「All of Us」の60万人規模のデータを使った2025年の研究では、OSAのある人でドライアイがみられた割合は19.4%で、ない人の5.8%よりはっきり高く、リスクはおよそ1.8倍でした。呼吸停止のたびに酸素が下がり炎症が起きることが、まぶたや涙の質に影響している可能性があるようです。話はこれで終わりません。別のメタ分析では、CPAPを使い始めて半年未満だとドライアイが改善しにくく、1年以上続けてようやく良くなる傾向がみられたんです。マスクからのわずかな空気の漏れが目に当たることも一因と考えられています。CPAPをやめる理由にはなりませんが、目の乾きが気になるなら、マスクの調整や人工涙液の活用を、担当医に相談してみるとよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:「All of Us」プログラムのデータ(60万人超)にみるOSAとドライアイの関係</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">19.4%</span>
+            <span class="stat-label">OSAのある人でドライアイがみられた割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">5.8%</span>
+            <span class="stat-label">OSAのない対照群でドライアイがみられた割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">1.76倍</span>
+            <span class="stat-label">OSAがある場合のドライアイの調整オッズ比</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">1.43倍</span>
+            <span class="stat-label">OSAがある場合のマイボーム腺機能不全の調整オッズ比</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Zhang Y, et al. Biomedicines. 2025;14(1):24(全米研究プログラム「All of Us」、OSA患者59,804人と対照群179,412人の比較)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Zhang Y et al. “Association Between Sleep Apnea and Dry Eye Disease in the All-of-Us Program.” Biomedicines. 2025;14(1):24.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12837679/" },
+      { label: "Lin CW et al. “Impact of Obstructive Sleep Apnea and Continuous Positive Airway Pressure Treatment on Dry Eye Disease.” Nat Sci Sleep. 2024;16:1921-1935.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11629664/" }
+    ]
   }
 ];
 
