@@ -2470,6 +2470,48 @@ const ARTICLES = [
       { label: "Mayo Clinic「REM sleep behavior disorder - Symptoms and causes」", url: "https://www.mayoclinic.org/diseases-conditions/rem-sleep-behavior-disorder/symptoms-causes/syc-20352920" },
       { label: "Postuma RB, Iranzo A, Hu M, et al. “Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder: a multicentre study.” Brain. 2019;142(3):744-759.", url: "https://doi.org/10.1093/brain/awz030" }
     ]
+  },
+  {
+    title: "手術を控えているなら、実は無呼吸が見逃されているかもしれません",
+    date: "2026-10-27",
+    conclusion: "手術前に中等度〜重度の無呼吸があった患者のうち、外科医は92%、麻酔科医は60%がそれを診断できていなかったことが分かっています。",
+    body: "手術の予約をすると、問診票でいびきや日中の眠気について聞かれることがありますよね。実はこれ、ちゃんと意味のある質問なんです。カナダの研究チームが手術予定の患者1,085人を調べたところ、睡眠検査で中等度〜重度の無呼吸と判明した267人のうち、外科医は92%、麻酔科医でさえ60%が手術前にそれを把握できていませんでした。さらに別の大規模な追跡研究では、無呼吸が診断されていなかった患者は、術後に心停止やショックなどの心血管系の合併症を起こすリスクがはっきり高く、逆にすでに診断されCPAPなどの治療を受けていた患者ではそのリスクが上がっていなかったことも分かっています。全身麻酔や鎮静は気道をゆるませ、無呼吸の影響を強めてしまうためと考えられています。いびきが大きい、日中にひどく眠いという自覚があるなら、手術前の問診で遠慮せず伝え、必要なら睡眠検査やCPAPの相談をしておくと安心かもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:手術前に中等度〜重度の無呼吸が見逃されていた割合(267人中)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">外科医による診断</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">92%が未診断</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">麻酔科医による診断</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:65.2%"></span></span>
+            <span class="bar-value">60%が未診断</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Singh M, et al. Br J Anaesth. 2013;110(4):629-636(手術予定患者1,085人への睡眠ポリグラフ検査)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:術後の心血管系合併症リスク(オッズ比、低リスク対照群との比較)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2.20倍</span>
+            <span class="stat-label">未診断のOSA患者における術後心血管系合併症のオッズ比</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">0.75倍</span>
+            <span class="stat-label">すでに診断されCPAPなどの治療を受けていたOSA患者のオッズ比</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Mutter TC, et al. Anesthesiology. 2014;121(4):707-718(カナダ・マニトバ州の医療記録を用いた対照群付きコホート研究)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Singh M, Liao P, Kobah S, et al. “Proportion of surgical patients with undiagnosed obstructive sleep apnoea.” Br J Anaesth. 2013;110(4):629-636.", url: "https://pubmed.ncbi.nlm.nih.gov/23257990/" },
+      { label: "Mutter TC, Chateau D, Moffatt M, et al. “A matched cohort study of postoperative outcomes in obstructive sleep apnea: could preoperative diagnosis and treatment prevent complications?” Anesthesiology. 2014;121(4):707-718.", url: "https://pubmed.ncbi.nlm.nih.gov/25247853/" }
+    ]
   }
 ];
 
