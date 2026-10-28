@@ -2512,6 +2512,48 @@ const ARTICLES = [
       { label: "Singh M, Liao P, Kobah S, et al. “Proportion of surgical patients with undiagnosed obstructive sleep apnoea.” Br J Anaesth. 2013;110(4):629-636.", url: "https://pubmed.ncbi.nlm.nih.gov/23257990/" },
       { label: "Mutter TC, Chateau D, Moffatt M, et al. “A matched cohort study of postoperative outcomes in obstructive sleep apnea: could preoperative diagnosis and treatment prevent complications?” Anesthesiology. 2014;121(4):707-718.", url: "https://pubmed.ncbi.nlm.nih.gov/25247853/" }
     ]
+  },
+  {
+    title: "朝起きたときの頭痛、実は無呼吸が関係しているかもしれません",
+    date: "2026-10-28",
+    conclusion: "睡眠時無呼吸のある人では朝の頭痛が53.4%にみられ、CPAP治療を3か月続けると16.4%まで減ることが分かっています。",
+    body: "朝起きた瞬間から頭がズキズキする、そんな経験はありませんか?実はこれ、睡眠時無呼吸症候群(OSA)の患者さんによく見られる症状なんです。韓国の研究チームが116人のOSA患者を調べたところ、治療前は53.4%が朝の頭痛を訴えていましたが、CPAPを3か月以上きちんと続けた後には16.4%まで減っていました。頭痛がある人ほど日中の眠気を示すスコアも高く、眠気そのものが改善するほど頭痛も軽くなっていく傾向まで見えてきたそうです。片頭痛とは違って吐き気や光・音への過敏さを伴わず、頭の両側がじんわりと重く痛むタイプが多いとも言われています。「歳のせいか、肩こりか、寝不足だろう」と自己判断で片付けてしまいがちな朝の頭痛ですが、いびきや日中の強い眠気も一緒に心当たりがあるなら、無呼吸の可能性も視野に入れて、一度専門医にCPAPのことも含めて相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:OSA患者116人における朝の頭痛の割合(CPAP治療前後)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">治療前</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">53.4%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">CPAP治療3か月後</span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:30.7%"></span></span>
+            <span class="bar-value">16.4%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Seo HG, et al. Sci Rep. 2023;13:14188(OSA患者116人、PAP療法3か月以上継続後の比較)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:朝の頭痛の有無による日中の眠気スコア(エプワース眠気尺度)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">10.90</span>
+            <span class="stat-label">朝の頭痛がある患者群のエプワース眠気尺度(平均)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">8.13</span>
+            <span class="stat-label">朝の頭痛がない患者群のエプワース眠気尺度(平均)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Seo HG, et al. Sci Rep. 2023;13:14188(眠気の改善度と頭痛の改善度には相関関係ありr=0.503)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Seo HG, Yun CH, et al. “Improvement of morning headache in adults with obstructive sleep apnea after positive airway pressure therapy.” Sci Rep. 2023;13:14188.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480153/" },
+      { label: "Sleep Foundation「Sleep Apnea Headaches」", url: "https://www.sleepfoundation.org/sleep-apnea/sleep-apnea-headaches" }
+    ]
   }
 ];
 
