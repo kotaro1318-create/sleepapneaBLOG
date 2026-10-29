@@ -2554,6 +2554,46 @@ const ARTICLES = [
       { label: "Seo HG, Yun CH, et al. “Improvement of morning headache in adults with obstructive sleep apnea after positive airway pressure therapy.” Sci Rep. 2023;13:14188.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480153/" },
       { label: "Sleep Foundation「Sleep Apnea Headaches」", url: "https://www.sleepfoundation.org/sleep-apnea/sleep-apnea-headaches" }
     ]
+  },
+  {
+    title: "階段ですぐ息切れするその症状、実は無呼吸が肺の血管にまで負担をかけているのかもしれません",
+    date: "2026-10-29",
+    conclusion: "睡眠時無呼吸の患者には肺高血圧を合併する人が1〜2割ほどいるとされ、重症の無呼吸ほどそのリスクが高まる傾向があります。",
+    body: "階段を上ると息が切れる、ちょっと動くだけで疲れる…そんな症状、実は肺の血管の血圧が上がる「肺高血圧」が隠れていることがあります。この肺高血圧、睡眠時無呼吸(OSA)の患者さんに意外と多く合併することが分かっているんです。心臓カテーテル検査を使った複数の研究の統合では約10%、別の文献レビューでは約20%のOSA患者に合併がみられたとされ、幅はあるものの無視できない割合です。仕組みとしては、眠っている間に何十回も血中の酸素が下がることで肺の血管が収縮し、それが毎晩繰り返されることで血管そのものが硬くなっていくと考えられています。ただ、無呼吸だけが原因で重症の肺高血圧まで進むことは稀ともされていて、過度な心配は不要そうです。息切れや疲れやすさは心臓や肺の病気とも似ていて気づかれにくいので、いびきや日中の眠気も併せてあるなら、CPAP治療も視野に入れて専門医に相談してみる価値はありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:睡眠時無呼吸(OSA)患者における肺高血圧の合併率(研究による推定の違い)</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>研究・評価方法</th><th>合併率</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>心臓カテーテル検査を用いた複数研究の統合(Javaheri, et al. 2013)</td><td class="num">約10%</td></tr>
+              <tr><td>文献レビューによる推定(Shah, et al. 2021)</td><td class="num">約20%</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:無呼吸と肺高血圧の関係に関する補足データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">約10〜20%</span>
+            <span class="stat-label">OSA患者のうち肺高血圧の合併がみられるとされる割合(研究により異なる)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">稀</span>
+            <span class="stat-label">無呼吸だけが原因で重症の肺高血圧まで進行する例の頻度</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Javaheri S, Javaheri A. Curr Heart Fail Rep. 2013;10(4):315-320 / Shah FA, et al. Cureus. 2021;13(4):e14575</p>
+      </div>
+    `,
+    sources: [
+      { label: "Javaheri S, Javaheri A. “Sleep apnea, heart failure, and pulmonary hypertension.” Curr Heart Fail Rep. 2013;10(4):315-320.", url: "https://pubmed.ncbi.nlm.nih.gov/24097114/" },
+      { label: "Shah FA, Moronta S, Braford M, Greene N. “Obstructive Sleep Apnea and Pulmonary Hypertension: A Review of Literature.” Cureus. 2021;13(4):e14575.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8135661/" }
+    ]
   }
 ];
 
