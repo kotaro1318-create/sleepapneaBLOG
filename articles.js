@@ -2594,6 +2594,49 @@ const ARTICLES = [
       { label: "Javaheri S, Javaheri A. “Sleep apnea, heart failure, and pulmonary hypertension.” Curr Heart Fail Rep. 2013;10(4):315-320.", url: "https://pubmed.ncbi.nlm.nih.gov/24097114/" },
       { label: "Shah FA, Moronta S, Braford M, Greene N. “Obstructive Sleep Apnea and Pulmonary Hypertension: A Review of Literature.” Cureus. 2021;13(4):e14575.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8135661/" }
     ]
+  },
+  {
+    title: "無呼吸の重さは同じでも、実は女性の方がつらい症状を抱えやすいって知っていますか",
+    date: "2026-10-30",
+    conclusion: "無呼吸の重症度(AHI)が男女でほぼ同じでも、女性の方が頭痛や夜間頻尿、悪夢、不安などの症状を強く感じやすいことが新しい研究で示されました。",
+    body: "睡眠時無呼吸は「太った中高年男性の病気」というイメージが強いかもしれませんが、そのイメージのせいで女性の診断が遅れがちだという研究が出ています。2026年のSLEEP学術集会で報告された研究では、CPAP治療を始める中等度〜重度の無呼吸患者502人を調べたところ、無呼吸の重さを示すAHI(1時間あたりの無呼吸・低呼吸回数)は男性40回、女性36回とほぼ同じでした。それなのに女性の方が夜間頻尿、頭痛、悪夢、不安、怒り、だるさ、気分の落ち込み、物忘れといった症状を強く訴えていたんです。一方でいびきや喉のつかえ感、日中の眠気の強さには男女差が見られませんでした。研究者は、いびきや強い眠気といった「典型的な症状」だけで判断していると、女性のつらさを見落としかねないと指摘しています。頭痛や夜間のトイレ通い、悪夢が続いている女性は、一度無呼吸の検査を受けてみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:無呼吸の重症度(AHI)は男女でほぼ同じ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">502人</span>
+            <span class="stat-label">調査対象(男性287人・女性202人、中等度〜重度の無呼吸でCPAP治療開始時)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">40 vs 36回/時</span>
+            <span class="stat-label">AHI(無呼吸・低呼吸指数)の平均値(男性 vs 女性)</span>
+          </div>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">表:症状の訴えやすさ、男女でどう違った?</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>症状の種類</th><th>男女差</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>夜間頻尿・頭痛・悪夢</td><td>女性が有意に強く訴えた</td></tr>
+              <tr><td>不安・怒り・だるさ・気分の落ち込み・物忘れ</td><td>女性が有意に強く訴えた</td></tr>
+              <tr><td>いびき・夜間の息苦しさ(むせる感じ)</td><td>男女差なし</td></tr>
+              <tr><td>鼻づまり・胸焼け</td><td>男女差なし</td></tr>
+              <tr><td>日中の眠気(エプワース眠気尺度)</td><td>男女差なし</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="viz-note">出典:SLEEP 2026(米国睡眠医学会・睡眠研究学会 年次学術集会)発表、Vaidya S, et al.(学会抄録、査読前のデータ)</p>
+      </div>
+    `,
+    sources: [
+      { label: "SLEEP 2026 公式サイト「Women With Sleep Apnea Report Greater Symptom Burden Than Men」", url: "https://www.sleepmeeting.org/women-with-sleep-apnea-report-greater-symptom-burden-than-men/" },
+      { label: "Newswise「Women With Sleep Apnea Report Greater Symptom Burden Than Men」(AASM Foundation支援研究の発表資料)", url: "https://www.newswise.com/articles/women-with-sleep-apnea-report-greater-symptom-burden-than-men" }
+    ]
   }
 ];
 
