@@ -2637,6 +2637,50 @@ const ARTICLES = [
       { label: "SLEEP 2026 公式サイト「Women With Sleep Apnea Report Greater Symptom Burden Than Men」", url: "https://www.sleepmeeting.org/women-with-sleep-apnea-report-greater-symptom-burden-than-men/" },
       { label: "Newswise「Women With Sleep Apnea Report Greater Symptom Burden Than Men」(AASM Foundation支援研究の発表資料)", url: "https://www.newswise.com/articles/women-with-sleep-apnea-report-greater-symptom-burden-than-men" }
     ]
+  },
+  {
+    title: "CPAPがどうしても合わない人に、実は喉の手術という選択肢もあるんです",
+    date: "2026-10-31",
+    conclusion: "CPAPが合わない軽度〜中等度の無呼吸には、のどの組織を切除・形成するUPPPという手術の選択肢もありますが、効果には個人差が大きいとされています。",
+    body: "CPAPがどうしても苦手…という人、実は「のど」そのものを手術で広げる治療法があるんです。これは「UPPP(口蓋垂軟口蓋咽頭形成術)」と呼ばれる手術で、のどの奥にある口蓋垂(いわゆるのどちんこ)や軟口蓋、場合によっては扁桃まで切除・形成し、空気の通り道が塞がりにくくするものです。CPAPや減量でうまくいかなかった人が検討する「次の一手」という位置づけで、全身麻酔が必要で入院も伴う、体への負担が小さくない治療です。効果は人によってかなり差があり、軽度〜中等度では改善する人もいますが、重度の場合は手術だけでは不十分なことも報告されています。術後は喉の痛みや声の変化が出ることもあり、仕事復帰まで1〜2週間、本格的な回復には3〜6週間ほどかかるそうです。「CPAPが絶対」というわけではなく、以前紹介した顎の手術や植込み装置と並ぶ選択肢の一つとして、専門医とじっくり相談してみる価値はありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:UPPP(口蓋垂軟口蓋咽頭形成術)とは</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>項目</th><th>内容</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>対象となる組織</td><td>口蓋垂・軟口蓋(必要に応じて扁桃も)</td></tr>
+              <tr><td>検討されるタイミング</td><td>CPAPや生活習慣の改善で効果が不十分なとき</td></tr>
+              <tr><td>麻酔・入院</td><td>全身麻酔・入院を伴う</td></tr>
+              <tr><td>効果</td><td>個人差が大きく、時間とともに弱まることもある</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:手術後の回復までの目安</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">仕事・通常の生活に戻る</span>
+            <span class="bar-track"><span class="bar-fill" style="width:25%"></span></span>
+            <span class="bar-value">1〜2週間</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">本格的な回復</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">3〜6週間</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:The Sleep Foundation「Uvulopalatopharyngoplasty (UPPP)」</p>
+      </div>
+    `,
+    sources: [
+      { label: "The Sleep Foundation「Uvulopalatopharyngoplasty (UPPP)」", url: "https://www.sleepfoundation.org/sleep-apnea/treatment/uvulopalatopharyngoplasty-uppp" },
+      { label: "Mayo Clinic「Sleep Surgery Clinic」", url: "https://www.mayoclinic.org/departments-centers/sleep-surgery-clinic/overview/ovc-20469499" }
+    ]
   }
 ];
 
