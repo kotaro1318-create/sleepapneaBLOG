@@ -2766,6 +2766,53 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「Study links restless legs syndrome to poor sleep quality, impaired daytime function in pregnant women」", url: "https://aasm.org/study-links-restless-legs-syndrome-to-poor-sleep-quality-impaired-daytime-function-in-pregnant-women/" },
       { label: "Manconi M et al. “Restless legs syndrome and pregnancy.” Neurology. 2004;63(6):1065-1069.", url: "https://pubmed.ncbi.nlm.nih.gov/15452299/" }
     ]
+  },
+  {
+    title: "心臓の突然死、実は無呼吸の人だけ「真夜中」に集中して起きているって知っていますか",
+    date: "2026-11-03",
+    conclusion: "心臓が原因の突然死は通常午前6時〜正午に多いのに、睡眠時無呼吸のある人では深夜0時〜午前6時に46%が集中し、その時間帯のリスクは2.57倍に跳ね上がります。",
+    body: "心臓が原因で突然死する人は、普通は「起きて活動を始める午前6時〜正午」に最も多いと言われています。ところが睡眠時無呼吸症候群(OSA)がある人では、このパターンがまるごと逆転するそうなんです。メイヨークリニックが、睡眠検査済みで心臓突然死で亡くなった112人を調べたところ、OSAのある人の突然死は46%が「深夜0時〜午前6時」に起きていました。OSAのない人では21%、一般的な人口では16%です。深夜帯だけで比べると、OSAのある人の突然死リスクは他の時間帯の2.57倍にもなり、無呼吸が重いほどリスクも上がっていました。別の1万人超を追跡した研究でも、OSAのある人は突然死自体が起こりやすく、睡眠中の血中酸素濃度が78%未満まで下がる人で特にリスクが高いそうです。寝ている間にリスクが跳ね上がるのは怖い話ですが、CPAP治療で呼吸と酸素濃度を安定させれば抑えられる可能性があります。心当たりがあるなら専門医に相談してみてください。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:心臓突然死が「深夜0時〜午前6時」に起きた割合</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">一般的な人口</span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:34.8%"></span></span>
+            <span class="bar-value">16%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">OSAのない人<br><span class="bar-sub">睡眠検査済み</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:45.7%"></span></span>
+            <span class="bar-value">21%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">OSAのある人</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">46%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Gami AS, et al. N Engl J Med. 2005;352:1206-1214(睡眠検査を受け、心臓突然死で亡くなった112人の後ろ向き解析)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:OSAをめぐる心臓突然死リスクの基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2.57倍</span>
+            <span class="stat-label">OSAのある人の深夜0〜6時における心臓突然死の相対リスク(他の時間帯との比較)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">10,701人</span>
+            <span class="stat-label">別の長期追跡研究の対象者数(平均5.3年追跡、142人が突然死)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Gami AS, et al. J Am Coll Cardiol. 2013;62(7):610-616(睡眠中の最低酸素飽和度78%未満が強い予測因子)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Gami AS, Howard DE, Olson EJ, Somers VK. “Day-Night Pattern of Sudden Death in Obstructive Sleep Apnea.” N Engl J Med. 2005;352:1206-1214.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa041832" },
+      { label: "Gami AS, Olson EJ, Shen WK, et al. “Obstructive Sleep Apnea and the Risk of Sudden Cardiac Death: A Longitudinal Study of 10,701 Adults.” J Am Coll Cardiol. 2013;62(7):610-616.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3851022/" }
+    ]
   }
 ];
 
