@@ -2813,6 +2813,48 @@ const ARTICLES = [
       { label: "Gami AS, Howard DE, Olson EJ, Somers VK. “Day-Night Pattern of Sudden Death in Obstructive Sleep Apnea.” N Engl J Med. 2005;352:1206-1214.", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa041832" },
       { label: "Gami AS, Olson EJ, Shen WK, et al. “Obstructive Sleep Apnea and the Risk of Sudden Cardiac Death: A Longitudinal Study of 10,701 Adults.” J Am Coll Cardiol. 2013;62(7):610-616.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3851022/" }
     ]
+  },
+  {
+    title: "むずむず脚症候群、実は『貧血じゃないから鉄は足りてる』は思い込みかもしれません",
+    date: "2026-11-04",
+    conclusion: "むずむず脚症候群では、一般的な貧血の基準より高いフェリチン75ng/mL以下でも、鉄分の補充を検討すべきだと新しいガイドラインが示しています。",
+    body: "脚がむずむずして眠れない、むずむず脚症候群(RLS)の人の中には、血液検査で「貧血ではない」と言われて安心した人もいるかもしれません。でも実はそれ、早合点かもしれないんです。米国睡眠医学会(AASM)が2024年に出した新しい診療ガイドラインでは、症状のある人に定期的にフェリチンとトランスフェリン飽和度を測るよう勧めていて、フェリチンが75ng/mL以下、または飽和度が20%未満なら鉄補充を検討すべきだとしています。一般的な貧血の基準はフェリチン15ng/mL前後なので、その5倍近く高い数値でも治療対象になるわけです。フェリチンが75〜100ng/mLの範囲では、飲み薬ではなく点滴での補充が勧められている点もポイントです。脚の違和感を「歳のせい」で片付けず、数字まで気にしてみると、新しい治療の手がかりが見つかるかもしれません。心当たりがあるなら、睡眠外来や神経内科で相談してみてください。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:フェリチン値と鉄補充の考え方</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>フェリチン値</th><th>位置づけ</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="num">15ng/mL前後</td><td>一般的な貧血の診断基準</td></tr>
+              <tr><td class="num">75ng/mL以下</td><td>RLSの治療として鉄補充を検討</td></tr>
+              <tr><td class="num">75〜100ng/mL</td><td>点滴(IV)のみで鉄補充を検討</td></tr>
+              <tr><td class="num">100ng/mL超</td><td>鉄補充は推奨されない</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="viz-note">出典:Winkelman JW, et al. J Clin Sleep Med. 2025(AASM診療ガイドラインの鉄関連グッドプラクティス声明)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:鉄補充の検討基準となる数値</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">75ng/mL以下</span>
+            <span class="stat-label">AASMの新ガイドラインが鉄補充の検討を勧めるフェリチンの基準値</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">20%未満</span>
+            <span class="stat-label">同じく鉄補充の検討基準となるトランスフェリン飽和度</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「New guideline provides treatment recommendations for restless legs syndrome」", url: "https://aasm.org/new-guideline-provides-treatment-recommendations-for-restless-legs-syndrome/" },
+      { label: "Winkelman JW, et al. “Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline.” J Clin Sleep Med. 2025;21(1):137-152.", url: "https://jcsm.aasm.org/doi/10.5664/jcsm.11390" }
+    ]
   }
 ];
 
