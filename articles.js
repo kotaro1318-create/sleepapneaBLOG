@@ -2855,6 +2855,47 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「New guideline provides treatment recommendations for restless legs syndrome」", url: "https://aasm.org/new-guideline-provides-treatment-recommendations-for-restless-legs-syndrome/" },
       { label: "Winkelman JW, et al. “Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline.” J Clin Sleep Med. 2025;21(1):137-152.", url: "https://jcsm.aasm.org/doi/10.5664/jcsm.11390" }
     ]
+  },
+  {
+    title: "睡眠時無呼吸、実は「肥満の人の病気」とは言えないかもしれません",
+    date: "2026-11-05",
+    conclusion: "睡眠時無呼吸のある人のうち肥満に当たるのは31.5%にとどまり、残りの68.5%は過体重か普通体重で、体型だけでは判断できない病気だと分かってきました。",
+    body: "睡眠時無呼吸というと、お腹が出た体型の人の病気というイメージがあるかもしれません。でも最近の研究では、その思い込みがちょっと違うことが分かってきました。アメリカとスイスの地域住民コホート4つ、合計12,860人分のデータをまとめた2025年の研究では、睡眠時無呼吸のある人のうち肥満(BMI30以上)に当たったのは31.5%だけで、44.4%は過体重、23.5%は普通体重か低体重だったんです。確かに肥満があると無呼吸になりやすさは4.84倍に跳ね上がりますが、それでも大多数は肥満とは言えない体型でした。顎や喉の形、鼻づまり、年齢や性別なども関係しているため、やせ型の人や閉経後の女性ほど見逃されやすいとも言われています。「自分はやせているから大丈夫」と決めつけず、いびきや日中の眠気に心当たりがあれば検査を受けてみる価値がありそうです。CPAP治療は体型を問わず効果が期待できます。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:睡眠時無呼吸のある人における体型の内訳</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">肥満<br><span class="bar-sub">BMI30以上</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:46.0%"></span></span>
+            <span class="bar-value">31.5%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">肥満ではない<br><span class="bar-sub">過体重44.4%+普通・低体重23.5%</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">68.5%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Esmaeili N, et al. eClinicalMedicine. 2025;83:103221(米国・スイスの地域住民コホート4件、12,860人の統合解析)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:今回の研究の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">12,860人</span>
+            <span class="stat-label">4つの地域住民コホートを統合した解析対象者数(平均年齢66.6歳)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">4.84倍</span>
+            <span class="stat-label">肥満のある人が無呼吸になりやすいオッズ比(肥満のない人との比較)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Esmaeili N, et al. “The relationship between obesity and obstructive sleep apnea in four community-based cohorts: an individual participant data meta-analysis of 12,860 adults.” eClinicalMedicine. 2025;83:103221.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12051718/" },
+      { label: "Mayo Clinic「Obstructive sleep apnea - Symptoms and causes」", url: "https://www.mayoclinic.org/diseases-conditions/obstructive-sleep-apnea/symptoms-causes/syc-20352090" }
+    ]
   }
 ];
 
