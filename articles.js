@@ -2896,6 +2896,47 @@ const ARTICLES = [
       { label: "Esmaeili N, et al. “The relationship between obesity and obstructive sleep apnea in four community-based cohorts: an individual participant data meta-analysis of 12,860 adults.” eClinicalMedicine. 2025;83:103221.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12051718/" },
       { label: "Mayo Clinic「Obstructive sleep apnea - Symptoms and causes」", url: "https://www.mayoclinic.org/diseases-conditions/obstructive-sleep-apnea/symptoms-causes/syc-20352090" }
     ]
+  },
+  {
+    title: "CPAP、最初の90日でうまくいかなくても、まだあきらめなくていいかもしれません",
+    date: "2026-11-06",
+    conclusion: "CPAPの使用基準を満たせなかった人でも、1年後には36%が使用を続けており、初期の苦戦は必ずしも治療失敗を意味しないことが分かってきました。",
+    body: "CPAP治療には、一晩4時間以上・90日のうち7割の夜使うという基準があり、アメリカの医療保険では、この基準を満たせないと治療費の給付が止まってしまうこともあります。でも、カイザーパーマネンテの13万人以上を対象にした2026年の研究では、開始から90日でこの基準を満たせなかった患者さんのうち、1年後も使用を続けていた人が36%もいたことが分かったんです。中には4時間に届かなくても、症状の改善につながる2時間以上は使えていた人も多かったそうです。研究者は、90日間だけの成績で「この人はもう無理」と判断してしまうと、本当は続けられたはずの人の治療機会を奪ってしまうかもしれないと指摘しています。最初の数週間でうまくいかなくても、それだけであきらめるのは早いかもしれません。マスクの調整や使い方の工夫で、後からしっくりくることも十分あるので、担当のクリニックに相談しながら気長に続けてみてください。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:CPAP開始から90日時点での基準達成状況</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">基準を満たした人<br><span class="bar-sub">4時間以上・7割の夜</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:49%"></span></span>
+            <span class="bar-value">49%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">基準を満たせなかった人</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:51%"></span></span>
+            <span class="bar-value">51%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Hwang D, et al. ATS 2026(カイザーパーマネンテ・サザンカリフォルニアの13万人超のデータ)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:基準を満たせなかった人たちの、その後</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">36%</span>
+            <span class="stat-label">90日の基準を満たせなかった人のうち、1年後も使用を続けていた割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2時間以上</span>
+            <span class="stat-label">4時間の基準に届かなくても、症状の改善が期待できるとされる使用時間の目安</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Hwang D, et al. “Reevaluating the Centers for Medicare and Medicaid Services 90-Day CPAP Adherence Requirement: Persistent Use Among Early Nonadherent Patients.” Am J Respir Crit Care Med. 2026;212(Supplement_1):A6465(ATS 2026 国際会議 抄録 D97-06)", url: "https://academic.oup.com/ajrccm/article/212/Supplement_1/aamag162.6465/8686721" },
+      { label: "American Thoracic Society「Early CPAP struggles don't predict treatment failure, study finds」", url: "https://site.thoracic.org/press-releases/early-cpap-struggles-dont-predict-treatment-failure-study-finds" }
+    ]
   }
 ];
 
