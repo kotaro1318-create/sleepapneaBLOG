@@ -2937,6 +2937,47 @@ const ARTICLES = [
       { label: "Hwang D, et al. “Reevaluating the Centers for Medicare and Medicaid Services 90-Day CPAP Adherence Requirement: Persistent Use Among Early Nonadherent Patients.” Am J Respir Crit Care Med. 2026;212(Supplement_1):A6465(ATS 2026 国際会議 抄録 D97-06)", url: "https://academic.oup.com/ajrccm/article/212/Supplement_1/aamag162.6465/8686721" },
       { label: "American Thoracic Society「Early CPAP struggles don't predict treatment failure, study finds」", url: "https://site.thoracic.org/press-releases/early-cpap-struggles-dont-predict-treatment-failure-study-finds" }
     ]
+  },
+  {
+    title: "ASVが合わない心不全の無呼吸に、横隔神経を刺激する新しい治療が登場したって知っていますか",
+    date: "2026-11-07",
+    conclusion: "心不全に伴う中枢性睡眠無呼吸に対し、2025年のAASM新ガイドラインは横隔神経を刺激する植込み装置を新たな治療選択肢として位置づけました。",
+    body: "以前の記事で、無呼吸には喉が塞がる「閉塞性」と、脳の指令が止まる「中枢性(CSA)」があるとお伝えしました。心不全に伴うCSAの治療では「ASV」という機器が使われてきましたが、心臓の働きが弱った人では死亡リスクが上がる試験結果もあり、扱いが難しい治療でした。そこで2025年のAASM新ガイドラインでは、胸に植え込んで横隔神経を刺激する装置が、原発性CSAと心不全に伴うCSAへの新しい選択肢として条件付きで推奨されています。装置が呼吸のリズムを検知し、タイミングを合わせて横隔膜の神経を刺激することで、脳が出し忘れた呼吸の指令を代わりに送るイメージです。臨床試験では、6か月後にAHIが半分以下まで減った人の割合が、刺激群で51%、対照群で11%だったと報告されています。ASVが向かなかった人にも道が開けてきたのは、心強いニュースと言えそうです。気になる人はまず専門医に相談してみてください。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:横隔神経刺激によるAHI改善(6か月後に半分以下まで減った人の割合)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">対照群<br><span class="bar-sub">刺激なし</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:21.6%"></span></span>
+            <span class="bar-value">11%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">横隔神経刺激群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">51%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Costanzo MR, et al. Lancet. 2016;388:974-982(ピボタル試験、6か月時点のAHI改善)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:新ガイドラインの基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">151人</span>
+            <span class="stat-label">横隔神経刺激の有効性を検証したピボタル試験の参加者数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2025年</span>
+            <span class="stat-label">AASMが中枢性無呼吸の新しい治療ガイドラインを公表した年</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「Treatment of Central Sleep Apnea in Adults: An AASM Clinical Practice Guideline」(2025年)", url: "https://aasm.org/wp-content/uploads/2026/02/central-sleep-apnea-guideline-AASM-2025.pdf" },
+      { label: "Costanzo MR et al. “Transvenous neurostimulation for central sleep apnoea: a randomised controlled trial.” Lancet. 2016;388:974-982.", url: "https://pubmed.ncbi.nlm.nih.gov/27598679/" }
+    ]
   }
 ];
 
