@@ -2978,6 +2978,47 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「Treatment of Central Sleep Apnea in Adults: An AASM Clinical Practice Guideline」(2025年)", url: "https://aasm.org/wp-content/uploads/2026/02/central-sleep-apnea-guideline-AASM-2025.pdf" },
       { label: "Costanzo MR et al. “Transvenous neurostimulation for central sleep apnoea: a randomised controlled trial.” Lancet. 2016;388:974-982.", url: "https://pubmed.ncbi.nlm.nih.gov/27598679/" }
     ]
+  },
+  {
+    title: "生理不順や多毛のPCOS、実は体型に関係なく無呼吸のリスクも上げているかもしれません",
+    date: "2026-11-08",
+    conclusion: "多囊卵巣症候群(PCOS)のある女性は、体型にかかわらず睡眠時無呼吸になるリスクが2倍以上高いことが大規模追跡調査で示されています。",
+    body: "生理不順や多毛、ニキビなどで知られる「多囊卵巣症候群(PCOS)」。実はこの病気、睡眠時無呼吸(OSA)とも深い関わりがあるんです。イギリスの一般診療データを使った調査で、PCOSのある女性約7.7万人と、体型をそろえた女性約14.3万人を比較したところ、PCOSのある女性が新たにOSAと診断されるリスクは、体型などを調整した後でも2.26倍高いという結果が出ました。驚きなのは、この差が標準体重の人でもほぼ同じように見られたこと。「痩せているから無呼吸とは無縁」とは言えないんです。ホルモンバランスの乱れが、気道の筋肉や呼吸の調節にも影響しているのではと考えられています。生理不順に加え、いびきや日中の強い眠気が気になる人は、婦人科だけでなく睡眠外来にも相談してみると、思わぬ発見があるかもしれません。治療の基本はCPAPで、睡眠の質が整うとPCOSの症状自体が楽になる人もいるそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:OSA(睡眠時無呼吸)の新規発症率(人口1万人年あたり)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">対照群<br><span class="bar-sub">PCOSなし、体型を一致させた女性</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:40.7%"></span></span>
+            <span class="bar-value">3.3人</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">PCOSのある女性</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">8.1人</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Kumarendran B, et al. Eur J Endocrinol. 2019;180(4):265-272(イギリスの一般診療データベース、追跡期間中の粗発症率)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:PCOSと無呼吸リスクをめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2.26倍</span>
+            <span class="stat-label">年齢・体型などを調整した後の、PCOSがある女性のOSA発症の調整ハザード比</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">76,978人</span>
+            <span class="stat-label">この追跡調査の対象となったPCOSのある女性の人数(対照群は143,077人)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Kumarendran B et al. “Increased risk of obstructive sleep apnoea in women with polycystic ovary syndrome: a population-based cohort study.” Eur J Endocrinol. 2019;180(4):265-272.", url: "https://pubmed.ncbi.nlm.nih.gov/30763274/" },
+      { label: "American Academy of Sleep Medicine (Sleep Education)「Women with PCOS May Have Higher Risk of Sleep Apnea」", url: "https://sleepeducation.org/women-pcos-higher-risk-sleep-apnea/" }
+    ]
   }
 ];
 
