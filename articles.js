@@ -3060,6 +3060,59 @@ const ARTICLES = [
       { label: "Camacho M et al. “Myofunctional Therapy to Treat Obstructive Sleep Apnea: A Systematic Review and Meta-analysis.” Sleep. 2015;38(5):669-675.", url: "https://pubmed.ncbi.nlm.nih.gov/25348130/" },
       { label: "Sleep Foundation「Mouth Exercises to Stop Snoring」", url: "https://www.sleepfoundation.org/snoring/mouth-exercises-to-stop-snoring" }
     ]
+  },
+  {
+    title: "日中の眠気だけじゃない、ナルコレプシーは心臓や血管のリスクも高めているかもしれません",
+    date: "2026-11-10",
+    conclusion: "ナルコレプシーのある人は、高血圧や脂質異常症、主要な心血管イベントのリスクが、同年代の人より明らかに高いことが大規模データ解析で示されています。",
+    body: "日中に強い眠気が繰り返し起こる「ナルコレプシー」。笑ったときなどに体の力がふっと抜ける「情動脱力発作」を伴うこともある、脳内のオレキシンという物質が足りなくなって起こる病気です。実はこの病気、心臓や血管のリスクとも関わりがあるんです。アメリカの保険請求データ約2.2万人を分析した2025年の研究では、ナルコレプシーのある人は高血圧のリスクが1.4倍、脂質異常症が1.41倍、糖尿病が1.5倍、主要な心血管イベントは1.69倍高いという結果が出ました。驚くのは、25歳未満の若い世代でもリスクの上昇がはっきり見られたこと。これを受けて2024年には、米国心臓協会の専門誌で血圧や体重、腹囲を年1回チェックするよう勧める専門家パネルの提言も出されています。日中の眠気だけでなく、血圧や体重の変化にも気を配り、睡眠専門医や循環器内科と連携しながら経過を見ていくのが大切かもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:ナルコレプシーと心血管リスク(保険請求データ約2.2万人、ハザード比)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">高血圧</p>
+          <div class="bar-row">
+            <span class="bar-label">ナルコレプシーなし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:71.4%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">ナルコレプシーあり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.40倍</span>
+          </div>
+          <p class="bar-group-label">主要心血管イベント(MACE)</p>
+          <div class="bar-row">
+            <span class="bar-label">ナルコレプシーなし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:59.2%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">ナルコレプシーあり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.69倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Kaufmann CN, et al. J Am Heart Assoc. 2025;14:e039899(MarketScan保険請求データ、propensity score適合後の調整ハザード比)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:ナルコレプシーと心血管リスクをめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">22,293人</span>
+            <span class="stat-label">この解析の対象となったナルコレプシー患者数(対照群は63,709人)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">14項目</span>
+            <span class="stat-label">2024年に米国心臓協会の専門誌で公表された、ナルコレプシー患者への心血管リスク管理に関する専門家パネルの提言数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Kaufmann CN et al. “Narcolepsy Is Associated With Subclinical Cardiovascular Disease as Early as Childhood: A Big Data Analysis.” J Am Heart Assoc. 2025;14:e039899.", url: "https://www.ahajournals.org/doi/10.1161/JAHA.124.039899" },
+      { label: "Kwon Y et al. “Cardiovascular Risks in People With Narcolepsy: Expert Panel Consensus Recommendations.” J Am Heart Assoc. 2024;13:e035168.", url: "https://www.ahajournals.org/doi/10.1161/JAHA.124.035168" }
+    ]
   }
 ];
 
