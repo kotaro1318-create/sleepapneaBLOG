@@ -3113,6 +3113,59 @@ const ARTICLES = [
       { label: "Kaufmann CN et al. “Narcolepsy Is Associated With Subclinical Cardiovascular Disease as Early as Childhood: A Big Data Analysis.” J Am Heart Assoc. 2025;14:e039899.", url: "https://www.ahajournals.org/doi/10.1161/JAHA.124.039899" },
       { label: "Kwon Y et al. “Cardiovascular Risks in People With Narcolepsy: Expert Panel Consensus Recommendations.” J Am Heart Assoc. 2024;13:e035168.", url: "https://www.ahajournals.org/doi/10.1161/JAHA.124.035168" }
     ]
+  },
+  {
+    title: "睡眠時無呼吸、実は骨をもろくしているかもしれません",
+    date: "2026-11-11",
+    conclusion: "閉塞性睡眠時無呼吸のある人は骨密度が低く、骨粗しょう症のリスクが健康な人の2倍前後に上がることがメタ分析で示されています。",
+    body: "睡眠時無呼吸と聞くと、血圧や心臓への影響を思い浮かべる人が多いかもしれませんが、実は骨の健康にも関わっているらしいんです。呼吸が止まるたびに血液中の酸素が下がったり眠りが浅くなったりすることが、骨をつくる細胞の働きを妨げている可能性があると考えられています。2022年に発表されたメタ分析では、15件の研究・計11万人以上のデータを統合した結果、無呼吸のある人は腰椎の骨密度が有意に低く、骨粗しょう症と診断されるリスクも約2倍高いことが分かりました。2024年に発表された別のメタ分析でも、骨密度の低下と骨粗しょう症リスクの上昇が同様に報告されています。特に閉経後の女性や高齢の人は、骨が弱くなりやすい時期と無呼吸が重なりやすいため注意が必要かもしれません。CPAP治療で骨への影響まで改善するかはまだ分かっていませんが、無呼吸が重い人は、骨密度の検査についても医療機関に相談してみると安心につながるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:閉塞性睡眠時無呼吸(OSA)の有無別、骨粗しょう症のオッズ比(2件のメタ分析)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">2022年メタ分析(15件の研究・計113,082人)</p>
+          <div class="bar-row">
+            <span class="bar-label">OSAなし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:49.3%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">OSAあり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">2.03倍</span>
+          </div>
+          <p class="bar-group-label">2024年メタ分析(4件の研究)</p>
+          <div class="bar-row">
+            <span class="bar-label">OSAなし<br><span class="bar-sub">基準</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:45.9%"></span></span>
+            <span class="bar-value">1.00倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">OSAあり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">2.18倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Wang C, et al. Front Endocrinol. 2022;13:1013771(腰椎骨密度の平均差-0.05、T-scoreの平均差-0.47も報告)/ Chan YH, et al. Sleep Med Rev. 2024;78:102006(調整オッズ比、95%信頼区間1.14-4.16)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:睡眠時無呼吸と骨粗しょう症をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">113,082人</span>
+            <span class="stat-label">2022年のメタ分析(15件の研究)が対象としたOSA患者・健常者の合計人数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2.18倍</span>
+            <span class="stat-label">2024年のメタ分析(4件の研究)で示された骨粗しょう症の調整オッズ比</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Chan YH et al. “The Association Between Obstructive Sleep Apnea and Osteoporosis: A Systematic Review and Meta-Analysis.” Sleep Med Rev. 2024;78:102006.", url: "https://doi.org/10.1016/j.smrv.2024.102006" },
+      { label: "Wang C et al. “Relationship Between Obstructive Sleep Apnea-Hypopnea Syndrome and Osteoporosis in Adults: A Systematic Review and Meta-Analysis.” Front Endocrinol. 2022;13:1013771.", url: "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2022.1013771/full" }
+    ]
   }
 ];
 
