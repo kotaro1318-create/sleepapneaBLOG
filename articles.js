@@ -3166,6 +3166,48 @@ const ARTICLES = [
       { label: "Chan YH et al. “The Association Between Obstructive Sleep Apnea and Osteoporosis: A Systematic Review and Meta-Analysis.” Sleep Med Rev. 2024;78:102006.", url: "https://doi.org/10.1016/j.smrv.2024.102006" },
       { label: "Wang C et al. “Relationship Between Obstructive Sleep Apnea-Hypopnea Syndrome and Osteoporosis in Adults: A Systematic Review and Meta-Analysis.” Front Endocrinol. 2022;13:1013771.", url: "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2022.1013771/full" }
     ]
+  },
+  {
+    title: "ナルコレプシーの診断、実は男性と女性でこんなに差があるって知っていますか",
+    date: "2026-11-12",
+    conclusion: "ナルコレプシーの診断までの遅れは平均8年にも及び、特に女性は男性より診断が遅れやすいことが分かっています。",
+    body: "日中に強い眠気やカタプレキシーが起きる「ナルコレプシー」、実は診断までにかなりの時間がかかることが多いんです。2014年に米国で発表された、新たに診断された109人の調査では、症状が出てから正しく診断されるまでの遅れが中央値で8年にも及んでいました。さらに驚くのは、この遅れに男女差があったこと。同じような症状を訴えていたにもかかわらず、男性の85%は症状発症から16年以内に診断がついていたのに対し、女性は28年もかかっていたと報告されています。眠気の強さを調べる客観的な検査では女性の方がむしろ重かったというのに、です。日中の眠気が「怠けている」「うつっぽい」と誤解されやすいことが、背景の一つと考えられているんです。どうしても眠気を抑えられない、突然体の力が抜けるといった症状が続くなら、「そのうち治る」と流さず、早めに睡眠専門医に相談してみることが、長い診断の遅れを防ぐ第一歩になるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:症状発症から診断までの期間(男女別、109人を対象とした調査)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">対象者の85%が診断を受けるまでの年数</p>
+          <div class="bar-row">
+            <span class="bar-label">男性</span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:57.1%"></span></span>
+            <span class="bar-value">16年</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">女性</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">28年</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Journal of Clinical Sleep Medicine 2014;10(1):89-95(新規診断患者109人を対象とした調査、AASM紹介記事より)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:ナルコレプシー診断の遅れをめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">8年</span>
+            <span class="stat-label">症状発症から正しい診断までの遅れ(中央値、109人の新規診断患者を対象とした調査)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">1.53倍</span>
+            <span class="stat-label">同じ時点で未診断のままである確率(女性 vs 男性のハザード比、p=0.04)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「Women experience longer delay in narcolepsy diagnosis」", url: "https://aasm.org/women-experience-longer-delay-in-narcolepsy-diagnosis/" },
+      { label: "Sleep Foundation「Diagnosing Narcolepsy」", url: "https://www.sleepfoundation.org/narcolepsy/diagnosis" }
+    ]
   }
 ];
 
