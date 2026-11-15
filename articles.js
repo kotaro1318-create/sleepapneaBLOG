@@ -3302,6 +3302,47 @@ const ARTICLES = [
       { label: "Winkelman JW, et al. “Effectiveness and dose stability of opioids in patients with restless leg syndrome: 5-year findings from the National Restless Legs Syndrome Opioid Registry.” SLEEP. 2026;49(5):zsag008.", url: "https://academic.oup.com/sleep/advance-article-abstract/doi/10.1093/sleep/zsag008/8427231" },
       { label: "PubMed「Effectiveness and dose stability of opioids in patients with restless leg syndrome: 5-year findings from the National Restless Legs Syndrome Opioid Registry」", url: "https://pubmed.ncbi.nlm.nih.gov/41543123/" }
     ]
+  },
+  {
+    title: "子どもの「成長痛」、実はむずむず脚症候群が隠れているかもしれません",
+    date: "2026-11-15",
+    conclusion: "子どもの「成長痛」の中には、実はむずむず脚症候群(RLS)が隠れていることがあり、米国の子どもの2〜4%にみられると報告されています。",
+    body: "「足が痛い、足が痛い」と訴える子どもに、「成長痛だから大丈夫」と伝えてきた方は多いかもしれません。でも実はその症状、むずむず脚症候群(RLS)というれっきとした睡眠関連の病気である可能性があるんです。米国の調査では子どもの2〜4%がRLSにあてはまるとされ、なかには「ADHDかと思われていたら実はRLSだった」というケースも報告されています。手足を動かさずにはいられない感覚が夜になると強まり、眠りの質を落としてしまうのが特徴です。米国メイヨークリニックが538人の子どもを調べた研究では、RLSと診断された子どもの83%に鉄不足がみられ、72%には家族にも同じ症状を持つ人がいたそうです。「毎晩のように脚が痛い」と訴えるなら、単なる成長の一時的な現象と決めつけず、小児科や睡眠専門医に相談してみる価値がありそうです。血液検査で鉄の状態を調べるだけで分かることもあるので、思ったよりハードルは低いかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:RLSと診断された子どもにみられた特徴(メイヨークリニック、538人の調査)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">鉄不足がみられた割合</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">83%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">家族にRLSがいた割合</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:86.7%"></span></span>
+            <span class="bar-value">72%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Mayo Clinic News Network「Mayo Clinic Minute: Restless legs syndrome in kids」(小児睡眠外来を受診した538人の記録を調査)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:子どものむずむず脚症候群(RLS)の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2〜4%</span>
+            <span class="stat-label">米国の子どものうちRLSにあてはまるとされる割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">538人</span>
+            <span class="stat-label">メイヨークリニックの小児睡眠外来調査の対象数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Mayo Clinic News Network「Mayo Clinic Minute: Restless legs syndrome in kids」", url: "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-restless-legs-syndrome-in-kids/" },
+      { label: "Sleep Foundation「Sleep Disorders in Children」", url: "https://www.sleepfoundation.org/children-and-sleep/sleep-disorders-in-children" }
+    ]
   }
 ];
 
