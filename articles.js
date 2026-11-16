@@ -3343,6 +3343,47 @@ const ARTICLES = [
       { label: "Mayo Clinic News Network「Mayo Clinic Minute: Restless legs syndrome in kids」", url: "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-restless-legs-syndrome-in-kids/" },
       { label: "Sleep Foundation「Sleep Disorders in Children」", url: "https://www.sleepfoundation.org/children-and-sleep/sleep-disorders-in-children" }
     ]
+  },
+  {
+    title: "体重が思うように減らなくても、実は運動そのものが無呼吸を軽くしてくれるかもしれません",
+    date: "2026-11-16",
+    conclusion: "有酸素運動や筋力トレーニングは、体重がほとんど減らなくても無呼吸の重症度(AHI)を下げることが複数のメタ解析で示されています。",
+    body: "睡眠時無呼吸症候群(OSA)の治療といえば、まず体重を減らすことが勧められがちです。でも実は、体重があまり落ちなくても、運動そのものに無呼吸を軽くする効果があるかもしれないんです。2014年発表のメタ解析では、ウォーキングなどの運動療法を行った129人を調べたところ、体重はほとんど変わらなかったのに、1時間あたりの無呼吸・低呼吸の回数(AHI)が平均6.27回も減っていました。2024年の睡眠医学誌のメタ解析でも、有酸素運動と筋力トレーニングを組み合わせた群でAHIが約7回減った一方、BMIの変化はわずか0.72だったと報告されています。筋肉のつき方や呼吸の使い方が変わることが関係しているのかもしれません。もちろん運動だけでCPAPの代わりになるわけではないので、すでに治療中の方も主治医に相談しながら、無理のない範囲で体を動かす習慣を取り入れてみると、治療の効果をさらに後押しできるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:運動療法によるAHIの減少幅(2つのメタ解析)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">2014年のメタ解析<br><span class="bar-sub">運動療法群129人</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:88.6%"></span></span>
+            <span class="bar-value">-6.27回/時</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">2024年のメタ解析<br><span class="bar-sub">有酸素運動+筋力トレ</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">-7.08回/時</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Iftikhar IH, et al. Lung. 2014;192(1):175-184 / Lin CF, et al. J Clin Sleep Med. 2024;20(11):1839-1849</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:AHIの改善幅とBMIの変化の比較(2024年メタ解析)</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">-7.08回/時</span>
+            <span class="stat-label">運動療法によるAHIの減少幅</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">-0.72</span>
+            <span class="stat-label">同じ研究でのBMIの変化(ほぼ変化なし)</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Iftikhar IH, et al. “Effects of exercise training on sleep apnea: a meta-analysis.” Lung. 2014;192(1):175-184.", url: "https://pubmed.ncbi.nlm.nih.gov/24077936/" },
+      { label: "Lin CF, et al. “Effects of aerobic exercise and resistance training on obstructive sleep apnea: a systematic review and meta-analysis.” J Clin Sleep Med. 2024;20(11):1839-1849.", url: "https://pubmed.ncbi.nlm.nih.gov/39150699" }
+    ]
   }
 ];
 
