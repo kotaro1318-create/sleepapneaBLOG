@@ -3384,6 +3384,47 @@ const ARTICLES = [
       { label: "Iftikhar IH, et al. “Effects of exercise training on sleep apnea: a meta-analysis.” Lung. 2014;192(1):175-184.", url: "https://pubmed.ncbi.nlm.nih.gov/24077936/" },
       { label: "Lin CF, et al. “Effects of aerobic exercise and resistance training on obstructive sleep apnea: a systematic review and meta-analysis.” J Clin Sleep Med. 2024;20(11):1839-1849.", url: "https://pubmed.ncbi.nlm.nih.gov/39150699" }
     ]
+  },
+  {
+    title: "心房細動の手術を受けた人、実はCPAPを長く続けるほど『その後』の再発が減るかもしれません",
+    date: "2026-11-17",
+    conclusion: "重度の無呼吸がある心房細動の患者では、カテーテル手術後1年を過ぎてからの再発率が、CPAPを長期間続けた人で7.6%、続けなかった人で21.6%だったと報告されています。",
+    body: "心房細動の治療で「カテーテルアブレーション」という手術を受ける人は増えていますが、実はこの手術の後、無呼吸の治療を続けているかどうかで「その後」の運命が変わるかもしれないんです。日本の研究チームが、重度の無呼吸(AHI30以上)がある心房細動の患者さんを、アブレーション後の再発率で比較しました。手術後1年以内はCPAPの有無で差がなかったものの、1年を過ぎてからの再発率は、長期間CPAPを続けた人で7.6%、続けなかった人で21.6%と、3倍近い差があったんです。年齢や心臓の状態を揃えて比べても、続けた人は再発リスクが約3割程度まで下がっていました。手術直後は違いが見えにくくても、何年も続けることで効果が積み重なっていくのかもしれません。アブレーションを受けた方も、これから受ける方も、CPAPを根気よく続けることが、長期的には心臓を守ることにつながるかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:アブレーション手術後、1年を過ぎてからの心房細動再発率(VLR)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">長期CPAP群<br><span class="bar-sub">157人(33.7%)</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:35.2%"></span></span>
+            <span class="bar-value">7.6%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">CPAP非継続群</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">21.6%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Tanaka N, et al. J Am Heart Assoc. 2025;14(10):e038742(重度OSAのある心房細動患者466人、アブレーション後1年を過ぎてからの再発率)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:長期CPAP使用と再発リスクをめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">0.30倍</span>
+            <span class="stat-label">年齢や心機能などを調整した後の、長期CPAP群における1年超再発の調整ハザード比(95%信頼区間0.14-0.57)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">466人</span>
+            <span class="stat-label">この研究の対象となった重度OSAのある心房細動患者の人数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Tanaka N, et al. “Impact of Long-Term CPAP Adherence on Recurrence After Atrial Fibrillation Ablation in Patients With Severe Sleep Apnea.” J Am Heart Assoc. 2025;14(10):e038742.", url: "https://www.ahajournals.org/doi/10.1161/JAHA.124.038742" },
+      { label: "Yeghiazarians Y, et al. “Obstructive Sleep Apnea and Cardiovascular Disease: A Scientific Statement From the American Heart Association.” Circulation. 2021;144(3):e56-e67.", url: "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000988" }
+    ]
   }
 ];
 
