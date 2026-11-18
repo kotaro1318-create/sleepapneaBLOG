@@ -3425,6 +3425,59 @@ const ARTICLES = [
       { label: "Tanaka N, et al. “Impact of Long-Term CPAP Adherence on Recurrence After Atrial Fibrillation Ablation in Patients With Severe Sleep Apnea.” J Am Heart Assoc. 2025;14(10):e038742.", url: "https://www.ahajournals.org/doi/10.1161/JAHA.124.038742" },
       { label: "Yeghiazarians Y, et al. “Obstructive Sleep Apnea and Cardiovascular Disease: A Scientific Statement From the American Heart Association.” Circulation. 2021;144(3):e56-e67.", url: "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000988" }
     ]
+  },
+  {
+    title: "舌下神経刺激療法、実は効果が本当に見えてくるのは2年後からかもしれません",
+    date: "2026-11-18",
+    conclusion: "舌下神経刺激療法は、使い始めの2年間は糖尿病や高血圧のリスクがむしろ上がるものの、2年を超えると前者は約8割、後者は約5割下がると報告されています。",
+    body: "以前紹介した舌下神経刺激療法、実はCPAPを続けられない人の体に長期的にどんな変化をもたらすのか調べた研究があるんです。アメリカの保険請求データを使い、この装置を入れた患者さん約3400人と、入れる資格はあったけれど実際には入れなかった患者さんを比べたところ、治療開始から2年未満では糖尿病や高血圧と新たに診断されるリスクがむしろやや高まっていました。でも2年を超えてから見ると様子が一変し、糖尿病の新規診断リスクは約8割、高血圧は約5割も下がっていたんです。短期間だけ見ると逆効果に思える治療も、長い目で見ると違う顔を見せるようです。ただしもともと糖尿病や高血圧があった人では、治療後早期にほかの心血管イベントのリスクがやや高まったとの報告もあり、今後の研究で詳しく確認される必要があります。CPAPがどうしても合わない人は、こうした長期的な視点も含め、主治医や睡眠専門医に一度相談してみるとよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:舌下神経刺激療法後の糖尿病・高血圧の新規診断ハザード比(基礎心疾患なしの患者)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">糖尿病の新規診断</p>
+          <div class="bar-row">
+            <span class="bar-label">治療開始から<br><span class="bar-sub">2年未満</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.06倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">治療開始から<br><span class="bar-sub">2年以降</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:17.9%"></span></span>
+            <span class="bar-value">0.19倍</span>
+          </div>
+          <p class="bar-group-label">高血圧の新規診断</p>
+          <div class="bar-row">
+            <span class="bar-label">治療開始から<br><span class="bar-sub">2年未満</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.70倍</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">治療開始から<br><span class="bar-sub">2年以降</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:28.8%"></span></span>
+            <span class="bar-value">0.49倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Kondamuri N, et al. JAMA Otolaryngol Head Neck Surg. 2026;152:858-867(保険請求データ、未治療の同等候補患者と比較した調整ハザード比)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:この研究の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">3,395組</span>
+            <span class="stat-label">舌下神経刺激療法を受けた患者と、受けなかった候補患者のマッチングペア数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約12万人</span>
+            <span class="stat-label">比較対象を選ぶ元になった、CPAPをうまく使えなかった無呼吸患者の母集団規模</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Kondamuri N, et al. “Hypoglossal Nerve Stimulation and the Incidence of Cardiovascular Disease.” JAMA Otolaryngol Head Neck Surg. 2026;152:858-867.", url: "https://jamanetwork.com/journals/jamaotolaryngology/fullarticle/2851684" },
+      { label: "UChicago Medicine「Hypoglossal nerve stimulation for obstructive sleep apnea shows downstream health benefits」", url: "https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea" }
+    ]
   }
 ];
 
