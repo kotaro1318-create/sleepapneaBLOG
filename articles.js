@@ -3478,6 +3478,55 @@ const ARTICLES = [
       { label: "Kondamuri N, et al. “Hypoglossal Nerve Stimulation and the Incidence of Cardiovascular Disease.” JAMA Otolaryngol Head Neck Surg. 2026;152:858-867.", url: "https://jamanetwork.com/journals/jamaotolaryngology/fullarticle/2851684" },
       { label: "UChicago Medicine「Hypoglossal nerve stimulation for obstructive sleep apnea shows downstream health benefits」", url: "https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea" }
     ]
+  },
+  {
+    title: "自分では気づかないうちに脚がピクピク動く、それって「周期性四肢運動障害」かもしれません",
+    date: "2026-11-19",
+    conclusion: "周期性四肢運動障害は本人の自覚がないまま脚などが動き睡眠を妨げる病気で、成人の4〜11%にみられ、2025年にAASMが新しい治療指針を公表しました。",
+    body: "夜中に脚や腕がピクッピクッと一定のリズムで動いてしまう「周期性四肢運動障害(PLMD)」、実はむずむず脚症候群とはまた別の病気だって知っていますか。動きは20〜40秒おきに繰り返されることが多く、本人は眠っているつもりでも脳はそのたびに浅く覚醒し、翌日の眠気や集中力の低下につながることがあるんです。しかも自分では気づかず、同じベッドで眠る家族に指摘されて初めて気づく人も少なくありません。成人の4〜11%、子どもでも5〜8%にみられるとされ、確定診断には終夜睡眠ポリグラフ検査が必要です。2025年には米国睡眠医学会(AASM)がこの病気とむずむず脚症候群の治療指針を13年ぶりに更新し、鉄の状態を確認したうえでの補充や、治療していない睡眠時無呼吸のような悪化要因への対処を重視する内容が盛り込まれました。心当たりがある人は、睡眠専門医に相談してみるとよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">表:周期性四肢運動障害(PLMD)とむずむず脚症候群(RLS)の違い</p>
+        <div class="viz-table-wrap">
+          <table class="viz-table">
+            <thead>
+              <tr><th>比較項目</th><th>PLMD</th><th>RLS</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>自覚症状</td><td>本人が気づかないことが多い</td><td>むずむず・不快感を自覚する</td></tr>
+              <tr><td>動きが起こる場面</td><td>睡眠中に周期的に反復</td><td>主に安静時・入眠前</td></tr>
+              <tr><td>確定診断</td><td>終夜睡眠ポリグラフ検査が必須</td><td>問診が中心</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:PLMDに関する主な数値</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">4〜11%</span>
+            <span class="stat-label">成人でPLMDがみられる頻度</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">5〜8%</span>
+            <span class="stat-label">子どもでPLMDがみられる頻度</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">20〜40秒</span>
+            <span class="stat-label">四肢の動きが繰り返される典型的な間隔</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">13年ぶり</span>
+            <span class="stat-label">AASMがRLS・PLMDの治療指針を改訂した周期(2012年→2025年)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Sleep Foundation「Periodic Limb Movement Disorder」、Winkelman JW, et al. J Clin Sleep Med. 2025;21(1):137-152.</p>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Periodic Limb Movement Disorder」", url: "https://www.sleepfoundation.org/periodic-limb-movement-disorder" },
+      { label: "Winkelman JW, et al. “Treatment of Restless Legs Syndrome and Periodic Limb Movement Disorder: An American Academy of Sleep Medicine Clinical Practice Guideline.” J Clin Sleep Med. 2025;21(1):137-152.", url: "https://doi.org/10.5664/jcsm.11390" }
+    ]
   }
 ];
 
