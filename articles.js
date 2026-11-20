@@ -3527,6 +3527,46 @@ const ARTICLES = [
       { label: "Sleep Foundation「Periodic Limb Movement Disorder」", url: "https://www.sleepfoundation.org/periodic-limb-movement-disorder" },
       { label: "Winkelman JW, et al. “Treatment of Restless Legs Syndrome and Periodic Limb Movement Disorder: An American Academy of Sleep Medicine Clinical Practice Guideline.” J Clin Sleep Med. 2025;21(1):137-152.", url: "https://doi.org/10.5664/jcsm.11390" }
     ]
+  },
+  {
+    title: "注射じゃなく「飲むタイプ」のやせ薬が、無呼吸の重さまで改善するかもしれません",
+    date: "2026-11-20",
+    conclusion: "経口のGLP-1薬オルフォルグリプロンが、肥満を伴う無呼吸の重症度を、CPAPを使っていない人で平均4割以上改善させたと臨床試験で報告されました。",
+    body: "以前、注射タイプの減量薬チルゼパチドが無呼吸の重さを大きく減らすという話をしましたが、今回はさらに身近な「飲み薬」の話です。2026年11月発表の「ATTAIN-OSA」という臨床試験では、経口のGLP-1薬オルフォルグリプロンを52週間使ったところ、CPAPを使っていない肥満を伴う中等度〜重度の無呼吸の人で、1時間あたりの無呼吸・低呼吸の回数(AHI)がベースラインから平均4割以上減りました。すでにCPAPを使っている人が併用した場合でも、約3割弱の改善が見られたそうです。体重や血圧、炎症の値まで一緒に下がったのも興味深い点です。注射が苦手で治療をためらっていた人には、飲み薬という選択肢が増えるのは心強いニュースかもしれません。ただしまだ承認前の段階で、吐き気などの副作用も報告されています。今CPAPを使っている人は自己判断でやめず、主治医に相談しながら今後の情報を待つのがよさそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:オルフォルグリプロン52週投与によるAHI変化率(ATTAIN-OSA試験)</p>
+        <div class="viz-bars">
+          <p class="bar-group-label">CPAP未使用グループ(ベースラインAHI 50.7回/時)</p>
+          <div class="bar-row">
+            <span class="bar-label">プラセボ群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:14.4%"></span></span>
+            <span class="bar-value">-6.3%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">オルフォルグリプロン群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">-43.8%</span>
+          </div>
+          <p class="bar-group-label">CPAP併用グループ(ベースラインAHI 57.6回/時)</p>
+          <div class="bar-row">
+            <span class="bar-label">プラセボ群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:6.8%"></span></span>
+            <span class="bar-value">-3.0%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">オルフォルグリプロン群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:62.8%"></span></span>
+            <span class="bar-value">-27.5%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Malhotra A, et al. JAMA. 2026(ATTAIN-OSA試験、52週時点のAHI変化率)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Malhotra A, et al. “Orforglipron for Obstructive Sleep Apnea: Results From 2 Randomized Clinical Trials (ATTAIN-OSA).” JAMA. 2026.", url: "https://jamanetwork.com/journals/jama/fullarticle/2856406" },
+      { label: "JAMA「Orforglipron for Obstructive Sleep Apnea: Research Summary」", url: "https://jamanetwork.com/journals/jama/fullarticle/2856405" }
+    ]
   }
 ];
 
