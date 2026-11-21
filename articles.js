@@ -3567,6 +3567,39 @@ const ARTICLES = [
       { label: "Malhotra A, et al. “Orforglipron for Obstructive Sleep Apnea: Results From 2 Randomized Clinical Trials (ATTAIN-OSA).” JAMA. 2026.", url: "https://jamanetwork.com/journals/jama/fullarticle/2856406" },
       { label: "JAMA「Orforglipron for Obstructive Sleep Apnea: Research Summary」", url: "https://jamanetwork.com/journals/jama/fullarticle/2856405" }
     ]
+  },
+  {
+    title: "もともと小児てんかんの薬だったその錠剤、無呼吸にも効くかもしれないって知っていますか",
+    date: "2026-11-21",
+    conclusion: "もともと小児てんかんの治療薬だったスルチアムが、臨床試験で無呼吸・低呼吸の回数を用量に応じて最大34.6%減らしたと報告されました。",
+    body: "これまでの無呼吸の薬は、気道の筋肉や脳の呼吸中枢に働きかけるタイプが中心でしたが、今回話題なのは、実はもともと小児てんかんの治療薬だった「スルチアム」という薬です。炭酸脱水酵素という酵素を抑えることで血液中の二酸化炭素のバランスを変化させ、眠っている間も呼吸をしようとする力を保ちやすくする仕組みだと考えられています。ヨーロッパの「FLOW試験」では、中等度から重度の無呼吸がある298人に、就寝前にこの薬を3段階の用量で15週間飲んでもらったところ、プラセボ群に比べて無呼吸・低呼吸の回数が、用量が多いほど大きく減ったと報告されました。血液中の酸素の下がり方も改善したそうです。ただまだ第2相試験の段階で、無呼吸の薬としては承認されていません。てんかんの薬だからと自己判断で試すのは禁物ですが、CPAPがどうしても合わない人にとって、薬で無呼吸を抑える未来が近づいているのは心強いニュースかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:スルチアムの用量別AHI変化(FLOW試験、15週時点)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">100mg群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:47.4%"></span></span>
+            <span class="bar-value">-16.4%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">200mg群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:87.3%"></span></span>
+            <span class="bar-value">-30.2%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">300mg群</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-value">-34.6%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Randerath W, et al. Lancet. 2025(FLOW試験、プラセボ群に対する相対的なAHI3a減少率、15週時点)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Randerath W, et al. “Sultiame once per day in obstructive sleep apnoea (FLOW): a multicentre, randomised, double-blind, placebo-controlled, dose-finding, phase 2 trial.” Lancet. 2025;406(10514):1983-1992.", url: "https://pubmed.ncbi.nlm.nih.gov/41077049/" },
+      { label: "ClinicalTrials.gov「Efficacy, Safety and Tolerability of Sulthiame in Patients With Obstructive Sleep Apnea (OSA)」(NCT05236842)", url: "https://clinicaltrials.gov/study/NCT05236842" }
+    ]
   }
 ];
 
