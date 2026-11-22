@@ -3600,6 +3600,55 @@ const ARTICLES = [
       { label: "Randerath W, et al. “Sultiame once per day in obstructive sleep apnoea (FLOW): a multicentre, randomised, double-blind, placebo-controlled, dose-finding, phase 2 trial.” Lancet. 2025;406(10514):1983-1992.", url: "https://pubmed.ncbi.nlm.nih.gov/41077049/" },
       { label: "ClinicalTrials.gov「Efficacy, Safety and Tolerability of Sulthiame in Patients With Obstructive Sleep Apnea (OSA)」(NCT05236842)", url: "https://clinicaltrials.gov/study/NCT05236842" }
     ]
+  },
+  {
+    title: "眠れない夜が何年も続くと、実は脳の老化が3.5歳分早まるかもしれません",
+    date: "2026-11-22",
+    conclusion: "3年以上続く慢性的な不眠症のある高齢者は、軽度認知障害や認知症を新たに発症するリスクが、不眠症のない人より約4割高いと報告されました。",
+    body: "「ただの寝不足」と片付けてしまいがちな不眠症、実は脳の老化と関係しているかもしれないという研究結果が出ました。アメリカのメイヨークリニックの研究チームが、認知機能に問題のない65歳以上の高齢者2750人を平均5.6年追跡したところ、週3日以上かつ3か月以上続く「慢性不眠症」のある人は、軽度認知障害や認知症を新たに発症するリスクが、不眠症のない人に比べて約4割高いという結果になったんです。発症率で見ると、不眠症がある人は14%、ない人は10%でした。さらに調査開始時に「いつもより眠れていない」と答えた人ほど脳画像検査で加齢に伴う変化が目立ち、その認知機能の低下は脳が3.5歳分余分に老け込んだのに近いとも説明されています。もちろんこれは関連を示したにすぎず、不眠症が直接の原因だと確定したわけではありません。ただ「眠れないのはいつものこと」と片付けず、長く続く不眠は一度睡眠専門医に相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:慢性不眠症の有無による軽度認知障害・認知症の発症率(メイヨークリニック高齢化研究)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">慢性不眠症なし</span>
+            <span class="bar-track"><span class="bar-fill" style="width:71.4%"></span></span>
+            <span class="bar-value">10%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">慢性不眠症あり</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">14%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Carvalho DZ, et al. Neurology. 2025;105(7):e214155(平均5.6年の追跡、年齢・高血圧・睡眠薬使用・無呼吸などで調整後のハザード比1.4)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:この研究の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">2,750人</span>
+            <span class="stat-label">追跡対象となった、認知機能に問題のなかった高齢者の数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">5.6年</span>
+            <span class="stat-label">追跡調査の期間(中央値)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">1.4倍</span>
+            <span class="stat-label">慢性不眠症がある人の、軽度認知障害・認知症の発症ハザード比</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">3.5歳分</span>
+            <span class="stat-label">不眠症による認知機能低下が、脳の老化に換算すると相当するとされた年数</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "Carvalho DZ, et al. “Associations of Chronic Insomnia, Longitudinal Cognitive Outcomes, Amyloid-PET, and White Matter Changes in Cognitively Normal Older Adults.” Neurology. 2025;105(7):e214155.", url: "https://pubmed.ncbi.nlm.nih.gov/40929630/" },
+      { label: "American Academy of Neurology「Can't Sleep? Insomnia Associated With Accelerated Brain Aging」", url: "https://www.aan.com/PressRoom/Home/PressRelease/5282" }
+    ]
   }
 ];
 
