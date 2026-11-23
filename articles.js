@@ -3649,6 +3649,55 @@ const ARTICLES = [
       { label: "Carvalho DZ, et al. “Associations of Chronic Insomnia, Longitudinal Cognitive Outcomes, Amyloid-PET, and White Matter Changes in Cognitively Normal Older Adults.” Neurology. 2025;105(7):e214155.", url: "https://pubmed.ncbi.nlm.nih.gov/40929630/" },
       { label: "American Academy of Neurology「Can't Sleep? Insomnia Associated With Accelerated Brain Aging」", url: "https://www.aan.com/PressRoom/Home/PressRelease/5282" }
     ]
+  },
+  {
+    title: "舌下神経刺激、実は『電池も体に埋め込まない』新タイプが承認されたって知っていますか",
+    date: "2026-11-23",
+    conclusion: "体内に電池を埋め込まない新しいタイプの舌下神経刺激装置が2025年8月に米国で承認され、1年後にはAHIが平均70%近くも下がったと報告されています。",
+    body: "舌下神経刺激療法といえば、胸に電池(充電器)を埋め込むInspireというタイプが有名ですが、2025年8月、ベルギーのNyxoah社が開発した「Genio(ジーニオ)」という新しいタイプの装置が米国FDAに承認されました。このGenioは本体に電池を内蔵せず、専用のパッチを肌に貼って体の外から電力を送る「リードレス」方式で、左右両側の舌の筋肉を同時に刺激してくれるのが特徴なんです。CPAPを試したけれどどうしても合わなかった、あるいは続けられなかったという115人を対象にした米国の臨床試験では、1年後に無呼吸低呼吸指数(AHI)が平均で70.8%も下がり、約9割の人が治療に満足したと報告されています。もちろん手術が必要な治療なので誰にでも向くわけではありませんが、CPAPが合わなかった人の選択肢がまた一つ増えたと言えそうです。気になる人は、まず睡眠専門医に相談してみるのがいいかもしれません。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:DREAM試験(米国)、1年後の治療反応率</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">AHI改善<br><span class="bar-sub">Sher基準の反応率</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:63.5%"></span></span>
+            <span class="bar-value">63.5%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">酸素飽和度低下指数(ODI)改善<br><span class="bar-sub">反応率</span></span>
+            <span class="bar-track"><span class="bar-fill" style="width:71.3%"></span></span>
+            <span class="bar-value">71.3%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Woodson BT, et al. J Clin Sleep Med. 2025;21(11):1883-1891(米国DREAM試験、115人、12か月後)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:この治験の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">115人</span>
+            <span class="stat-label">米国の治験に参加した、CPAPが合わなかった患者数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">70.8%</span>
+            <span class="stat-label">1年後のAHI低下率(中央値、全体位)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">90%</span>
+            <span class="stat-label">治療に満足したと答えた患者の割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2025年8月</span>
+            <span class="stat-label">米国FDAがこの装置を承認した時期</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「Nyxoah receives FDA approval for Genio system」", url: "https://aasm.org/nyxoah-receives-fda-approval-for-genio-system/" },
+      { label: "Woodson BT, et al. “Bilateral hypoglossal nerve stimulation for obstructive sleep apnea: a nonrandomized clinical trial.” J Clin Sleep Med. 2025;21(11):1883-1891.", url: "https://pubmed.ncbi.nlm.nih.gov/40702817/" }
+    ]
   }
 ];
 
