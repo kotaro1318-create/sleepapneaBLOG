@@ -3698,6 +3698,55 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「Nyxoah receives FDA approval for Genio system」", url: "https://aasm.org/nyxoah-receives-fda-approval-for-genio-system/" },
       { label: "Woodson BT, et al. “Bilateral hypoglossal nerve stimulation for obstructive sleep apnea: a nonrandomized clinical trial.” J Clin Sleep Med. 2025;21(11):1883-1891.", url: "https://pubmed.ncbi.nlm.nih.gov/40702817/" }
     ]
+  },
+  {
+    title: "薬が効かないむずむず脚症候群、実は『脚に貼るだけ』の治療器があるって知っていますか",
+    date: "2026-11-24",
+    conclusion: "薬で十分に効果が出ないむずむず脚症候群に対して、脚に装着する電気刺激デバイスでも実際の診療で症状スコアが大きく下がることが分かってきました。",
+    body: "むずむず脚症候群(RLS)は、夜になると脚の奥にモヤモヤ・ピリピリした不快感が現れて、動かさずにはいられなくなる病気です。治療の主役はこれまで薬でしたが、プラミペキソールなどのドパミン作動薬は長く使うと逆に症状が悪化する「増悪」が起こりやすいことも知られています。そんな中、2023年に米国FDAがマーケティング認可を出したのが、両脚のひざ下に装着し、腓骨神経という神経に電気刺激を送る「TOMAC」というウェアラブル機器です。薬だけでは十分に抑えられなかった患者232人を対象にした2026年の実診療データでは、90日後に症状の重さを示すスコアが平均で25.7点から17.3点まで下がり、約8割の人に臨床的に意味のある改善がみられました。米国睡眠医学会のガイドラインでも条件付きで推奨されており、薬に抵抗がある人にとっては試してみる価値のある選択肢かもしれません。気になる人は睡眠専門医に相談してみてください。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:TOMAC療法 90日後のIRLS重症度スコアの変化(THRIVE試験)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">治療開始前<br><span class="bar-sub">ベースライン</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">25.7点</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">90日後</span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:67.3%"></span></span>
+            <span class="bar-value">17.3点</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Singh H, et al. SLEEP. 2026;49(9):zsag140(IRLS重症度スコア、0〜40点、解析対象232人の平均値)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:THRIVE試験の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">232人</span>
+            <span class="stat-label">薬だけでは効果不十分だった患者のうち、90日解析の対象になった人数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約8割</span>
+            <span class="stat-label">臨床的に意味のある改善(3点以上のスコア低下)が見られた人の割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約4割</span>
+            <span class="stat-label">90日後に「中等度〜重度」から「軽度」まで下がった人の割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">2023年</span>
+            <span class="stat-label">米国FDAがこの装置にマーケティング認可を出した年</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Academy of Sleep Medicine「FDA Grants De Novo Request for Restless Legs Syndrome Therapy」", url: "https://aasm.org/fda-grants-de-novo-request-for-restless-legs-syndrome-therapy/" },
+      { label: "Singh H, et al. “Real-world effectiveness and safety of tonic motor activation therapy for refractory restless legs syndrome: 90-day outcomes from the THRIVE prospective observational study.” SLEEP. 2026;49(9):zsag140.", url: "https://academic.oup.com/sleep/article/49/9/zsag140/8700358" }
+    ]
   }
 ];
 
