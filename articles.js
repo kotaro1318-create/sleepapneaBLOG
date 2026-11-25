@@ -3747,6 +3747,55 @@ const ARTICLES = [
       { label: "American Academy of Sleep Medicine「FDA Grants De Novo Request for Restless Legs Syndrome Therapy」", url: "https://aasm.org/fda-grants-de-novo-request-for-restless-legs-syndrome-therapy/" },
       { label: "Singh H, et al. “Real-world effectiveness and safety of tonic motor activation therapy for refractory restless legs syndrome: 90-day outcomes from the THRIVE prospective observational study.” SLEEP. 2026;49(9):zsag140.", url: "https://academic.oup.com/sleep/article/49/9/zsag140/8700358" }
     ]
+  },
+  {
+    title: "無呼吸の「重さ」、実は毎晩違っていて、そのブレ自体が心臓のリスクかもしれません",
+    date: "2026-11-25",
+    conclusion: "無呼吸の重症度は毎晩変動し、そのブレが大きい人ほど心臓や脳の病気のリスクが平均の重さとは別に高まることがわかってきました。",
+    body: "睡眠時無呼吸の検査は、ふつう1泊だけ病院や自宅で行い、その夜のデータから「軽症・中等症・重症」が決まります。でも実は、無呼吸の重さって毎晩同じじゃないんです。寝る姿勢やお酒、鼻づまりなどで、同じ人でも夜によってかなりブレることがわかっています。2026年に発表された約3,100人規模の研究では、このブレが大きい人ほど、平均的な重症度とは関係なく、心臓発作や脳卒中、心不全などを経験している割合が約1.3倍高かったと報告されました。別の研究でも、ブレが大きい人は血圧がコントロールしにくい傾向が示されています。つまり「検査した日がたまたま軽かった」だけで安心してしまうと、本当はリスクの高い人を見逃してしまうかもしれないんです。症状が強いのに検査結果と実感が合わない気がする場合は、複数夜にわたる検査やCPAPなどの治療について、一度医師に相談してみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:夜ごとの無呼吸重症度のブレと心血管イベント経験の関係</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">夜ごとのブレ<br><span class="bar-sub">小さいグループ</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:74.6%"></span></span>
+            <span class="bar-value">1.00倍(基準)</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">夜ごとのブレ<br><span class="bar-sub">大きいグループ</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">1.34倍</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Lechat B, et al. SLEEP. 2026(2026年3月26日オンライン先行公開)(非致死性の主要心血管・脳血管イベントの発生オッズ比、平均的なOSA重症度などで調整後、95%信頼区間1.04〜1.72)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:研究の基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">3,159人</span>
+            <span class="stat-label">在宅での複数夜モニタリングを受けた解析対象者数</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">8.0回 vs 2.8回</span>
+            <span class="stat-label">ブレが大きいグループと小さいグループの、1時間あたりの無呼吸・低呼吸の変動幅の目安</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約1.3倍</span>
+            <span class="stat-label">ブレが大きいグループで心血管・脳血管イベントを経験していた人の割合(平均重症度で調整後)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">約1.5倍</span>
+            <span class="stat-label">別の研究で見られた、ブレが最も大きいグループの血圧コントロール不良のリスク</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "EurekAlert!(Flinders University press release)「Sleep patterns may reveal hidden heart risks」", url: "https://www.eurekalert.org/news-releases/1123076" },
+      { label: "Lechat B, et al. “High night-to-night variability in sleep apnea severity is associated with uncontrolled hypertension.” npj Digit Med. 2023;6:65.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10060245/" }
+    ]
   }
 ];
 
