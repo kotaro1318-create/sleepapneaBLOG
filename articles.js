@@ -3796,6 +3796,39 @@ const ARTICLES = [
       { label: "EurekAlert!(Flinders University press release)「Sleep patterns may reveal hidden heart risks」", url: "https://www.eurekalert.org/news-releases/1123076" },
       { label: "Lechat B, et al. “High night-to-night variability in sleep apnea severity is associated with uncontrolled hypertension.” npj Digit Med. 2023;6:65.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10060245/" }
     ]
+  },
+  {
+    title: "透析を受けている人の「むずむず脚」、実は4人に1人が経験しているって知っていますか",
+    date: "2026-11-26",
+    conclusion: "血液透析を受けている人はむずむず脚症候群になりやすく、世界的な研究では4人に1人以上が経験していると報告されています。",
+    body: "むずむず脚症候群(RLS)は、脚の奥に虫が這うような不快感があって、じっとしていられなくなる病気です。実はこの症状、血液透析を受けている人にとても多いことが分かっています。世界中の研究をまとめた報告では、血液透析患者さんのおよそ27%、つまり4人に1人以上がRLSを経験しているとされ、一般の人の5〜10%と比べてかなり高い数字なんです。米国の医学誌に載った別の報告でも、末期腎不全の患者さんの約24%にRLSが見られるとされ、腎臓との結びつきの強さがうかがえます。背景には、腎臓の働きが落ちることで鉄の使われ方がうまくいかなくなり、脳の中で鉄が不足しがちになることが関係していると考えられています。夜になると症状が強まりやすく、眠りが浅くなって日中のだるさにつながることも少なくありません。脚のむずむず感が気になる場合は、鉄の状態を調べてもらったり、薬の調整について主治医に相談してみるのがおすすめです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:むずむず脚症候群(RLS)の有病率の違い</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">一般人口</span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:29.4%"></span></span>
+            <span class="bar-value">5〜10%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">末期腎不全の患者</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:88.2%"></span></span>
+            <span class="bar-value">約24%</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">血液透析患者</span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:100%"></span></span>
+            <span class="bar-value">27.2%</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Zhou Y, et al. Brain Behav. 2024(血液透析患者のメタ分析);Winkelman JW, Wipper B. JAMA. 2026(総説)</p>
+      </div>
+    `,
+    sources: [
+      { label: "Zhou Y, et al. “Global prevalence of restless legs syndrome among hemodialysis patients: A systematic review and meta-analysis.” Brain Behav. 2024;14(2):e3378.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10784193/" },
+      { label: "Winkelman JW, Wipper B. “Restless Legs Syndrome: A Review.” JAMA. 2026;335(8):703-714.", url: "https://pubmed.ncbi.nlm.nih.gov/41563785/" }
+    ]
   }
 ];
 
