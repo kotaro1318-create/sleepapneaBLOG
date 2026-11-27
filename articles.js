@@ -3829,6 +3829,47 @@ const ARTICLES = [
       { label: "Zhou Y, et al. “Global prevalence of restless legs syndrome among hemodialysis patients: A systematic review and meta-analysis.” Brain Behav. 2024;14(2):e3378.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10784193/" },
       { label: "Winkelman JW, Wipper B. “Restless Legs Syndrome: A Review.” JAMA. 2026;335(8):703-714.", url: "https://pubmed.ncbi.nlm.nih.gov/41563785/" }
     ]
+  },
+  {
+    title: "体位療法、実は装置をやめた後も「寝る向き」のクセが1年続くって知っていますか",
+    date: "2026-11-27",
+    conclusion: "体位療法を半年間続けた人は、装置をやめた後も3人中2人以上が側臥位で眠る習慣を保ち、無呼吸の改善が1年後も続いたと報告されました。",
+    body: "以前、仰向けで眠ると無呼吸が悪化する「体位依存性無呼吸(POSA)」というタイプを紹介しましたが、今回はその治療法である体位療法の新しい研究です。2026年5月、米国胸部学会(ATS)の学術集会で発表された「PAVLOV試験」では、CPAPと体位療法を比較したところ、体位療法を使った人のうち3人中2人以上が、半年間の装置使用を終えたあとも横向きで眠る習慣を保ち続け、装置なしでも無呼吸が抑えられた状態が1年後まで続いていたそうです。一方CPAP群では、治療をやめて3ヵ月後に良好な状態を保てた人がいなかったとも報告されています。研究者は、効果はCPAPと同等で、体への負担が少なく続けやすい点を強調しています。体位依存性無呼吸はOSA患者の最大75%にみられるとされ、CPAPが合わない人には、体が「横向きで眠るクセ」を覚えてくれるという発想自体、心強いニュースかもしれません。気になる人は専門医に相談してみましょう。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:治療をやめた後も「良好な状態」を保てた人の割合(PAVLOV試験)</p>
+        <div class="viz-bars">
+          <div class="bar-row">
+            <span class="bar-label">CPAP群<br><span class="bar-sub">中止3ヵ月後</span></span>
+            <span class="bar-track"><span class="bar-fill fill-warn" style="width:2%"></span></span>
+            <span class="bar-value">該当者なし</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">体位療法群<br><span class="bar-sub">装置使用終了1年後</span></span>
+            <span class="bar-track"><span class="bar-fill fill-calm" style="width:67%"></span></span>
+            <span class="bar-value">3人中2人超</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:米国胸部学会(ATS)プレスリリース「PAVLOV試験」(2026年5月発表)</p>
+      </div>
+      <div class="viz">
+        <p class="viz-title">図:体位依存性無呼吸(POSA)をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">最大75%</span>
+            <span class="stat-label">睡眠時無呼吸(OSA)患者のうち、体位依存性(POSA)とされる割合</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">最大40%</span>
+            <span class="stat-label">CPAPを十分に使いこなせていないとされる患者の割合</span>
+          </div>
+        </div>
+      </div>
+    `,
+    sources: [
+      { label: "American Thoracic Society「Positional Therapy Offers Lasting Benefits for Most Positional OSA Patients」", url: "https://site.thoracic.org/press-releases/positional-therapy-offers-lasting-benefits-for-most-positional-osa-patients" },
+      { label: "EurekAlert!(American Thoracic Society press release)「Positional therapy offers lasting benefits for most positional OSA patients」", url: "https://www.eurekalert.org/news-releases/1127702" }
+    ]
   }
 ];
 
