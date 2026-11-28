@@ -3870,6 +3870,32 @@ const ARTICLES = [
       { label: "American Thoracic Society「Positional Therapy Offers Lasting Benefits for Most Positional OSA Patients」", url: "https://site.thoracic.org/press-releases/positional-therapy-offers-lasting-benefits-for-most-positional-osa-patients" },
       { label: "EurekAlert!(American Thoracic Society press release)「Positional therapy offers lasting benefits for most positional OSA patients」", url: "https://www.eurekalert.org/news-releases/1127702" }
     ]
+  },
+  {
+    title: "夜中の変な「うめき声」、実はいびきとは別のちゃんとした病気かもしれません",
+    date: "2026-11-28",
+    conclusion: "睡眠中に低いうめき声を長く出し続ける「カタスレニア」という珍しい病気があり、CPAP治療で改善することが報告されています。",
+    body: "「隣で寝ている人が、低い声でうんうん唸っている」——それ、いびきとは別の「カタスレニア」という珍しい睡眠の病気かもしれません。カタスレニアは、眠っている間に大きく息を吸ったあと、ゆっくり息を吐きながら低いうめき声を長く出し続ける症状で、レム睡眠の時間帯に起こりやすいとされています。本人は気づかないことが多く、一緒に寝る家族やパートナーが「うるさくて眠れない」と困って気づくケースが目立つそうです。睡眠の問題で検査を受けた人のうち、カタスレニアがみられる人は0.17〜0.4%程度と報告されており、珍しい部類ですが、呼吸に関わる睡眠の病気の一つとされています。米スタンフォード大の研究チームが女性患者7人を調べたところ、CPAP使用中はうめき声がおさまったそうです。マウスピースや扁桃摘出術で改善した例もあります。いびきと違う「うめき声」を指摘されたら、睡眠外来への相談も考えてみる価値がありそうです。",
+    visual: `
+      <div class="viz">
+        <p class="viz-title">図:カタスレニア(睡眠時のうめき声)をめぐる基礎データ</p>
+        <div class="viz-stats">
+          <div class="stat-tile">
+            <span class="stat-value">0.17〜0.4%</span>
+            <span class="stat-label">睡眠の問題で検査を受けた人のうち、カタスレニアがみられた割合(報告された範囲)</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-value">7人</span>
+            <span class="stat-label">CPAP使用中にうめき声がおさまったと報告された研究の対象患者数(米スタンフォード大)</span>
+          </div>
+        </div>
+        <p class="viz-note">出典:Sleep Foundation「Catathrenia」;AASM「Catathrenia can be successfully treated with CPAP, reports new study」</p>
+      </div>
+    `,
+    sources: [
+      { label: "Sleep Foundation「Catathrenia」", url: "https://www.sleepfoundation.org/sleep-disorders/catathrenia" },
+      { label: "AASM「Catathrenia can be successfully treated with CPAP, reports new study」", url: "https://aasm.org/new-study-in-the-journal-sleep-finds-that-catathrenia-can-be-successfully-treated-with-cpap/" }
+    ]
   }
 ];
 
